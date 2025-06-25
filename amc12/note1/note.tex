@@ -1,0 +1,129 @@
+\documentclass{article}
+
+\usepackage{indentfirst}
+
+\title{AOPS AMC12 class note}
+\author{Qinghao Hu}
+\date{\today}
+
+\begin{document}
+\maketitle
+\newpage
+
+%this is for section one
+\section{Class 1: Quadratics, Vieta, and Factorization}
+Today, we will look at quadratic functions, Vieta's formula and factorizations
+
+\subsection{Quadratic Equation}
+
+\textit{A quadratic equation is an equation of the form}
+
+\begin{equation}
+	ax^2 + bx + c = 0
+\end{equation}
+
+\textit{where a, b and c are constants and $a \ne 0$ }
+\\\\
+
+\subsection{Roots of Quadratic Equation}
+
+\textit{The roots of Quadratic Equation can be determined by the Quadratic Formula, or more formally, Sridharacharya Formula}
+\\
+\\
+\textit{Assume $r_1$ and $r_2$ are both roots of the Quadratic Equation $ax^2 + bx + c = 0$}
+
+\begin{equation}
+	r_1 = {{-(b) + \sqrt{b^2 - 4ac}} \over 2a}, r_2 = {{-(b) - \sqrt{b^2 - 4ac}} \over 2a}
+\end{equation}
+
+\textit{$r_1$ and $r_2$ may be imagery numbers if $\sqrt{b^2 - 4 a c} < 0$}
+\\\\
+
+\subsection{Vieta's Formula}
+\textit{Assume we have a polynomial formula with degree of n}
+
+\begin{equation}
+	P(x) = a_n{x^n} + a_{n - 1}{x^{n-1}} + \cdots + a_1x + a_0
+\end{equation}
+
+\textit{and $r_1, r_2, \cdots, r_n$ are the roots of the polynomial}
+\\
+\textit{we can get:}
+
+\begin{equation}
+	r_1 + r_2 + \cdots + r_{n - 1} + r_n = {a_{n - 1} \over a_n} \\
+\end{equation}
+
+\begin{equation}
+	(r_1r_2 + r_1r_3 + \cdots + r_1r_{n-1} + r_1r_n) + (r_2r_3 + r_2r_4 + \cdots + r_2r_{n-1} + r_2r_n) + \cdots + r_{n - 1}r_n  = {a_{n - 2} \over a_n}
+\end{equation}
+
+\begin{equation}
+	r_1r_2\cdots r_{n-1}r_n = {(-1)^n{a_0 \over a_n}}
+\end{equation}
+\\\\
+
+\subsection{Factorizations}
+\textit{Some key factorizations that you should be familiar with are different of square, difference of cubes, and sum of cubes}
+\\\\
+
+one good example is the "Simon's favorite factoring trick"
+\\\\
+for example:
+\\
+\begin{center}
+Factor the equation, $mn - 2m - 4n + 8 = 8$
+\end{center}
+
+we can get:
+\begin{center}
+	(m - 4)(n - 2) = 8
+\end{center}
+
+\newpage
+
+\section{Class 2: Solving equations and systems}
+\begin{center}
+	\textbf{Summary:}	
+	\\
+	When dealing with several variables, look for ways of eliminating them to get what you want. And make sure you read the problem carefully so that you know what you want,
+	and you do not end up doing more work than you have to. 
+\end{center}
+
+\newpage
+\section{Class 3: Sequences and Series}
+
+\subsection{Arithemtic Sequences and Series}
+An arithmetic sequence is a sequence of the form $a,a+d,a+2d$, and so on (for example, 7,11,15,19 is an arithmetic sequence).
+In other words, we begin with a first term a, and repeatedly add a common difference d to obtain the terms that follow.
+\\
+
+Te sum of the arithmetic series with n terms is:
+\begin{equation}
+	a + (a + d) + \cdots + [a + (n - 1)d] = {{2a + (n - 1)d} \over 2} * n
+\end{equation}
+
+\subsection{Geometric Sequences and Series}
+
+A geometric sequence is a sequence of the for $a, ar, ar^2$, and so on. 
+In other words, we have a first term $a$, and repeatedly multiply by a common ratio $r$ to obtain the terms that follow
+\\
+
+\textbf{The sum of the geometric series with n term is: }
+\begin{equation}
+	a + ar + \cdots + ar^{n - 1} = {{a(r^n - 1)} \over r - 1} = {{a(1 - r^{n})} \over {1 - r}}
+\end{equation}
+
+\textbf{The numerator can be viewed as the difference of two terms, $a$ and $ar^n$.}
+\underline{Notice in particular that these are not the first term and last term.}
+\newline
+
+For $|r| < 1$, the sum of the infinite geometric series is:
+$$a + ar + ar^2 + \cdots = {a \over {1 - r}}$$ 
+\newpage
+
+\section{Class 4: Functions and Polynomials}
+Today we will look at the properties of certain functions, such as the "floor" function and logarith, as well as polynomials
+, which form a very special class of functions
+
+\end{document}

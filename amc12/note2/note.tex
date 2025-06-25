@@ -1,0 +1,142 @@
+
+\documentclass[10pt]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% --- Page Setup ---
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Qinghao Hu}
+\lhead{AOPS}
+\cfoot{\thepage}
+
+% --- Theorem Environments ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{example}{Example}
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+
+% --- Title ---
+\title{\textbf{AOPS AMC12 class Note 2} \\ \large functions}
+\author{Qinghao Hu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% Lesson 4
+\begin{center}
+\section{Lesson 4: Functions and Polynomials}
+\end{center}
+Today we will look at the properties of certain functions, such as the "floor" function and logarithm, as well as polynomials,
+which form a very special class of functions
+\newline
+
+\subsection{ABSOLUTE VALUE}
+\textit{The absolute value signs make equation difficult to work with. How might we deal with those pesky bars ($|a|$)} \newline
+
+\begin{example}
+if $x < 0$, then what happens to the equation $|x| + x + y = 10$, if $x > 0$, then what happens to the equation $[x] + x + y = 10$
+\end{example}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+  \draw[->] (-3.5,0) -- (3.5,0) node[right] {$x$};
+  \draw[->] (0,-0.5) -- (0,4) node[above] {$y$};
+  \draw[domain=-3:3, variable=\x, smooth, thick, blue] 
+    plot ({\x}, {abs(\x)});
+  \node at (2,2) [right] {$y = |x|$};
+\end{tikzpicture}
+\end{center}
+
+\subsection{Floor Function}
+In case you have not seen it before, $\left \lfloor x \right \rfloor$ is the greatest integer less than or equal to x, also called the floor of x. In other words, 
+$\left \lfloor x \right \rfloor$ is $x$ rounded down to the nearest integer.
+\begin{center}
+(In general \\
+	$\left \lfloor x + n \right \rfloor\ = \left \lfloor x \right \rfloor + n$ \\	
+for any integer $n$)
+\end{center}
+
+\subsection{Logarithms}
+\textit{Logarithms identity:}
+\begin{center}
+	$\log_{b}{x} + \log_{b}{y} = \log_{b}{xy}$ \textbf{(Product law)}\\
+	$\log_{b}{x} - \log_{b}{y} = \log_{b}{\frac{x}{y}}$ \textbf{(Quotient Law)}\\
+	$\log_{b}{x^n} = n\log_{b}{x}$ \textbf{(Power law)}\\
+	$\log_b{x} = \frac{\log_a{x}}{\log_a{b}}$ \textbf{(Power Law)}\\
+	$\log_{b^n}{x^n} = \log_{b}{x}$\\
+\end{center}
+
+\subsection{POLYNOMIALS}
+Let $F(x)$ and $G(x)$ be polynomials. If we divide $G(x)$ into $F(x)$, then we will obtain a quotient $Q(x)$
+and a remainder $R(x)$, where the degree of $R(x)$ is less than the degree of $G(x)$. The quotient $Q(x)$ and 
+$R(x)$ are unique. \\
+
+Also, if a polynomial has real coefficients, then its nonreal roots must come in conjugate pairs. 
+
+\end{document}
+
+% Referenc
+% \section{Introduction}
+% Write your introduction or overview of the day's topic here.
+%
+% \section{Main Concepts}
+% \begin{definition}
+% A function \( f: A \to B \) is said to be \textbf{injective} if for every \( a_1, a_2 \in A \), \( f(a_1) = f(a_2) \Rightarrow a_1 = a_2 \).
+% \end{definition}
+%
+% \begin{theorem}
+% Let \( f: \R \to \R \) be a continuous and strictly increasing function. Then \( f \) is injective.
+% \end{theorem}
+%
+% \begin{proof}
+% Assume \( f(a) = f(b) \). Since \( f \) is strictly increasing, if \( a < b \), then \( f(a) < f(b) \), contradiction. So \( a = b \).
+% \end{proof}
+%
+% \section{Examples}
+% \begin{example}
+% Let \( f(x) = x^2 \). Then \( f \) is not injective on \( \R \), but it is injective on \( [0, \infty) \).
+% \end{example}
+%
+% \section{Diagrams}
+% \begin{center}
+% \begin{tikzpicture}[scale=1]
+% \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+% \draw[->] (0,-1) -- (0,4) node[above] {$y$};
+% \draw[domain=-1.5:1.5, smooth, variable=\x, blue, thick] 
+%     plot ({\x}, {\x*\x});
+% \node at (1.2,3.2) {$y = x^2$};
+% \end{tikzpicture}
+% \end{center}
+%
+% \section{Summary}
+% Summarize what you learned today.
