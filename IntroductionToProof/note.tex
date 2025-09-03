@@ -1,0 +1,358 @@
+
+\documentclass[12pt]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% --- Page Setup ---
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Hu}
+\lhead{Intro to Math Proofs}
+\cfoot{\thepage}
+
+% --- Theorem Environments ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{example}{Example}
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+
+% --- Title ---
+\title{\textbf{Proofs} \\ \large Introduction To Math Proofs}
+\author{Qinghao Hu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+%section 1
+\section{What is a Proof}
+\begin{example}
+	Let's proof that $\sqrt{2}$ is irrational\\
+	\indent\textit{To start, we need to know what is the definition of irrational number} \\
+	\indent Definition: An irrational real number cannot be expressed in the form $\frac{m}{n}$, where $n$ and $m$ are integers \\
+	\begin{proof}
+		Assume, $\sqrt{2}$ is rational \\
+		\begin{equation}
+			\sqrt{2} = {m \over n} \quad \text{(m and n are integers and $\frac{m}{n}$ is a reduced fraction)}
+		\end{equation}
+		We can square both side using the principle of Algebra \\
+		\begin{equation}
+			2 = \frac{m^2}{n^2} 
+		\end{equation}
+		\begin{equation}
+			2n^2 = m^2
+		\end{equation}
+		\begin{gather}
+		% $\because$ Definition: A real number, $N$, is Even if it can be written as $N = 2k$ where $k$ is an integer.\\
+		% $\therefore m^2$ must be even \\
+		% $\because m^2$ must be even \\
+		% $\therefore m$ must be even \\
+		\because \quad \text{Definition: A real number $N$ is even if it can be written as $N = 2k$, where $k$ is an integer}\\
+		\therefore m^2 \quad\textit{is even} \\
+		\therefore m \quad\textit{is even}
+		\end{gather}
+		According to the definition, assume $m = 2k$, where $k \in \mathbb{I}$ \\
+		\\
+		Sub $m = 2k$ into equation (3)
+		\begin{gather}
+			2n^2 = (2k)^2 \\
+			n^2 = 2k^2 \\
+			\text{$n$ is even}\\
+			\because \text{According to (9) and (6), $n$ and $m$ are both even} \\
+			\therefore \text{$m$ and $n$ have a common factor of 2} \\
+			\therefore \text{$\frac{m}{n}$ is not an reduced fraction}\\
+			\text{This violate our original assumpution in (1)}
+		\end{gather}
+		Therefore, $\sqrt{2}$ is not rational, $\sqrt{2}$ must be irrational
+	\end{proof}
+	\end{example}
+
+	\section{Logical Rules}
+	\subsection{Modus Ponens}
+	\begin{center}
+
+		\textbf{Definition: }If $p$ is ture and $p$ implies $q$, then $q$ is ture \\
+		\textbf{Logical notation: } $p, p\to q\therefore q$ \\
+		\textbf{Example: }$p$ = "It is raining", $q$ = "The ground is wet"\\
+		\textbf{Given: }"it is raining" and "It is raining implies the ground is wet"\\
+		\textbf{Conclusion: }"The ground is wet"\\
+		
+	\end{center}
+
+	\subsection{Modus Tollens}
+	\begin{center}
+		\textbf{Definition: }If not $q$ is ture and $p$ implies $q$, then not $p$ is true \\
+		\textbf{Logical notation: } $-q, p \to q \therefore -q$ \\
+		\textbf{Example: } $p$ = "It is raining", $q$ = "The ground is wet"\\
+		\textbf{Given: } "it is raining" and "It is raining implies the ground is wet"\\
+		\textbf{Conclusion: } "It is not raining"\\
+	\end{center}
+
+
+	\subsection{Hypothetical Syllogism}
+	\begin{center}
+		\textbf{Definition: }If p implies q and q implies r, then p implies r. \\
+		\textbf{Logical notation: } $(p \to q), (q \to r) \therefore (p \to r)$ \\
+		\textbf{Example: } $p$ = "It is raining", $q$ = "The ground is wet", $r$ = "People use umbrellas"\\
+		\textbf{Given: } "It is raining implies the ground is wet" and "The ground is wet implies people use umbrellas"\\
+		\textbf{Conclusion: } "It is not raining implies people use umbrellas"\\
+	\end{center}
+
+
+	\subsection{Disjunctive Syllogism}
+	\begin{center}
+		\textbf{Definition: }If not p is true and p or q is true, then q is true. \\
+		\textbf{Logical notation: } $-p, (p \vee q)\therefore q$ \\
+		\textbf{Example: } $p$ = "It is raining", $q$ = "I will stay indoors"\\
+		\textbf{Given: } "It is not raining" and "It is raining or I will stay indoors"\\
+		\textbf{Conclusion: } "I will stay indoors"\\
+	\end{center}
+
+
+	\subsection{Additon}
+	\begin{center}
+		\textbf{Definition: }If p is true, then p or q is true \\
+		\textbf{Logical notation: } $p\therefore (p\wedge q) $ \\
+		\textbf{Example: } $p$ = "It is raining", $q$ = "I will go for a run"\\
+		\textbf{Given: } "It is raining"\\
+		\textbf{Conclusion: } "It is raining or I will go for a run"\\
+	\end{center}
+
+
+	\subsection{Simplification}
+	\begin{center}
+		\textbf{Definition: }If p and q are true, then p is true\\
+		\textbf{Logical notation: } $(p\wedge q) \therefore p$ \\
+		\textbf{Example: } $p$ = "It is raining", $q$ = "The ground is wet"\\
+		\textbf{Given: } "It is raining and The ground is wet"\\
+		\textbf{Conclusion: } "It is raining"\\
+	\end{center}
+
+
+	\subsection{Conjunction}
+	\begin{center}
+		\textbf{Definition: }If $p$ is true and $q$ is true, then $p$ and $q$ are true.\\
+		\textbf{Logical notation: } $p, q\therefore (p \wedge q)$ \\
+		\textbf{Example: } $p$ = "It is raining", $q$ = "The ground is wet"\\
+		\textbf{Given: } "It is raining", "The ground is wet"\\
+		\textbf{Conclusion: } "It is raining and The ground is wet"\\
+	\end{center} 
+
+	%Section 3, sets
+	\section{Mathematical Sets}
+	\begin{center}
+		\textbf{(Collection of Objects)}\\
+		$\{\}$ \\
+		$\{$All Triangles$\}$ \\
+		$\{3, 6, 11, 117\}$, $\{$Real Numbers$\}$
+	\end{center}
+
+	\begin{center}
+	$\{$What's in the set | The condition to be in the set$\}$ \\
+	Example: $\{x$ | $x$ is even and $x > 0\}$
+	\end{center}
+
+	\subsection{Important Sets}
+	\begin{center}
+		$\mathbb{N}$ - The Natural Numbers(Counting Numbers): $\{1, 2, 3, \cdots \}$\\
+		$\mathbb{W}$ - The Whole Numbers: $\{0,1, 2, 3, \cdots \}$\\
+		$\mathbb{Z}$ - The Integers: $\{\cdots, -3, -2, -1, 0,1, 2, 3, \cdots \}$\\
+		$\mathbb{Q}$ - The Rational Numbers: $\{\frac{p}{q} | p, q \in \mathbb{Z}, q \neq 0\}$\\
+
+		$\mathbb{I}$ - The Irrational Numbers: $\{x | x \notin \mathbb{Q}, x \in \mathbb{R} \}$\\
+
+		$\mathbb{R}$ - The Real Numbers: $\{x \}$ = $\{x | x \in \mathbb{Q} $ or $ x \in \mathbb{I}\}$ \\
+
+		$\mathbb{C}$ - The Complex (Imaginary) Numbers: $\{a + bi | a, b \in \mathbb{R}, i = \sqrt{-1}\}$\\
+
+		$\o$ - Empty Set: $\{\}$\\
+		Sets do not care about orders, or duplicates.
+	\end{center}
+
+	\subsection{Relationship of sets}
+	\begin{center}
+    Set A and B are equal ($A = B$). \par
+    $A \subseteq B$, $B \subseteq A$. \par
+    A is a subset of B if every element of A is also an element of B: \\
+    $(a \in A \rightarrow a \in B)$. \par
+    The Power Set of A, $P(A)$, is the set of all possible subsets of A. \par
+    The Complement, $A^C$ or $A'$, of a set A is the set of all elements in the universal set that are NOT elements of A. \par
+    The Union of two sets, $A \cup B$, is the set containing all the elements from either A or B.\\
+	Theorem: if $A \subseteq B, B \subseteq C$, then $A \subseteq C$\\
+	\end{center}
+
+	\section{Quantifiers}
+
+	\subsection{Universal Quantify}
+	\begin{center}
+		"For all"\\
+		$\forall$\\
+		Example: $\forall y \in \mathbb{R}, y^2 \geqslant 0$\\
+	\end{center}
+	\subsection{Essential Quantify}
+	\begin{center}
+		"There Exists"\\
+		$\exists$\\
+		Example: $\exists x$ such that $x + 3 = 5$\\
+	\end{center}
+	\subsection{Negations}
+	\begin{center}
+		$\neg$ \\ 
+		This is a dog\\
+		This is not a dog\\
+		Examples: \\
+		$\neg$($A$ or $B$) = $\neg A$ and $\neg B$ \\
+		$\neg$($A$ and $B$) = $\neg A$ or $\neg B$ \\
+		$\neg$($A$ $\Rightarrow$ $B$) = $A$ and $\neg B$ \\
+		$\neg$($\forall x$, $y$) = $\exists x$ such that $\neg y$ \\
+
+	\end{center}
+
+
+	%Section 5
+	\section{Direct Proofs}
+	\begin{center}
+		Assumption\\ 
+		$\Rightarrow$ something \\ 
+		$\Rightarrow \cdots$ \\
+		$\Rightarrow$ conclusion \\
+	\end{center}
+
+	\begin{example}
+		Prove: The sum of two Even integers equals an even integer\\
+		\begin{proof}
+			\begin{gather}
+				\text{Let }x, y \in \mathbb{Z} \quad \text{Assume $x$ and $y$ are both even.} \\ 
+				\Rightarrow x = 2a, y = 2b, (a, b \in \mathbb{Z})
+				\\ \Rightarrow x + y = 2a + 2b \\ 
+				\Rightarrow x + y = 2(a + b) \\
+				\text{Given that each Even number N can be present in this form $N = 2k$}\\
+				\Rightarrow \therefore \text{The sum of two Even integers equals an even integer}
+			\end{gather}
+		\end{proof}
+	\end{example}
+	
+	\section{Contrapositive proof}
+	\begin{center}
+		$p$ $\rightarrow$ $q$ $\equiv$ $\neg q$  $\rightarrow$ $\neg p$\\
+	\end{center}
+	\begin{example}
+		Theorem: if $x$ is an irrational number, then $\frac{1}{x}$ is also an irrational number.
+	\end{example}
+	$\text{we want to show: }\neg (\frac{1}{x} \text{ is not irrational}) \Rightarrow \neg (x \text{ is irrational}) $
+
+	\begin{gather}
+		x \in \mathbb{R} \setminus \mathbb{Q} \Rightarrow x \neq \frac{p}{q}, (p, q \in \mathbb{Z}) \\ 
+		\text{Assume } \frac{1}{x} \text{ is Not Irrational}\\
+		\Rightarrow \frac{1}{x} \text{ is rational, } (\frac{1}{x} \in \mathbb{Q})\\
+		\Rightarrow \frac{1}{x} = \frac{m}{n}, (m, n \in \Z)\\
+		\Rightarrow x = \frac{n}{m} \\
+		\Rightarrow \text{x is rational}
+	\end{gather}
+
+	\section{Two Way Proof}
+	Also known as (Two way Proof) 
+	\begin{example}
+		Theorem: A whole number is divisible by 9 iff the sum of its digits is divisible by 9.
+		\begin{proof}
+			\begin{gather}
+				x \in \mathbb{W} = \{0, 1, 2, 3, \cdots\}\\ 
+				x \text{ has digits }, a_n, a_{n - 1}, \cdots, a_2, a_1, a_0 \\
+				x = 10^{n}a_n + 10^{n - 1}a_{n - 1} + \cdots + 100a_2 + 10a_1 + a_0\\
+				\text{Assume } x \text{ is divisible by 9.}\\
+				10^{n}a_n + 10^{n - 1}a_{n - 1} + \cdots + 100a_2 + 10a_1 + a_0 \text{(divisible by 9)}\\
+				- (999\dots 99a_{n} + \dots + 99a_2 + 9a_1) \text{(is divisible by 9)} \\ 
+				= a_n + a_{n - 1} + \dots  + a_2 + a_1 + a_0 \text{ (is divisible by 9)}\\ \\
+				\text{Assume } a_n + a_{n - 1} + a_{n - 2} + \cdots + a_2 + a_1 + a_0  \text{ is divisible by 9} \\
+				x = a_n + a_{n - 1} + a_{n - 2} + \cdots + a_2 + a_1 + a_0  \\
+				+ ((999\dots 99)a_n + \dots + 99a_2 + 9a_1) \text{ (is divisible by 9)} \\
+				\Rightarrow x \text{ is divisible by 9}
+			\end{gather}
+		\end{proof}
+	\end{example}
+	
+	\section{Proof by Contradiction}
+	Assume the opposite of what we want to prove, then show a contradiction.
+	\begin{example}
+		Theorem: $\sqrt{3}$ is irrational.
+		\begin{proof}
+			\begin{gather}
+				\text{Assume $\sqrt{3} \in \mathbb{Q}$} \\
+				\Rightarrow \sqrt{3} = \frac{m}{n} \text{ is a reduced fraction,($n, m \in \mathbb{Z}$ and $n \neq 0$)}\\
+				\Rightarrow 3 = \frac{m^2}{n^2}\\
+				\Rightarrow 3*n^2 = m^2 \\
+				\Rightarrow m^2 \text{ is a multiple of $3$ and $m$ is a multiple of $3$} \\
+				\Rightarrow m = 3k, (k \in \Z) \\
+				\Rightarrow 3n^2 = (3k)^2 \\
+				\Rightarrow 3n^2 = 9k^2 \\
+				\Rightarrow 3n^2 = 3k^2\\
+				\Rightarrow n^2 \text{ is a multiple of $3$ and $n$ is a multiple of $3$}\\
+				\Rightarrow \frac{m}{n} \text{ is NOT in lowest terms}
+			\end{gather}
+		\end{proof}
+	\end{example}
+	
+	
+\end{document}
+
+% Referenc
+% \section{Introduction}
+% Write your introduction or overview of the day's topic here.
+%
+% \section{Main Concepts}
+% \begin{definition}
+% A function \( f: A \to B \) is said to be \textbf{injective} if for every \( a_1, a_2 \in A \), \( f(a_1) = f(a_2) \Rightarrow a_1 = a_2 \).
+% \end{definition}
+%
+% \begin{theorem}
+% Let \( f: \R \to \R \) be a continuous and strictly increasing function. Then \( f \) is injective.
+% \end{theorem}
+%
+% \begin{proof}
+% Assume \( f(a) = f(b) \). Since \( f \) is strictly increasing, if \( a < b \), then \( f(a) < f(b) \), contradiction. So \( a = b \).
+% \end{proof}
+%
+% \section{Examples}
+% \begin{example}
+% Let \( f(x) = x^2 \). Then \( f \) is not injective on \( \R \), but it is injective on \( [0, \infty) \).
+% \end{example}
+%
+% \section{Diagrams}
+% \begin{center}
+% \begin{tikzpicture}[scale=1]
+% \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+% \draw[->] (0,-1) -- (0,4) node[above] {$y$};
+% \draw[domain=-1.5:1.5, smooth, variable=\x, blue, thick] 
+%     plot ({\x}, {\x*\x});
+% \node at (1.2,3.2) {$y = x^2$};
+% \end{tikzpicture}
+% \end{center}
+%
+% \section{Summary}
+% Summarize what you learned today.

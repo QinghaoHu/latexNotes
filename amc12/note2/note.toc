@@ -1,5 +1,33 @@
-\contentsline {section}{\numberline {1}Lesson 4: Functions and Polynomials}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}ABSOLUTE VALUE}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Floor Function}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Logarithms}{2}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}POLYNOMIALS}{2}{subsection.1.4}%
+\contentsline {section}{\numberline {1}Class 1: Quadratics, Vieta, and Factorization}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Quadratic Equation}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Roots of Quadratic Equation}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Vieta's Formula}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Factorizations}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Class 2: Solving equations and systems}{5}{section.2}%
+\contentsline {section}{\numberline {3}Class 3: Sequences and Series}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Arithemtic Sequences and Series}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Geometric Sequences and Series}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Lesson 4: Functions and Polynomials}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}ABSOLUTE VALUE}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Floor Function}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Logarithms}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}POLYNOMIALS}{7}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Tools for Algebra}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}RADICALS}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}MINIMA AND MAXIMA}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}AM-GM inequality}{11}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}THE TRIANGLE INEQUALITY}{11}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Triangles}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Right Triangles}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Similar Triangle}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Law of Sines and Cosines}{12}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Law of Cosines}{12}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Heron's Formula}{12}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Circle}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Example Question}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Example Question 2}{13}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Power of a Point}{13}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}The inradius of a quadrilaterial rectangle}{13}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Class 8: Polygons and Three-Dimensional Geometry}{14}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Polygons}{14}{subsection.8.1}%
+\contentsline {section}{\numberline {9}Class 9: Number Theory}{15}{section.9}%
