@@ -1,5 +1,5 @@
 
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -16,8 +16,8 @@
 \geometry{margin=1in}
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Your Name}
-\lhead{Course Title}
+\rhead{Qinghao Hu}
+\lhead{SPH4U}
 \cfoot{\thepage}
 
 % --- Theorem Environments ---
@@ -47,42 +47,124 @@
 }
 
 % --- Title ---
-\title{\textbf{Grade 12 Physics, Unit 1A} \\ \large Topic Title}
+\title{\textbf{Grade 12 Physics} \\ \large SPH4U}
 \author{Qinghao Hu}
 \date{\today}
 
 \begin{document}
 
 \maketitle
+\newpage
 \tableofcontents
 \newpage
 
+\chapter{Unit 1A}
+\newpage
 \section{Review of Describing and Graphing Motion}
-\subsection{\textbf{Position: $\vec{d}$}}
+\subsection{Position: $\vec{d}$}
 Position is the \textbf{straight-line distance} from a fixed reference point to a location, with a direction to the location from the reference point.
 
-\subsection{\textbf{displacement: $\Delta\vec{d}$}}
+\subsection{displacement: $\Delta\vec{d}$}
 Displacement is the \textbf{change of position} \\
 Formula: \\
 \[
 	\Delta\vec{d} = \vec{d_{2}} - \vec{d_{1}}
 \] 
 or \\
+\begin{center}
+    $n$ = the amount of displacement you want to add
+\end{center}
 \[
-	\Delta\vec{d_{tot}} =  \sum_{i = 0}^{n} \Delta\vec{d_{i}}
+	\Delta\vec{d_{tot}} =  \sum_{i = 1}^{n} \Delta\vec{d_{i}}
 \]
 
-\subsection{\textbf{Velocity}: $\vec{v}$}
+\subsection{Velocity: $\vec{v}$}
 Velocity is the \textbf{rate of change of position}
 \[
 	\vec{v} = \frac{\Delta\vec{d}}{\Delta t}
 \]
 
+\subsection{Acceleration: $\vec{a}$}
+Acceleration is the \textit{rate of change} of velocity, always in the form of $\frac{m}{s^2}$
+\[
+\vec{a} = \frac{\Delta \vec{v}}{\Delta t}
+\]
+
 \subsection{Graphing motion}
+For a \textbf{Position vs Time} graph:
 \begin{itemize}
-\item \textbf{For a position/displacement vs time graph, the velocity = the \textit{slope}}
-\item 
+\item \textbf{For a position/displacement vs time graph, the velocity = the \textit{slope}} 
+\item A slope of zero = The object is not moving
+\item Instantaneous velocity ($\vec{v}_{inst}$) = the slope of \textbf{tangent} line to the graph at that point in time
+\item Average velocity ($\vec{v}_{avg}$) = the slope of \textbf{secant} line for that time interval
 \end{itemize}
+For a \textbf{Velocity vs Time} graph:
+\begin{itemize}
+    \item Can get an object's instantaneous velocity directly from the graph
+    \item slope = \textbf{acceleration}
+    \item Displacement = The \textbf{area} between the graph and the time-axis for that time interval
+\end{itemize}
+
+\newpage
+\section{Equations of Motion}
+To start off, there are five equations that are used in the calculation of motion
+\[
+    \vec{v_{f}} = \vec{v_{i}} + \vec{a}*\Delta d
+\]
+\[
+    \Delta\vec{d} = \frac{1}{2}(\vec{v_{i}} + \vec{v_{f}}) * \Delta t
+\]
+\[
+    \Delta\vec{d} = \vec{v_{i}}\Delta t + \frac{1}{2}\vec{a} * \Delta t^2
+\]
+\[
+    \Delta\vec{d} = \vec{v_{f}}\Delta t - \frac{1}{2}\vec{a} * \Delta t^2
+\]
+\[
+    \vec{v_{f}}^2 = \vec{v_{i}}^2 + 2 \vec{a} \Delta \vec{d} 
+\]
+
+\subsection{Format requirements for answering Motion questionss}
+\begin{enumerate}
+    \item You should always include a diagram that contains every known information from the question
+    \item $\vec{v}$ should be presented for at least two decimal places
+    \item Always list steps in your answer
+    \item When using quadratic solving function on calculator, always write \textit{*Using Quadratic Eq} in your answer
+    \item When you form an equation system, you should label $1. 2. 3.$ on each equation in the system
+    \item Follow the Sig Digit rules
+    \begin{itemize}
+        \item[!] For \textbf{add} and \textbf{subtract}, keep the least \textbf{decimal places}
+        \item[!] For \textbf{multiply} and \textbf{divide}, keep the least amount of \textbf{signficiant digit} 
+    \end{itemize}
+\end{enumerate}
+
+\newpage
+\section{Adding and Subtracting 2-Dimensional Vectors}
+\subsection{Vector addition and subtraction key words}
+\begin{itemize}
+    \item[+] Addition: Find "the \textbf{resultant}", "the total", or "the net". 
+    \item[-] Subtraction: Find "the \textbf{difference}" or "the change in".
+\end{itemize}
+
+\subsection{Steps for solving a vector problem}
+\begin{enumerate}
+    \item Read the question carefully
+    \item Show unit conventions
+    \item Write "givens" (It helps to roughly sketch each vector and their compoents)
+    \item Set direction conventions
+    \item Solve for each compoents (ex. $\Delta\vec{d_{1y}}, \Delta\vec{d_{2x}}$)
+    \item Choose one component direction (ex. Just the 'x' direction) and solve the equations for that direction
+    \item Repeat with the other direction
+    \item Sketch your resulting $x$ and $y$ vectors, joining them head-to-tail. 
+    \item Calculate the magnitude and direction of the resultant. (Trigonometry)
+    \item State the final answer, including the real-world direction
+\end{enumerate}
+
+\mypic{graph/graph1.png}{A sample answer for vector question}{0.8}
+
+\subsection{Another question type}
+\mypic{graph/teacherNote2.png}{Remainder, multiply first}{0.9}
+
 \end{document}
 
 % Referenc
