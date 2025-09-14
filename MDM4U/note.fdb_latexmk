@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1757355288.22598 "/Users/huqinghao/latexNotes/MDM4U/note.tex" "note.pdf" "note" 1757355288.85709 0
-  "/Users/huqinghao/latexNotes/MDM4U/note.tex" 1757355287.99459 2895 e48bcaf99ab24bc9b0b938fff515d9f8 ""
+["pdflatex"] 1757511581.31079 "/Users/huqinghao/latexNotes/MDM4U/note.tex" "note.pdf" "note" 1757511581.90511 0
+  "/Users/huqinghao/latexNotes/MDM4U/note.tex" 1757511580.17469 3089 2984babc028475b201c54e701ab9e80b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -26,8 +26,10 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -153,10 +155,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1750852266 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1750852258 3345733 1bc04c57761db4480b2223ecc5fd2d6e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "note.aux" 1757355288.80407 752 94728166851dd50867586ac02b91641d "pdflatex"
-  "note.out" 1757355288.80441 716 72c870942e1a8d3e657f2af7f5b84dd8 "pdflatex"
-  "note.tex" 1757355287.99459 2895 e48bcaf99ab24bc9b0b938fff515d9f8 ""
-  "note.toc" 1757355288.8046 350 dc6f0b21a2076d3554d65027a20c3fd6 "pdflatex"
+  "note.aux" 1757511581.84746 864 1981ac093d05bf2d565edb1cbdc6ae58 "pdflatex"
+  "note.out" 1757511581.84781 828 1ad142a5a815e4da692b7e8f3790f456 "pdflatex"
+  "note.tex" 1757511580.17469 3089 2984babc028475b201c54e701ab9e80b ""
+  "note.toc" 1757511581.84799 421 28a055284fd8de71aa7b0bb369ed69d5 "pdflatex"
   (generated)
   "note.aux"
   "note.log"

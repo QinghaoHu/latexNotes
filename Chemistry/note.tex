@@ -1,0 +1,114 @@
+
+\documentclass[11pt]{report}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% --- Page Setup ---
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Qinghao Hu}
+\lhead{SPH4U}
+\cfoot{\thepage}
+
+% --- Theorem Environments ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{example}{Example}
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\mypic}[3]{
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=#3\textwidth]{#1}
+        \caption{#2}
+    \end{figure}
+}
+
+% --- Title ---
+\title{\textbf{Grade 12 Chemistry} \\ \large SCH4U}
+\author{Qinghao Hu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\chapter{Unit 1}
+\section{Lecture 1: Introduction to Quantum Mechanics}
+\subsection{Gold Foil Experiment:}
+\begin{itemize}
+    \item[*] Atom is mostly empty space with a very \textcolor{blue}{dense, positively charged} nucleus.
+    \item[*] Electrons rotate around the nucleus like \textcolor{red}{planets around the Sun}.
+    \item[!] At the same time, Thomson Model believes that atoms have only electrons
+\end{itemize}
+
+Every element has unique spectrum. 
+
+\subsection{Niels Bohr}
+Review in the slide
+
+\subsection{Photoelectric Effect}
+Cannot be taken on latex note
+
+\end{document}
+
+% Referenc
+% \section{Introduction}
+% Write your introduction or overview of the day's topic here.
+%
+% \section{Main Concepts}
+% \begin{definition}
+% A function \( f: A \to B \) is said to be \textbf{injective} if for every \( a_1, a_2 \in A \), \( f(a_1) = f(a_2) \Rightarrow a_1 = a_2 \).
+% \end{definition}
+%
+% \begin{theorem}
+% Let \( f: \R \to \R \) be a continuous and strictly increasing function. Then \( f \) is injective.
+% \end{theorem}
+%
+% \begin{proof}
+% Assume \( f(a) = f(b) \). Since \( f \) is strictly increasing, if \( a < b \), then \( f(a) < f(b) \), contradiction. So \( a = b \).
+% \end{proof}
+%
+% \section{Examples}
+% \begin{example}
+% Let \( f(x) = x^2 \). Then \( f \) is not injective on \( \R \), but it is injective on \( [0, \infty) \).
+% \end{example}
+%
+% \section{Diagrams}
+% \begin{center}
+% \begin{tikzpicture}[scale=1]
+% \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+% \draw[->] (0,-1) -- (0,4) node[above] {$y$};
+% \draw[domain=-1.5:1.5, smooth, variable=\x, blue, thick] 
+%     plot ({\x}, {\x*\x});
+% \node at (1.2,3.2) {$y = x^2$};
+% \end{tikzpicture}
+% \end{center}
+%
+% \section{Summary}
+% Summarize what you learned today.
