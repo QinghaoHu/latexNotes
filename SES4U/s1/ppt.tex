@@ -1,0 +1,64 @@
+\documentclass{beamer}
+
+% Theme
+\usetheme{Madrid}
+\usecolortheme{seagull}
+
+% Title page info
+\title[Short Title]{An Example Beamer Presentation}
+\author[Your Name]{Your Full Name}
+\institute[Your School]{Pierre Elliott Trudeau High School}
+\date{\today}
+
+
+\newcommand{\mypic}[3]{
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=#3\textwidth]{#1}
+        \caption{#2}
+    \end{figure}
+}
+
+\begin{document}
+
+% Title page
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Table of contents
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+% First section
+\section{Introduction}
+\begin{frame}{Introduction}
+  \begin{itemize}
+    \item Beamer is a class for creating presentations.
+    \item You can use sections and subsections.
+    \item Lists, math, and figures are supported.
+  \end{itemize}
+\end{frame}
+
+% Second section
+\section{Math Example}
+\begin{frame}{Math on a Slide}
+  Here’s an inline equation: $E = mc^2$.
+
+  \vspace{1em}
+
+  And here’s a displayed one:
+  \[
+    \int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+  \]
+\end{frame}
+
+\begin{frame}{The history of the Earth}
+    we are going to describe a person. 
+    \begin{center}
+        
+    \end{center}
+\end{frame}
+
+\end{document}

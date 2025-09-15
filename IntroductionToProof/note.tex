@@ -1,5 +1,5 @@
 
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -11,6 +11,7 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{indentfirst}
 
 % --- Page Setup ---
 \geometry{margin=1in}
@@ -39,7 +40,7 @@
 \newcommand{\ds}{\displaystyle}
 
 % --- Title ---
-\title{\textbf{Proofs} \\ \large Introduction To Math Proofs}
+\title{\textbf{Introduction to Problem Solving and Proof} \\ \large Introduction To Math Proofs}
 \author{Qinghao Hu}
 \date{\today}
 
@@ -51,6 +52,7 @@
 \newpage
 
 %section 1
+\chapter{Proof}
 \section{What is a Proof}
 \begin{example}
 	Let's proof that $\sqrt{2}$ is irrational\\
@@ -236,7 +238,8 @@
 
 
 	%Section 5
-	\section{Direct Proofs}
+	\section{Proofs}
+	\subsection{Direct Proofs}
 	\begin{center}
 		Assumption\\ 
 		$\Rightarrow$ something \\ 
@@ -258,7 +261,7 @@
 		\end{proof}
 	\end{example}
 	
-	\section{Contrapositive proof}
+	\subsection{Contrapositive proof}
 	\begin{center}
 		$p$ $\rightarrow$ $q$ $\equiv$ $\neg q$  $\rightarrow$ $\neg p$\\
 	\end{center}
@@ -276,7 +279,7 @@
 		\Rightarrow \text{x is rational}
 	\end{gather}
 
-	\section{Two Way Proof}
+	\subsection{Two Way Proof}
 	Also known as (Two way Proof) 
 	\begin{example}
 		Theorem: A whole number is divisible by 9 iff the sum of its digits is divisible by 9.
@@ -297,7 +300,7 @@
 		\end{proof}
 	\end{example}
 	
-	\section{Proof by Contradiction}
+	\subsection{Proof by Contradiction}
 	Assume the opposite of what we want to prove, then show a contradiction.
 	\begin{example}
 		Theorem: $\sqrt{3}$ is irrational.
@@ -318,7 +321,22 @@
 		\end{proof}
 	\end{example}
 	
+	\newpage
+	\chapter{Problem Solving}
+	\section{Problem Solving Techniques}
+	\subsection{Intro}
+
+	\begin{example}
+		Problem 6\\
+		\textcolor{blue}{Connie has a number of gold bars, all of different masses. She gives the 24 lightest bars, which represent 45%
+		of the total mass, to Brennan. She gives the 13 heaviest bars, which represent 26% of the total mass. She gives
+		rest of the bars to Blair. How many bars did Blair receive.}\\
+		
+	\end{example}
 	
+	\subsection{Trial and error}
+	This method not always works in the question. You should avoid this question for big number problem
+
 \end{document}
 
 % Referenc

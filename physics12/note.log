@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.25)  13 SEP 2025 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  15 SEP 2025 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,12 +642,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-<graph/graph1.png, id=174, 1082.0425pt x 682.55pt>
+<graph/graph1.png, id=194, 1082.0425pt x 682.55pt>
 File: graph/graph1.png Graphic file (type png)
 <use graph/graph1.png>
 Package pdftex.def Info: graph/graph1.png  used on input line 163.
 (pdftex.def)             Requested size: 375.80544pt x 237.05264pt.
-<graph/teacherNote2.png, id=176, 686.565pt x 879.285pt>
+<graph/teacherNote2.png, id=196, 686.565pt x 879.285pt>
 File: graph/teacherNote2.png Graphic file (type png)
 <use graph/teacherNote2.png>
 Package pdftex.def Info: graph/teacherNote2.png  used on input line 166.
@@ -669,7 +669,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6 <./graph/teacherNote2.png>]
-<graph/graph2.png, id=200, 514.92375pt x 552.56438pt>
+<graph/graph2.png, id=220, 514.92375pt x 552.56438pt>
 File: graph/graph2.png Graphic file (type png)
 <use graph/graph2.png>
 Package pdftex.def Info: graph/graph2.png  used on input line 175.
@@ -683,7 +683,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7 <./graph/graph2.png (PNG copy)>]
-<graph/graph4.png, id=206, 991.705pt x 636.3775pt>
+<graph/graph4.png, id=226, 991.705pt x 636.3775pt>
 File: graph/graph4.png Graphic file (type png)
 <use graph/graph4.png>
 Package pdftex.def Info: graph/graph4.png  used on input line 193.
@@ -697,7 +697,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8 <./graph/graph4.png>]
-<graph/graph5.png, id=215, 595.22375pt x 790.955pt>
+<graph/graph5.png, id=235, 595.22375pt x 790.955pt>
 File: graph/graph5.png Graphic file (type png)
 <use graph/graph5.png>
 Package pdftex.def Info: graph/graph5.png  used on input line 196.
@@ -728,16 +728,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-<graph/graph6.png, id=230, 1458.44875pt x 659.46375pt>
+<graph/graph6.png, id=250, 1458.44875pt x 659.46375pt>
 File: graph/graph6.png Graphic file (type png)
 <use graph/graph6.png>
 Package pdftex.def Info: graph/graph6.png  used on input line 239.
 (pdftex.def)             Requested size: 328.82707pt x 148.68488pt.
-<graph/graph7.png, id=231, 1575.8875pt x 1227.58624pt>
+<graph/graph7.png, id=251, 1575.8875pt x 1227.58624pt>
 File: graph/graph7.png Graphic file (type png)
 <use graph/graph7.png>
 Package pdftex.def Info: graph/graph7.png  used on input line 243.
 (pdftex.def)             Requested size: 375.80544pt x 292.73485pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -746,23 +750,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11 <./graph/graph6.png (PNG copy)> <./graph/graph7.png (PNG copy)>] (./note.aux)
+[11 <./graph/graph6.png (PNG copy)> <./graph/graph7.png (PNG copy)>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12]
+<graph/projectileReview.png, id=269, 1442.38875pt x 1798.72pt>
+File: graph/projectileReview.png Graphic file (type png)
+<use graph/projectileReview.png>
+Package pdftex.def Info: graph/projectileReview.png  used on input line 285.
+(pdftex.def)             Requested size: 328.82707pt x 410.04655pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13 <./graph/projectileReview.png (PNG copy)>] (./note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: E71EC6F3819A408B6DFD9C1C33F29AF0;4577.
+(rerunfilecheck)             Checksum: 69781441C72E2C58941DB4C4E9D9687B;5166.
  ) 
 Here is how much of TeX's memory you used:
- 21117 strings out of 476034
- 391105 string characters out of 5792864
- 1861388 words of memory out of 6000000
- 41145 multiletter control sequences out of 15000+600000
+ 21141 strings out of 476034
+ 391516 string characters out of 5792864
+ 1862388 words of memory out of 6000000
+ 41156 multiletter control sequences out of 15000+600000
  522564 words of font info for 69 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,89p,446b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on note.pdf (12 pages, 10779853 bytes).
+Output written on note.pdf (14 pages, 14244579 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
