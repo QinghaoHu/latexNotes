@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.8.25)  14 SEP 2025 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  15 SEP 2025 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,21 +589,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 0A5DB15AE56B8BE8E521A28536D9EF1F;1252.
+(rerunfilecheck)             Checksum: CA573A14D37F2FDBB9CB80F71B265655;1361.
  ) 
 Here is how much of TeX's memory you used:
- 20990 strings out of 476034
- 389161 string characters out of 5792864
+ 20992 strings out of 476034
+ 389185 string characters out of 5792864
  1855388 words of memory out of 6000000
- 41082 multiletter control sequences out of 15000+600000
+ 41083 multiletter control sequences out of 15000+600000
  522205 words of font info for 68 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,89p,442b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on note.pdf (4 pages, 129906 bytes).
+Output written on note.pdf (4 pages, 131436 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

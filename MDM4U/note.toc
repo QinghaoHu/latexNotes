@@ -6,3 +6,4 @@
 \contentsline {section}{\numberline {1.3}Like Term Permutations}{2}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Pascal Triangle}{2}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Venn Diagrams}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Combination}{3}{section.1.6}%
