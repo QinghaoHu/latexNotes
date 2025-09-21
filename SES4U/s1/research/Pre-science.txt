@@ -1,0 +1,36 @@
+In this txt file, I am gonna to show some of my researchs in "Pre Science" section of human's understanding about spaces. 
+
+By this Link:
+    https://wildernessawareness.org/articles/spinning-tales-of-the-sun-moon-and-stars/?utm_source=chatgpt.com
+
+    The All-Powerful sun
+        Before the science history, peoples tried to explain the space with mythology. 
+
+        Chinese Ten Suns:
+
+        Inuit Moon and Sun God:
+
+        Re Egyptian culture. 
+
+    Comets: Messengers from the Gods:
+        The unpredictability of comets and their seemingly erratic movements made people in ancient cultures 
+        fearful and made them think that comets were messengers from the gods representing harbingers of bad 
+        things to come, menacing presences in the nighttime skies. (Bad things happen)
+
+    University is Heaven. 
+
+    https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/ancient-greek-astronomy-and-cosmology/?utm_source=chatgpt.com 
+    Ancient Greek Astronomy and Cosmology
+    Fixed stars and Celestial stars:
+            
+    By the time of Ptolemy Greek astronomers had proposed adding circles on the circular orbits of 
+    the wandering stars (the planets, the moon and the sun) to explain their motion. 
+    These circles on circles are called epicycles. In the Greek tradition, the heavens were a place of perfect 
+    circular motion, so the way to account for perfection was with the addition of circles. This resulted in disorienting illustrations.
+
+To escape the complicated nature of this extensive number of circles, Ptolomy added a series of new concepts. 
+To accurately describe planetary motion, he needed to use eccentric circles. With the eccentric circle the center of the planets orbit would not be Earth but would instead be some other point. 
+Ptolemy then needed to put the epicycles on another set of circles called deferents. 
+So the planets moved on circles that moved on circular orbits. Ptolomy also needed to introduce equants, a tool that enabled the planets to move at different speeds as they moved around these circles. 
+The resulting model was complex, but it had extensive predictive power
+
