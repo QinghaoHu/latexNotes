@@ -27,3 +27,10 @@
 \contentsline {subsection}{\numberline {1.8.1}basic}{12}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Special formula}{12}{subsection.1.8.2}%
 \contentsline {subsection}{\numberline {1.8.3}An example question}{13}{subsection.1.8.3}%
+\contentsline {section}{\numberline {1.9}Friction}{13}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Kinetic Friction}{14}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Static Friction}{14}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.3}Remainder}{14}{subsection.1.9.3}%
+\contentsline {section}{\numberline {1.10}Tension, compression and Pulleys}{15}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Tention: T}{15}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}Compression: C}{15}{subsection.1.10.2}%
