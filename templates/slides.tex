@@ -1,6 +1,5 @@
 \documentclass[11pt]{beamer}
 
-% --- Packages ---
 \usepackage{subfig}
 \usepackage{amssymb,amsmath,mathtools}
 \usepackage{amsfonts,booktabs}
@@ -10,38 +9,55 @@
 \usepackage[latin1]{inputenc}
 \usepackage{natbib}
 \usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{caption}
 
-% --- Theorem Environments ---
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{definition}[theorem]{Definition}
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{proposition}[theorem]{Proposition}
-\newtheorem{corollary}[theorem]{Corollary}
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
-\newtheorem*{example}{Example}
+\usetheme{Madrid}
+\usecolortheme{default}
 
-% --- Custom Commands ---
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\N}{\mathbb{N}}
-\newcommand{\Z}{\mathbb{Z}}
-\newcommand{\Q}{\mathbb{Q}}
-\newcommand{\C}{\mathbb{C}}
-\newcommand{\ds}{\displaystyle}
-
-\newcommand{\mypic}[3]{
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=#3\textwidth]{#1}
-        \caption{#2}
-    \end{figure}
-}
-
-% --- Title ---
-\title{\textbf{Grade 12 Earth and Space Science} \\ \large SES4U}
+\title[about the practice]
+{About the beamer in the presentation making}
+\subtitle{A short story}
 \author{Qinghao Hu}
-\date{\today}
+
 
 \begin{document}
 
+\frame{\titlepage}
+
+\begin{frame}{The first frame}
+  This is some text in the first frame
+\end{frame}
+
+\begin{frame}
+  \frametitle{Table of Contents}
+  \tableofcontents
+\end{frame}
+
+
 \end{document}
+
+% `\begin{frame}{Image with Description Below}
+% \begin{center}
+%     \includegraphics[width=0.7\textwidth]{example-image-b.jpg}
+%     \captionof{figure}{A descriptive caption for the image}
+
+%     \vspace{0.5cm} % space between image and text
+
+%     This is a short description or explanation related to the image.
+%     It can be one or two lines to avoid clutter.
+% \end{center}
+% \end{frame}
+'
+
+% \begin{frame}{Image with Description Below}
+% \begin{center}
+%     \includegraphics[width=0.7\textwidth]{example-image-b.jpg}
+%     \captionof{figure}{A descriptive caption for the image}
+
+%     \vspace{0.5cm} % space between image and text
+
+%     This is a short description or explanation related to the image.
+%     It can be one or two lines to avoid clutter.
+% \end{center}
+% \end{frame}

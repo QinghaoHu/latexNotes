@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  17 SEP 2025 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  22 SEP 2025 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,33 +469,138 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip66
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count309
+\mult@box=\box65
+\multicol@leftmargin=\dimen271
+\c@unbalance=\count310
+\c@collectmore=\count311
+\doublecol@number=\count312
+\multicoltolerance=\count313
+\multicolpretolerance=\count314
+\full@width=\dimen272
+\page@free=\dimen273
+\premulticols=\dimen274
+\postmulticols=\dimen275
+\multicolsep=\skip67
+\multicolbaselineskip=\skip68
+\partial@page=\box66
+\last@line=\box67
+\maxbalancingoverflow=\dimen276
+\mult@rightbox=\box68
+\mult@grightbox=\box69
+\mult@firstbox=\box70
+\mult@gfirstbox=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\c@minrows=\count315
+\c@columnbadness=\count316
+\c@finalcolumnbadness=\count317
+\last@try=\dimen277
+\multicolovershoot=\dimen278
+\multicolundershoot=\dimen279
+\mult@nat@firstbox=\box108
+\colbreak@box=\box109
+\mc@col@check@num=\count318
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2023/03/17 version 6.0.3 text color boxes
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks44
+\verbatim@line=\toks45
+\verbatim@in@stream=\read3
+) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count319
 )
-\c@theorem=\count309
+\tcb@titlebox=\box110
+\tcb@upperbox=\box111
+\tcb@lowerbox=\box112
+\tcb@phantombox=\box113
+\c@tcbbreakpart=\count320
+\c@tcblayer=\count321
+\c@tcolorbox@number=\count322
+\tcb@temp=\box114
+\tcb@temp=\box115
+\tcb@temp=\box116
+\tcb@temp=\box117
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.0.3'
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2022/07/20 v1.0.0 Image filling library for TikZ
+ (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
+) (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
+\l__tikzfill_img_box=\box118
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.3'
+))
+\c@theorem=\count323
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
-\l__pdf_internal_box=\box65
+\l__color_backend_stack_int=\count324
+\l__pdf_internal_box=\box119
 ) (./note.aux)
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -533,57 +638,61 @@ LaTeX Font Info:    ... okay on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen271
-\scratchbox=\box66
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen272
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count325
+\scratchdimen=\dimen280
+\scratchbox=\box120
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen281
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 58.
  (./note.out) (./note.out)
 \@outlinefile=\write4
 \openout4 = `note.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./note.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./note.toc
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 ...2}Example template}{17}{subsection.1.11.2}
+                                                  % [1
+
+])
 \tf@toc=\write5
 \openout5 = `note.toc'.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60 \newpage
-              [1
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -591,39 +700,43 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 67.
+(hyperref)                removing `math shift' on input line 70.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
+(hyperref)                removing `\Delta' on input line 70.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `math shift' on input line 90.
 
-[2
+[3
 
 ]
 
@@ -633,7 +746,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -641,16 +754,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
-<graph/graph1.png, id=229, 1082.0425pt x 682.55pt>
+[5]
+<graph/graph1.png, id=248, 1082.0425pt x 682.55pt>
 File: graph/graph1.png Graphic file (type png)
 <use graph/graph1.png>
-Package pdftex.def Info: graph/graph1.png  used on input line 163.
+Package pdftex.def Info: graph/graph1.png  used on input line 166.
 (pdftex.def)             Requested size: 375.80544pt x 237.05264pt.
-<graph/teacherNote2.png, id=231, 686.565pt x 879.285pt>
+<graph/teacherNote2.png, id=250, 686.565pt x 879.285pt>
 File: graph/teacherNote2.png Graphic file (type png)
 <use graph/teacherNote2.png>
-Package pdftex.def Info: graph/teacherNote2.png  used on input line 166.
+Package pdftex.def Info: graph/teacherNote2.png  used on input line 169.
 (pdftex.def)             Requested size: 422.77664pt x 541.44804pt.
 
 
@@ -660,7 +773,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5 <./graph/graph1.png>]
+[6 <./graph/graph1.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -668,11 +781,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6 <./graph/teacherNote2.png>]
-<graph/graph2.png, id=255, 514.92375pt x 552.56438pt>
+[7 <./graph/teacherNote2.png>]
+<graph/graph2.png, id=274, 514.92375pt x 552.56438pt>
 File: graph/graph2.png Graphic file (type png)
 <use graph/graph2.png>
-Package pdftex.def Info: graph/graph2.png  used on input line 175.
+Package pdftex.def Info: graph/graph2.png  used on input line 178.
 (pdftex.def)             Requested size: 328.82707pt x 352.87273pt.
 
 
@@ -682,11 +795,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <./graph/graph2.png (PNG copy)>]
-<graph/graph4.png, id=261, 991.705pt x 636.3775pt>
+[8 <./graph/graph2.png (PNG copy)>]
+<graph/graph4.png, id=280, 991.705pt x 636.3775pt>
 File: graph/graph4.png Graphic file (type png)
 <use graph/graph4.png>
-Package pdftex.def Info: graph/graph4.png  used on input line 193.
+Package pdftex.def Info: graph/graph4.png  used on input line 196.
 (pdftex.def)             Requested size: 422.77664pt x 271.2968pt.
 
 
@@ -696,11 +809,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <./graph/graph4.png>]
-<graph/graph5.png, id=270, 595.22375pt x 790.955pt>
+[9 <./graph/graph4.png>]
+<graph/graph5.png, id=289, 595.22375pt x 790.955pt>
 File: graph/graph5.png Graphic file (type png)
 <use graph/graph5.png>
-Package pdftex.def Info: graph/graph5.png  used on input line 196.
+Package pdftex.def Info: graph/graph5.png  used on input line 199.
 (pdftex.def)             Requested size: 422.77664pt x 561.79922pt.
 
 
@@ -710,13 +823,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9 <./graph/graph5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+[10 <./graph/graph5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--231
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
 
  []
 
@@ -727,19 +840,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]
-<graph/graph6.png, id=285, 1458.44875pt x 659.46375pt>
+[11]
+<graph/graph6.png, id=305, 1458.44875pt x 659.46375pt>
 File: graph/graph6.png Graphic file (type png)
 <use graph/graph6.png>
-Package pdftex.def Info: graph/graph6.png  used on input line 239.
+Package pdftex.def Info: graph/graph6.png  used on input line 242.
 (pdftex.def)             Requested size: 328.82707pt x 148.68488pt.
-<graph/graph7.png, id=286, 1575.8875pt x 1227.58624pt>
+<graph/graph7.png, id=306, 1575.8875pt x 1227.58624pt>
 File: graph/graph7.png Graphic file (type png)
 <use graph/graph7.png>
-Package pdftex.def Info: graph/graph7.png  used on input line 243.
+Package pdftex.def Info: graph/graph7.png  used on input line 246.
 (pdftex.def)             Requested size: 375.80544pt x 292.73485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--250
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
 
  []
 
@@ -750,7 +863,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11 <./graph/graph6.png (PNG copy)> <./graph/graph7.png (PNG copy)>]
+[12 <./graph/graph6.png (PNG copy)> <./graph/graph7.png (PNG copy)>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -758,11 +871,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]
-<graph/projectileReview.png, id=305, 1442.38875pt x 1798.72pt>
+[13]
+<graph/projectileReview.png, id=324, 1442.38875pt x 1798.72pt>
 File: graph/projectileReview.png Graphic file (type png)
 <use graph/projectileReview.png>
-Package pdftex.def Info: graph/projectileReview.png  used on input line 285.
+Package pdftex.def Info: graph/projectileReview.png  used on input line 288.
 (pdftex.def)             Requested size: 375.80544pt x 468.64424pt.
 
 
@@ -772,14 +885,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13 <./graph/projectileReview.png (PNG copy)>]
-<graph/example9.png, id=311, 983.675pt x 1124.2pt>
+[14 <./graph/projectileReview.png (PNG copy)>]
+<graph/example9.png, id=330, 983.675pt x 1124.2pt>
 File: graph/example9.png Graphic file (type png)
 <use graph/example9.png>
-Package pdftex.def Info: graph/example9.png  used on input line 306.
+Package pdftex.def Info: graph/example9.png  used on input line 309.
 (pdftex.def)             Requested size: 328.82707pt x 375.80739pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
  []
 
@@ -790,16 +903,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14 <./graph/example9.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
+[15 <./graph/example9.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
-<graph/example10.png, id=319, 1201.48875pt x 1556.81625pt>
+<graph/example10.png, id=338, 1201.48875pt x 1556.81625pt>
 File: graph/example10.png Graphic file (type png)
 <use graph/example10.png>
-Package pdftex.def Info: graph/example10.png  used on input line 324.
+Package pdftex.def Info: graph/example10.png  used on input line 327.
 (pdftex.def)             Requested size: 281.85587pt x 365.21048pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -807,23 +925,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15 <./graph/example10.png (PNG copy)>] (./note.aux)
+[16 <./graph/example10.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17] (./note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 29BEC3C830861FB970098F345FEEFB98;6132.
+(rerunfilecheck)             Checksum: 6E66537F0E9DDA6CB4BD8B8546FDDBCA;6941.
  ) 
 Here is how much of TeX's memory you used:
- 21175 strings out of 476034
- 392112 string characters out of 5792864
- 1865388 words of memory out of 6000000
- 41175 multiletter control sequences out of 15000+600000
+ 24760 strings out of 476034
+ 485626 string characters out of 5792864
+ 1866388 words of memory out of 6000000
+ 44718 multiletter control sequences out of 15000+600000
  522564 words of font info for 69 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,12n,89p,446b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on note.pdf (16 pages, 16715159 bytes).
+ 84i,12n,89p,544b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on note.pdf (18 pages, 16727443 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 

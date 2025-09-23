@@ -12,6 +12,9 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{indentfirst}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
 
 % --- Page Setup ---
 \geometry{margin=1in}
@@ -322,6 +325,35 @@ If one object is pushing the other object then you are dealing with \textbf{Comp
 
 Here is an example question
 \mypic{graph/example10.png}{Pulley question example}{0.6}
+
+\section{Inclined plane with Friction}
+To deal with inclined plans with friction, you need to determine the direction that the system will likely to accelrate. 
+\\
+
+Think of this as \textbf{tug of war} between these 2 forces,. Whichever force has a greater magnitude will be the direction that the system will 
+likely to \textbf{accelerate}
+
+\subsection{How to determine the direction that the system will likely to accelerate}
+Look at the \textcolor{blue}{forces} acting on the system. (Active forces are forces that are \textit{trying to make the system move})
+\textcolor{red}{Do not include internal forces} \\
+
+Along the potential line of the system's acceleration:
+\begin{itemize}
+    \item Find the sum of the active forces, which are in one Dimension
+    \item Find the sum of the active forces which are acting in the opposite direction
+\end{itemize}
+Compare the magnitude of these two force sums, and whichever direction has the larger magnitude of active forces is the directions that 
+system is likely to accelerate
+
+\subsection{Example template}
+\begin{center}
+    Active forces[label directions]\\
+    Calculate for it\\
+    Process$\cdots$\\
+    Active forces[Label directions]\\
+    Calculate for it\\
+    $\therefore$ the system will more likely to move in which direction. The friction will move $\cdots$
+\end{center}
 
 \end{document}
 
