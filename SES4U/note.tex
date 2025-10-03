@@ -11,13 +11,16 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{indentfirst}
+\usepackage[most]{tcolorbox}
 
 % --- Page Setup ---
 \geometry{margin=1in}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Qinghao Hu}
-\lhead{SPH4U}
+\lhead{SES4U}
 \cfoot{\thepage}
 
 % --- Theorem Environments ---
@@ -37,6 +40,7 @@
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
 
 \newcommand{\mypic}[3]{
     \begin{figure}[h!]
@@ -46,6 +50,16 @@
     \end{figure}
 }
 
+\newmdenv[
+  backgroundcolor=blue!5,
+  linecolor=blue!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{beamerblock}
 % --- Title ---
 \title{\textbf{Grade 12 Earth and Space Science} \\ \large SES4U}
 \author{Qinghao Hu}
@@ -58,33 +72,7 @@
 \tableofcontents
 \newpage
 
-\chapter{Unit 1: Astronomy}
-\section{Measuing the Universe}
-\subsection{Some important constants}
-The speed of light $c$:
-\[
-    c = 3.00 * 10^8\frac{m}{s} (3SD)
-\]
-The distance of a light year:
-\[
-    \text{A light year} = 9.4608 * 10^{15} m (3SD)
-\]
-The distance between \textcolor{red}{Earth} and \textcolor{red}{Sun} refers to the \textit{Astronomicial Unit (AU)}
-\[
-    AU = 1.4958 * 10^{11}m (3SD)
-\]
-One Parsec is \[
-\text{Parsec} = 3.0824 * 10^{16}m (3SD)
-\]
-
-\subsection{Unit Conversion}
-\begin{example}
-    If 1 inch = 2.54 cm, then 4.5 inches is equivalent to how many cm? \\
-    \[
-    4.5 \text{ inch } * \frac{2.54cm}{1\text{ }inch} = 11.43 \text{ }cm
-    \]
-    $\therefore 1 \text{ } inch = 11.43 cm$
-\end{example}
+\include{chapters/chapter1}
 
 \end{document}
 
