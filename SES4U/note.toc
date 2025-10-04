@@ -10,5 +10,6 @@
 \contentsline {subsection}{\numberline {1.4.1}Apparent Magnitude and Absolute Magnitude}{5}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Cepheid Variable stars}{5}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}Determining absolute magnitudes using Cepheld Variables}{5}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Hubble's Law}{5}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.4}Hubble's Law}{6}{subsection.1.4.4}%
 \contentsline {subsection}{\numberline {1.4.5}Redshift}{6}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {1.4.6}Overall summary of this section}{6}{subsection.1.4.6}%

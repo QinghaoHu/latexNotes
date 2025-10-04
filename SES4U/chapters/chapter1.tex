@@ -80,6 +80,7 @@ One Parsec is \textcolor{red}{3.26} light years \[
 \]
 
 \subsection{Unit Conversion}
+\begin{blueblock}
 \begin{example}
     If 1 inch = 2.54 cm, then 4.5 inches is equivalent to how many cm? \\
     \[
@@ -87,6 +88,7 @@ One Parsec is \textcolor{red}{3.26} light years \[
     \]
     $\therefore 1 \text{ } inch = 11.43 cm$
 \end{example}
+\end{blueblock}
 
 \subsection{Radar}
 This method is very accurate, it can measure the distance to the moon with an \textcolor{blue}{3 cm} precision!\\
@@ -104,7 +106,7 @@ to give the illusion of depth.\\
 \mypic{pictures/parallex.png}{Parallax}{0.8}
 
 If we measure the angles that a star shifts using arcseconds, we arrive at how the \textcolor{red}{persec is defined}
-
+\begin{cyanblock}
 \begin{gather}
     d = \frac{1}{p}
 \end{gather}
@@ -113,6 +115,7 @@ If we measure the angles that a star shifts using arcseconds, we arrive at how t
     $d$ = distance in Parsec\\
     $p$ = parallax angle in arcseconds
 \end{center}
+\end{cyanblock}
 
 \textit{Remainder: The distance that can accurately be measured from the Earth using parallax is \textbf{\textcolor{red}{100}} parsecs.}
 
@@ -121,34 +124,42 @@ If we measure the angles that a star shifts using arcseconds, we arrive at how t
 \subsection{Apparent Magnitude and Absolute Magnitude}
 In this chapter, I will directly define few terms:
 
-\begin{definition}
-   Apparent magnitude = \textit{\textcolor{blue}{How bright an object appears from Earth's surface}}
-\end{definition}
+\begin{greenblock}
+    \begin{definition}
+    Apparent magnitude = \textit{\textcolor{blue}{How bright an object appears from Earth's surface}}
+    \end{definition}
+\end{greenblock}
+
 \mypic{pictures/ApparentMagnitude.png}{Apparent magnitude (m)}{1}
 
-\begin{definition}
+\begin{greenblock}
+    \begin{definition}
     Absolute Magnitude: How bright an object would appear if it was \textit{\textcolor{blue}{exactly 10 parsecs away}}
-\end{definition}
+    \end{definition}
+\end{greenblock}
+
 
 \subsection{Cepheid Variable stars}
-\begin{definition}
+\begin{greenblock}
+   \begin{definition}
     Cepheids: Special stars that change how luminous they are at regular time intervals
-\end{definition}
+    \end{definition} 
+\end{greenblock}
+
 
 Cepheids "pulsate" with \textcolor{blue}{periods} ranging from 1 to 100 days
 
 \subsection{Determining absolute magnitudes using Cepheld Variables}
 Absolute magnitudes of stars can be determined using cephelds. It was discovered that period of pulsation is directly related to the star's \textit{lumonosity}
 
-\begin{beamerblock}
+\begin{greenblock}
     \begin{definition}
-         \blue{lumonosity}: The amount of energy emitted by a star each second.
+         \blue{lumonosity}: The amount of energy emitted by a star each second.\\
+         \begin{center}
+        \blue{longer} periods have \blue{higher} luminosities
+        \end{center}
     \end{definition}
-\end{beamerblock}
-
-\begin{center}
-    \blue{longer} periods have \blue{higher} luminosities
-\end{center}
+\end{greenblock}
 
 Cepheid Variables are also called "standard candles". Using this method, we can determine distances from 1000 parsecs up to 50 million parsecs
 
@@ -158,6 +169,7 @@ Hubble's Law states that:
     The \blue{further} away and object is, the \blue{faster moving away from us.}
 \end{center}
 
+\begin{cyanblock}
 Hubble's law:
 \[
     v = Hd
@@ -168,9 +180,56 @@ Hubble's law:
     (1 Mpc = 1 million pc)\\
     $H$ = Hubble's constant
 \end{center}
+\end{cyanblock}
 
 If the velocity of an object is known, we can then calculate their distance.
 
 \subsection{Redshift} 
 Luckily, people can determine the the velocity of fast-moving objects with \blue{Redshift}\\
 Remember, Doppler Effect causes red shifts
+
+\subsection{Overall summary of this section}
+In this subsection, I will briefly summary what we learn for measuring the distance\\ 
+
+To start off, we have \blue{radar}:
+\begin{redblock}
+    \begin{center}
+        Able to measure the distance to the moon with an 3 cm precision. \textbf{Distance: } few AUs
+    \end{center}
+\end{redblock}
+
+After Radar, we have \textbf{\blue{parallex}}:
+\begin{redblock}
+Using this formula:
+    \[
+        d = \frac{1}{p}
+    \]
+    \begin{center}
+        p = parallax angle in parsec\\
+        d = distance in Parsec\\
+    \end{center}
+We can measure objects \blue{100} parsecs from our Earth
+\end{redblock}
+
+Then, we get \textbf{\blue{Cepheld Variables}}:
+\begin{redblock}
+    We can use Cepheld's period of changes to determine lumonosity. Use period to determine the \red{Absolute
+    Magnitude}, and use formula "Standard Candles" to determine distances.
+\end{redblock}
+
+This method can measure objects from \blue{1000 parsecs} to \blue{50 million} parsecs\\
+
+Finally, we can use \blue{Redshift} and \blue{Doppler Effect} to determine the velocity of object:
+\begin{redblock}
+    Then use Hubble's Law:
+    \[
+        v = Hd
+    \]
+    \begin{center}
+        v = the velocity of the object in km/h\\
+        H = Hubble constant\\
+        d = the distance of the object from our earth in Mpc\\
+    \end{center}
+    To determine further away distance of object
+\end{redblock}
+
