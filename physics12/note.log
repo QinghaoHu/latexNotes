@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  5 OCT 2025 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  6 OCT 2025 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -940,19 +940,47 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 24.
-) [18
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 39.
+Package mdframed Info: Not enough space on this page on input line 41.
+[18
 
 
 
-] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux))
+]
+Package mdframed Info: Not enough space on this page on input line 41.
+<graph/circularMotion.png, id=191, 401.5pt x 302.12875pt>
+File: graph/circularMotion.png Graphic file (type png)
+<use graph/circularMotion.png>
+Package pdftex.def Info: graph/circularMotion.png  used on input line 53.
+(pdftex.def)             Requested size: 140.92793pt x 106.0509pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 69.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 88.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19 <./graph/circularMotion.png (PNG copy)>] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: A4AB95D7A2CD48467FC1069A4979F209;795.
+(rerunfilecheck)             Checksum: AE1F4F41F74AFFBA7F6534714736A900;1378.
  ) 
 Here is how much of TeX's memory you used:
- 29932 strings out of 476034
- 601012 string characters out of 5792864
+ 30190 strings out of 476034
+ 606467 string characters out of 5792864
  1867388 words of memory out of 6000000
- 49834 multiletter control sequences out of 15000+600000
+ 50084 multiletter control sequences out of 15000+600000
  521518 words of font info for 66 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,96p,510b,1091s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1073,11 +1101,11 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on note.pdf (4 pages, 108990 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on note.pdf (5 pages, 171017 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

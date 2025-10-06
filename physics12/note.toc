@@ -42,3 +42,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Fictitious Forces}{18}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Apparent Weight}{18}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Some of the formulas}{18}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Lecture 2.5}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Uniform Circular Motion}{18}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Centripetal acceleration}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Formulas}{19}{subsection.2.2.3}%
