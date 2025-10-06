@@ -1,5 +1,4 @@
-
-\documentclass[11pt]{report}
+\documentclass[12pt]{report}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -11,9 +10,15 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
 \usepackage{indentfirst}
+\usepackage[most]{tcolorbox}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{paracol}
 
 % --- Page Setup ---
+\setlength{\columnsep}{0.6cm}
 \geometry{margin=1in}
 \pagestyle{fancy}
 \fancyhf{}
@@ -38,6 +43,8 @@
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
 
 \newcommand{\mypic}[3]{
     \begin{figure}[h!]
@@ -47,66 +54,67 @@
     \end{figure}
 }
 
+\newmdenv[
+  backgroundcolor=blue!5,
+  linecolor=blue!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{blueblock}
+
+\newmdenv[
+  backgroundcolor=red!5,
+  linecolor=red!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{redblock}
+
+\newmdenv[
+  backgroundcolor=green!5,
+  linecolor=green!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{greenblock}
+
+\newmdenv[
+  backgroundcolor=cyan!5,
+  linecolor=cyan!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{cyanblock}
+
+\newenvironment{worddef}[1]
+  {\par\noindent\textbf{#1:} \itshape}
+  {\par\normalfont}
 % --- Title ---
-\title{\textbf{Data Management Notes} \\ \large Intro to Statistics}
+\title{\textbf{Data Management \\ \large MDM4U}}
 \author{Qinghao Hu}
 \date{\today}
-
 
 \begin{document}
 
 \maketitle
+\newpage
 \tableofcontents
 \newpage
 
-\chapter{Unit 1}
-\section{Lecture 1}
-\subsection{The Fundamental or Multiplicative Counting Principle}
-If a task is made up of \textcolor{blue}{\textit{several stages}}, then the number of choices is the \textbf{product} 
-of the number of possibilities at each stage. 
-
-\subsection{Additive Counting Principle}
-In a situation with actions that cannot occurred at the "same time" than the number
-of possibilities is the sum of the possibilities of all the actions
-
-\begin{center}
-    !!! Remember, $0! = 1$
-\end{center}
-
-\section{Lecture 1.2}
-A permutation is an \textcolor{red}{ARRANGEMENT} of items in a definite order.
-\[
-    nPr = \frac{n!}{(n - r)!}
-\]
-and 
-\[
-    nPr = P(n, r)
-\]
-
-\section{Like Term Permutations}
-The number of permutations of a set of $n$ objects containing $a$ identical objects of one kind, 
-$b$ identical objects of a second kind, $c$ identical objects of a third kindand so on is $\frac{n!}{a! * b! * c!}$
-
-\section{Pascal Triangle}
-Do what the hell you want to do about Pascal 
-
-\section{Venn Diagrams}
-Concepts:
-\begin{itemize}
-    \item In mathematics, a set is a well-defined collection of \textit{distinct} objects/elements
-    \item A Venn diagram is used to organize the (number of) elements in different \textit{set} of data.
-    \item Elements that are in set $a$ and set $b$ are described as the intersection of $A$ and $B$. The notation of $A \cap B$ describes this situation
-    \item Elements that are in set $a$ or set $b$ are discribed as the combine of $A$ and $B$. The notation of of $A\cup B$ describes this situation
-    \item The Complement, $A^{,}$ of a set $A$ is the set of all elements in the universal set that are \textit{NOT} elements of $A$.
-\end{itemize}
-
-\section{Combination}
-\[
-    nCr = C_{n}^r = \frac{n!}{r! * (n - r)!}
-\]
-\begin{center}
-    Remainder, $0!$ = \textbf{$1$}
-\end{center}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
 \end{document}
 
 % Referenc

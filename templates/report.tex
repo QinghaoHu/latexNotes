@@ -11,14 +11,20 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
 \usepackage{indentfirst}
+\usepackage[most]{tcolorbox}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{paracol}
 
 % --- Page Setup ---
+\setlength{\columnsep}{0.6cm}
 \geometry{margin=1in}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Qinghao Hu}
-\lhead{SPH4U}
+\lhead{SES4U}
 \cfoot{\thepage}
 
 % --- Theorem Environments ---
@@ -38,6 +44,8 @@
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
 
 \newcommand{\mypic}[3]{
     \begin{figure}[h!]
@@ -47,6 +55,53 @@
     \end{figure}
 }
 
+\newmdenv[
+  backgroundcolor=blue!5,
+  linecolor=blue!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{blueblock}
+
+\newmdenv[
+  backgroundcolor=red!5,
+  linecolor=red!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{redblock}
+
+\newmdenv[
+  backgroundcolor=green!5,
+  linecolor=green!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{greenblock}
+
+\newmdenv[
+  backgroundcolor=cyan!5,
+  linecolor=cyan!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{cyanblock}
+
+\newenvironment{worddef}[1]
+  {\par\noindent\textbf{#1:} \itshape}
+  {\par\normalfont}
 % --- Title ---
 \title{\textbf{Grade 12 Earth and Space Science} \\ \large SES4U}
 \author{Qinghao Hu}
@@ -58,6 +113,7 @@
 \newpage
 \tableofcontents
 \newpage
+
 
 \end{document}
 

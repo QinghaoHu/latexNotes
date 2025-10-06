@@ -14,8 +14,12 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{indentfirst}
 \usepackage[most]{tcolorbox}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{paracol}
 
 % --- Page Setup ---
+\setlength{\columnsep}{0.6cm}
 \geometry{margin=1in}
 \pagestyle{fancy}
 \fancyhf{}
@@ -94,6 +98,10 @@
   innerrightmargin=2mm,
   innerleftmargin=2mm
 ]{cyanblock}
+
+\newenvironment{worddef}[1]
+  {\par\noindent\textbf{#1:} \itshape}
+  {\par\normalfont}
 % --- Title ---
 \title{\textbf{Grade 12 Earth and Space Science} \\ \large SES4U}
 \author{Qinghao Hu}

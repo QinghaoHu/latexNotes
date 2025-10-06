@@ -1,0 +1,94 @@
+\chapter{Unit 2, Probability}
+\section{Probability}
+\subsection{Definitions of Probability}
+\begin{cyanblock} 
+    \begin{worddef}{Probabiilty}
+        The \red{Likehood} that a result will occur, a value that ranges from \red{0} (impossible) to \red{1} (must happen)
+    \end{worddef}
+\end{cyanblock}
+
+\begin{cyanblock} 
+    \begin{worddef}{Subjective Probabiilty}
+       An \red{ESTIMATE} of the likehood a result occurs based on intuition and experience
+    \end{worddef}
+\end{cyanblock}
+
+\begin{cyanblock} 
+    \begin{worddef}{Experimental or Empirical probability}
+        The number of times that a result \red{OCCURS} divided by the number of trails in an experiment involving chances
+    \end{worddef}
+\end{cyanblock}
+
+\begin{cyanblock} 
+    \begin{worddef}{Theortical Probabiilty}
+        The probability of a result deduced from an \red{Analysis} of the possible outcomes of a scenario
+    \end{worddef}
+\end{cyanblock}
+
+\subsection{Definitions of other stupid stuffs}
+\begin{cyanblock} 
+    \begin{worddef}{Sample Space}
+        the set of all possible \red{outcomes} in a probability experiment 
+    \end{worddef}
+\end{cyanblock}
+
+\begin{cyanblock} 
+    \begin{worddef}{event}
+        an outcome or a collection of outcomes \red{SATISFYING} a particular condition
+    \end{worddef}
+\end{cyanblock}
+
+\begin{cyanblock} 
+    \begin{worddef}{Complement}
+        Complement of an event $E$, expressed as $E'$, is all the outcomes that are in the sample space and \red{NOT} in event $E$
+    \end{worddef}
+\end{cyanblock}
+
+\subsection{Formulas}
+Assume $s$ is the set of total outcomes, the theortical probability of Event $D$ is given by:
+\[
+    P(D) = \frac{n(D)}{n(s)}
+\]
+
+The Complement of event $D$, $D'$ is given by this:
+\[
+    P(D') = 1 - P(D)
+\]
+
+\subsection{Examples}
+\begin{redblock}
+    \begin{example}
+        Two standard 6-sided dice are rolled and the sum of the dice is recorded. What is the (theoretical) probability of
+rolling a sum of 8?
+        \begin{center}
+            \blue{Let $E$ be the event that a sum of 8 is rolled}
+            \[
+                \blue{P(E) = \frac{n(\text{E})}{n(\text{total outcomes that can be rolled})}}
+            \]
+            \[
+                \blue{P(E) = \frac{5}{36}}
+            \]
+        \end{center}
+        $\therefore$: Conclusion
+    \end{example}
+\end{redblock}
+
+\section{Dependent Events}
+\subsection{Definitions}
+\begin{definition}
+If events $A$ and $B$ are independent, then $P(A\cap B) = P(A) * P(B)$\\
+\end{definition}
+
+\begin{definition}
+    $P(A \cap B)$ can be described as the probability of the \red{intersection} of events $A$ and $B$.
+\end{definition}
+
+\begin{definition}
+    For dependent events $A$ and $B$, $P(A \cap B) = P(A) * P(B | A)$ and P(A and B) = $P(B) * P(A|B)$
+\end{definition}
+
+\begin{blueblock}
+    \textbf{Note}: Two events cannot happen at the same time
+\end{blueblock}
+
+\section{Mutually Exclusive Events}

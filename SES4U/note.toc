@@ -13,3 +13,7 @@
 \contentsline {subsection}{\numberline {1.4.4}Hubble's Law}{6}{subsection.1.4.4}%
 \contentsline {subsection}{\numberline {1.4.5}Redshift}{6}{subsection.1.4.5}%
 \contentsline {subsection}{\numberline {1.4.6}Overall summary of this section}{6}{subsection.1.4.6}%
+\contentsline {section}{\numberline {1.5}Cosmology}{7}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Some stupid theories}{7}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Is our Universe finite?}{7}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Developments in Cosmology}{7}{section.1.6}%
