@@ -1,0 +1,156 @@
+\documentclass[11pt]{report}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{indentfirst}
+\usepackage[most]{tcolorbox}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{paracol}
+
+% --- Page Setup ---
+\setlength{\columnsep}{0.6cm}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Qinghao Hu}
+\lhead{SES4U}
+\cfoot{\thepage}
+
+% --- Theorem Environments ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{example}{Example}
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\newcommand{\mypic}[3]{
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=#3\textwidth]{#1}
+        \caption{#2}
+    \end{figure}
+}
+
+\newmdenv[
+  backgroundcolor=blue!5,
+  linecolor=blue!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{blueblock}
+
+\newmdenv[
+  backgroundcolor=red!5,
+  linecolor=red!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{redblock}
+
+\newmdenv[
+  backgroundcolor=green!5,
+  linecolor=green!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{greenblock}
+
+\newmdenv[
+  backgroundcolor=cyan!5,
+  linecolor=cyan!75!black,
+  linewidth=1pt,
+  roundcorner=5pt,
+  innertopmargin=1mm,
+  innerbottommargin=1mm,
+  innerrightmargin=2mm,
+  innerleftmargin=2mm
+]{cyanblock}
+
+\newenvironment{worddef}[1]
+  {\par\noindent\textbf{#1:} \itshape}
+  {\par\normalfont}
+% --- Title ---
+\title{\textbf{Grade 12 Earth and Space Science Testible Question} \\ \large SES4U}
+\author{Qinghao Hu}
+\date{\today}
+
+\includeonly{chapters/unit1}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\include{chapters/unit1}
+
+\end{document}
+
+% Referenc
+% \section{Introduction}
+% Write your introduction or overview of the day's topic here.
+%
+% \section{Main Concepts}
+% \begin{definition}
+% A function \( f: A \to B \) is said to be \textbf{injective} if for every \( a_1, a_2 \in A \), \( f(a_1) = f(a_2) \Rightarrow a_1 = a_2 \).
+% \end{definition}
+%
+% \begin{theorem}
+% Let \( f: \R \to \R \) be a continuous and strictly increasing function. Then \( f \) is injective.
+% \end{theorem}
+%
+% \begin{proof}
+% Assume \( f(a) = f(b) \). Since \( f \) is strictly increasing, if \( a < b \), then \( f(a) < f(b) \), contradiction. So \( a = b \).
+% \end{proof}
+%
+% \section{Examples}
+% \begin{example}
+% Let \( f(x) = x^2 \). Then \( f \) is not injective on \( \R \), but it is injective on \( [0, \infty) \).
+% \end{example}
+%
+% \section{Diagrams}
+% \begin{center}
+% \begin{tikzpicture}[scale=1]
+% \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+% \draw[->] (0,-1) -- (0,4) node[above] {$y$};
+% \draw[domain=-1.5:1.5, smooth, variable=\x, blue, thick] 
+%     plot ({\x}, {\x*\x});
+% \node at (1.2,3.2) {$y = x^2$};
+% \end{tikzpicture}
+% \end{center}
+%
+% \section{Summary}
+% Summarize what you learned today.
