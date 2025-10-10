@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  6 OCT 2025 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  10 OCT 2025 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -853,12 +853,12 @@ LaTeX Font Info:    ... okay on input line 111.
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=17.07182pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -906,7 +906,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ...2}Example template}{17}{subsection.1.11.2}
+l.36 ...0.2}Compression: C}{17}{subsection.1.10.2}
                                                   % [1
 
 ])
@@ -916,10 +916,10 @@ l.39 ...2}Example template}{17}{subsection.1.11.2}
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
 \openout2 = `chapters/chapter2.aux'.
@@ -940,17 +940,15 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 24.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 39.
-Package mdframed Info: Not enough space on this page on input line 41.
-[18
+[19
 
 
 
 ]
-Package mdframed Info: Not enough space on this page on input line 41.
-<graph/circularMotion.png, id=191, 401.5pt x 302.12875pt>
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 39.
+<graph/circularMotion.png, id=373, 401.5pt x 302.12875pt>
 File: graph/circularMotion.png Graphic file (type png)
 <use graph/circularMotion.png>
 Package pdftex.def Info: graph/circularMotion.png  used on input line 53.
@@ -961,29 +959,149 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 88.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 96.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./graph/circularMotion.png (PNG copy)>]
+<graph/BankedTurn.png, id=380, 1030.85126pt x 411.5375pt>
+File: graph/BankedTurn.png Graphic file (type png)
+<use graph/BankedTurn.png>
+Package pdftex.def Info: graph/BankedTurn.png  used on input line 100.
+(pdftex.def)             Requested size: 328.82707pt x 131.27396pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 114.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./graph/BankedTurn.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+<graph/fgparallel.png, id=387, 1128.215pt x 257.96375pt>
+File: graph/fgparallel.png Graphic file (type png)
+<use graph/fgparallel.png>
+Package pdftex.def Info: graph/fgparallel.png  used on input line 148.
+(pdftex.def)             Requested size: 375.80544pt x 85.92734pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./graph/fgparallel.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+<graph/FBD2.6.1.png, id=406, 164.615pt x 213.79875pt>
+File: graph/FBD2.6.1.png Graphic file (type png)
+<use graph/FBD2.6.1.png>
+Package pdftex.def Info: graph/FBD2.6.1.png  used on input line 257.
+(pdftex.def)             Requested size: 93.94957pt x 122.02313pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
+
+ []
+
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19 <./graph/circularMotion.png (PNG copy)>] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux))
+[24 <./graph/FBD2.6.1.png (PNG copy)>] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `note.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: AE1F4F41F74AFFBA7F6534714736A900;1378.
+Package rerunfilecheck Info: Checksums for `note.out':
+(rerunfilecheck)             Before: E6B232585EBF4A5F14F7EBAF553D78EA;10633
+(rerunfilecheck)             After:  6E0236561E4062FF78EEB3A52AF432D5;3692.
  ) 
 Here is how much of TeX's memory you used:
- 30190 strings out of 476034
- 606467 string characters out of 5792864
- 1867388 words of memory out of 6000000
- 50084 multiletter control sequences out of 15000+600000
- 521518 words of font info for 66 fonts, out of 8000000 for 9000
+ 30306 strings out of 476034
+ 608410 string characters out of 5792864
+ 1865388 words of memory out of 6000000
+ 50169 multiletter control sequences out of 15000+600000
+ 523006 words of font info for 72 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,96p,510b,1091s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,96p,544b,1115s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{subsection.1.11.2} has been referenced but does not exist, replaced by a fixed one
 
@@ -1101,11 +1219,11 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on note.pdf (5 pages, 171017 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on note.pdf (9 pages, 410352 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 
