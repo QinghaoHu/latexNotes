@@ -20,3 +20,5 @@
 \contentsline {chapter}{\numberline {3}One Variable Statistics}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Variables and Data}{7}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Definitions}{7}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}One Variable Graphs}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Some Definitions}{8}{subsection.3.2.1}%
