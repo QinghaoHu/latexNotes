@@ -232,18 +232,66 @@ There is a special type of geosynchronous is called \textbf{Geostationary}
 \end{itemize}
 
 \subsection{Formulas related to satellite}
-\begin{equation}
-    v = \sqrt{\frac{GM}{R}}
-\end{equation}
-\begin{equation}
-    T = \sqrt{\frac{4 \pi^2 R^3}{GM}}
-\end{equation}
+We will derive each formulas in this handout:\\
+
+To start off, let's draw the FBD for the satellite\\
 \begin{center}
-    $v$ is the velocity of the satellite\\
-    $T$ is the period of the satellite
+    \begin{tikzpicture}[scale=1.2, >=Stealth]
+
+    % Earth
+    \shade[ball color=blue!40] (0,0) circle (1);
+    \node at (0,0) {\textbf{Earth}};
+
+    % Satellite position
+    \coordinate (satellite) at (0,3);
+    \filldraw[gray!60] (satellite) circle (0.15);
+    \node[above=2pt of satellite] {Satellite};
+
+    % Forces
+    \draw[thick, red, ->] (satellite) -- ++(0,-1.2)
+        node[midway, right] {$F_g$};
+    \draw[thick, blue, ->] (satellite) -- ++(0,1.2)
+        node[midway, right] {$F_{\text{fict}}$};
+
+    % Orbit line
+    \draw[dashed, gray] (0,0) circle (3);
+    \node[right] at (0,1.5) {Orbit altitude};
+
+    % Optional: radius vector
+    \draw[->, thick, black!50] (0,0) -- (satellite)
+        node[midway, left] {$r$};
+
+    \end{tikzpicture}
 \end{center}
 
-Next section is the last section of this unit!
+\textbf{Down} is negative\\
+
+Let's derive the formula for satellite:
+\begin{gather*}
+    \sum \vec{F} = m*\vec{a_{per}}\\
+    F_g - F_{fict} = 0\\
+    mg - m*\left|F_{FOR}\right| = 0\\
+    mg = ma_c\\
+    a_c = \frac{Gm}{R^2} 
+\end{gather*}
+
+Sub in $a_c = \frac{V^2}{R}$:
+\begin{gather*}
+    \frac{v^2}{R} = \frac{Gm}{R^2}\\
+    v = \sqrt{\frac{Gm}{R}}
+\end{gather*}
+
+\begin{center}
+    $v$ = orbital speed\\
+    $m$ = mass of the object in (kg)
+\end{center}
+
+Sub in $a_c = \frac{4\pi^2 R}{T^2}$
+\begin{gather*}
+    \frac{4\pi^2 R}{T^2} = \frac{Gm}{R}\\
+    T^2 = \frac{4\pi^2 R^3}{Gm}\\
+    T = \sqrt{\frac{4\pi^2 R^3}{Gm}}
+\end{gather*}
 
 \section{Rotating Frame of Reference}
 \subsection{Little problem}
@@ -270,5 +318,113 @@ When a person is standing (on Earth) there are two forces acting on them:\\
 \end{paracol}
 
 When a person is in orbit around a planet, there is only the force of gravity acting on them! They are in 
-\textbf{constant state of free fall} 
+\textbf{constant state of free fall} \\
 
+FBD for a person orbiting a planet:
+\columnratio{0.4, 0.6}
+\begin{paracol}{2}
+    \begin{leftcolumn}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.2\textwidth]{graph/FBD2.png}
+            \caption{Force of Gravity}
+        \end{figure}
+    \end{leftcolumn}
+    \begin{rightcolumn}
+        The person is missing the \textbf{normal force} (the compressive force) that they are used to feeling. 
+        Without the compressive force, the person's musculo=skeletal system starts to undergo \textbf{atrophication}
+    \end{rightcolumn}
+\end{paracol}
+
+To solve this problem, we need to make sure that both two forces are acting on the person. The forces must 
+be in \textbf{opposite direction} and one force must be a \textbf{compression force}\\
+
+\subsection*{Solution 1}
+The spaceship is \textbf{accelerating} uniformly, in a straight line.\\
+
+But, there are two problems:
+\begin{enumerate}
+    \item Run out of fuel
+    \item As an object speed up, its \textbf{mass increases}. If mass increases, to maintain the acceleration the netforce would also increase
+\end{enumerate}
+
+\subsection*{Solution 2}
+Get a very very large hallow ring and make it spin\\
+
+For an internal F.O.R, there will be both \textbf{Force of Normal} and \textbf{Force of Gravity} acting on it\\
+
+From an internal F.O.R:
+\begin{gather*}
+    \sum \vec{F} = m \vec{a_{per}}\\
+    F_{N} - F_{fict} = 0\\
+    F_{N} = F_{fict}\\
+    F_{N} = m*\left| a_{F.O.R}\right| \\
+    F_{N} = ma_{c}
+\end{gather*}
+
+We can calculate the $v$ of the people:
+\begin{gather*} 
+    F_{N} = ma_{c}\\
+    mg = ma_{c}\\
+    g = a_{c}\\
+    g = \frac{v^2}{R}\\
+    v = \sqrt{gR}
+\end{gather*}
+
+So, in the spaceship rotating question, we can always assume:
+\begin{equation*}
+    F_{N} = F_{g}
+\end{equation*}
+
+We can also using
+\begin{equation*}
+    a_{c} = \frac{4 \pi^2 R}{T^2}
+\end{equation*}
+
+To sub in
+\begin{gather*}
+    g = \frac{4 \pi^2 R}{T^2}\\
+    T = \sqrt{\frac{4 \pi^2 R}{g}}
+\end{gather*}
+or
+\begin{equation*}
+    f = \sqrt{\frac{g}{4 \pi^2 R}}
+\end{equation*}
+
+\subsection{Perceived Acceleration in a Rotating Frame of Reference}
+When a person is stand on the equator, there are $a_{c}$ to affect the ball\\
+
+The \textbf{perceived} acceleration should be calculated like this:
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+    % Draw the block
+    \draw[thick, fill=gray!20] (0,0) rectangle (2,1);
+    
+    % Draw the surface
+    % \draw[thick] (-1,0) -- (3,0);
+    
+    % Draw the forces
+    % Gravity
+    \draw[->, thick, red] (1,0.5) -- (1, -1) node[midway, right] {$F_g$};
+    % Normal
+    \draw[->, thick, blue] (1,0.5) -- (1, 2) node[midway, right] {$F_{fict}$};
+    % Friction
+    % \draw[->, thick, green] (1,0.5) -- (-1, 0.5) node[midway, above] {$F_f$};
+\end{tikzpicture}
+\end{center}
+
+Now, let's calculate the $\vec{a_{per}}$
+\begin{gather}
+    \sum \vec{F} = m\vec{a_{per}}\\
+    F_N - F_{fict} = ma_{per}\\
+    mg - m\left|a_{F.O.R}\right| = ma_{per}\\
+    a_{per} = g - a_c
+\end{gather}
+
+\subsection*{Note}
+    You can always assume Earth's surface to be an inertial F.O.R unless:
+    \begin{itemize}
+        \item You need to be \textbf{extremely accurate}
+        \item The question states \textbf{at the equator}
+    \end{itemize}

@@ -42,8 +42,8 @@
 \contentsline {subsection}{\numberline {2.1.1}Fictitious Forces}{19}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Apparent Weight}{19}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Some of the formulas}{19}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Lecture 2.5}{20}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Uniform Circular Motion}{20}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Lecture 2.5}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Uniform Circular Motion}{19}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Centripetal acceleration}{20}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Formulas}{20}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Motion of a car on Banked Turn}{21}{section.2.3}%
@@ -56,6 +56,7 @@
 \contentsline {section}{\numberline {2.5}Satellites}{23}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Netwon's Cannon}{23}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Geosynchronous}{23}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Formulas related to satellite}{24}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Rotating Frame of Reference}{24}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Little problem}{24}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.5.3}Formulas related to satellite}{23}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Rotating Frame of Reference}{25}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Little problem}{25}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Perceived Acceleration in a Rotating Frame of Reference}{26}{subsection.2.6.2}%
