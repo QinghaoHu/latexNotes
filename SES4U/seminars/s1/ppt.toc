@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Expectation}{2}{0}{1}
+\beamer@sectionintoc {2}{Chapter I}{3}{0}{2}
+\beamer@sectionintoc {3}{Introduction}{4}{0}{3}
+\beamer@sectionintoc {4}{Myth Examples}{5}{0}{4}
+\beamer@sectionintoc {5}{Ancient Greek}{7}{0}{5}
+\beamer@sectionintoc {6}{Heliocentric System}{17}{0}{6}

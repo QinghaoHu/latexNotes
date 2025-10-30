@@ -22,3 +22,33 @@
 \contentsline {subsection}{\numberline {3.1.1}Definitions}{7}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}One Variable Graphs}{8}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Some Definitions}{8}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Central Tendency}{10}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Definitions of Central Tendency}{10}{subsection.3.3.1}%
+\contentsline {subsubsection}{CENTRAL}{10}{section*.2}%
+\contentsline {subsubsection}{Mean}{10}{section*.3}%
+\contentsline {subsubsection}{How to choose form}{11}{section*.4}%
+\contentsline {subsubsection}{Weighted}{11}{section*.5}%
+\contentsline {section}{\numberline {3.4}Standard Deviation}{11}{section.3.4}%
+\contentsline {subsubsection}{Spread}{11}{section*.6}%
+\contentsline {subsubsection}{Deviation of Detum}{11}{section*.7}%
+\contentsline {subsubsection}{Standard deviation}{12}{section*.8}%
+\contentsline {subsubsection}{Z-score}{12}{section*.9}%
+\contentsline {section}{\numberline {3.5}Quartiles}{12}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Definitions}{12}{subsection.3.5.1}%
+\contentsline {subsubsection}{Range}{12}{section*.10}%
+\contentsline {subsubsection}{Quartiles}{12}{section*.11}%
+\contentsline {subsubsection}{InterQuartile}{13}{section*.12}%
+\contentsline {subsubsection}{Box-and-whisker plots}{13}{section*.13}%
+\contentsline {subsubsection}{Outlier}{13}{section*.14}%
+\contentsline {subsection}{\numberline {3.5.2}Percentiles}{13}{subsection.3.5.2}%
+\contentsline {subsubsection}{\textcolor {red}{Remainder}}{14}{section*.15}%
+\contentsline {section}{\numberline {3.6}Spread Grouped Data}{14}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}For weighted data}{14}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7}Collect data}{14}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Anonymous and not be anonymous}{14}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Survey Questions}{14}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Questions should be avoided}{14}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Experimental vs Observational study}{15}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}sampling}{15}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Some type of sampling}{15}{subsection.3.8.1}%
+\contentsline {section}{\numberline {3.9}Bias}{16}{section.3.9}%
