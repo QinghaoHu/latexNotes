@@ -17,3 +17,8 @@
 \contentsline {subsection}{\numberline {1.5.1}Some stupid theories}{7}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Is our Universe finite?}{7}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Developments in Cosmology}{7}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Unit 2}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Kepler's Law}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Kepler's first law}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Kepler's second law}{9}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Kepler's Third Law}{9}{subsection.2.1.3}%
