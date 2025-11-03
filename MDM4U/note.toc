@@ -52,3 +52,13 @@
 \contentsline {section}{\numberline {3.8}sampling}{15}{section.3.8}%
 \contentsline {subsection}{\numberline {3.8.1}Some type of sampling}{15}{subsection.3.8.1}%
 \contentsline {section}{\numberline {3.9}Bias}{16}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Two variable Statistics}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lecture 1: Graphs}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Definitions}{17}{subsection.4.1.1}%
+\contentsline {subsubsection}{Two variable graphed}{17}{section*.5}%
+\contentsline {subsubsection}{Correlation}{17}{section*.6}%
+\contentsline {subsubsection}{Contingency}{18}{section*.9}%
+\contentsline {section}{\numberline {4.2}Linear Correlation}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Why Scatter plot?}{18}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Some boring Definitions}{18}{subsection.4.2.2}%
+\contentsline {subsubsection}{Linear Relationship}{18}{section*.10}%

@@ -77,3 +77,10 @@
 \contentsline {section}{\numberline {3.4}String \& Elastic Potential Energy}{31}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}The Force of String}{31}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Elastic Potential Energy}{32}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Ignore Gravational Potential Energy}{33}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Simple Harmonic Motion}{33}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Definitions}{33}{subsection.3.5.1}%
+\contentsline {subsubsection}{Simple Harmonic Motion}{33}{section*.9}%
+\contentsline {subsubsection}{Expectations}{34}{section*.10}%
+\contentsline {subsection}{\numberline {3.5.2}How can we solve form the acceleration of SHM}{34}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}The period of the Simple Harmonic Motion}{35}{subsection.3.5.3}%
