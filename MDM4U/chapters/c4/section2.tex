@@ -1,0 +1,45 @@
+\section{Linear Correlation}
+\subsection{Why Scatter plot?}
+There are few advantages of a scatter plot:
+\begin{itemize}
+    \item Correlations
+    \item Predictions
+    \item Positive/negative
+    \item Strong/weak
+\end{itemize}
+
+\subsection{Some boring Definitions}
+\subsubsection{Linear Relationship}
+A \textbf{linear} relationship is one in which a \textbf{change} in the independent (explanatory) variable corresponds a proportional change in the dependent
+(response) variable.\\
+
+We can use table to calculate the correlation of two variables:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{pictures/4.2.1.png}
+\end{figure}
+
+\begin{gather}
+    \bar{x} = \frac{\sum x}{n}\\
+    \bar{y} = \frac{\sum y}{n}
+\end{gather}
+In order to calculate the correlation coefficient of x and y, we need to get the sample standard deviation for x and y.
+\begin{gather}
+    s_x = \sqrt{\frac{\sum (x - \bar{x})}{n - 1}}\\
+    s_y = \sqrt{\frac{\sum (y - \bar{y})}{n - 1}}
+\end{gather}
+
+Then, we need to calculate the covariance of $x$ and $y$:
+\begin{gather}
+    s_{xy} = \frac{\sum (x_i - \bar{x}) * (y_i - \bar{y})}{n - 1}
+\end{gather}
+
+Finally, the correlation coefficient is defined by this:
+\begin{gather}
+    r = \frac{s_{xy}}{s_x * s_y}
+\end{gather}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{pictures/4.2.2.png}
+\end{figure}
