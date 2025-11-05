@@ -65,6 +65,5 @@
 \contentsline {subsection}{\numberline {2.7.1}Little problem}{25}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Perceived Acceleration in a Rotating Frame of Reference}{26}{subsection.2.7.2}%
 \contentsline {chapter}{\numberline {3}Unit 2: Energy and Momentum}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Linear Momentum \& Impulse}{28}{section.3.1}%
-\contentsline {subsubsection}{Linear Momentum}{28}{section*.2}%
-\contentsline {subsubsection}{Impulse}{28}{section*.3}%
+\contentsline {section}{\numberline {3.1}Conservation of Momentum}{28}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Equation}{28}{subsection.3.1.1}%
