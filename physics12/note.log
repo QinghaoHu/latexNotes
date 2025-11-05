@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.25)  4 NOV 2025 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.25)  5 NOV 2025 09:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -940,44 +940,27 @@ l.43 ... non-inertial F.O.R}{19}{subsection.2.2.1}
 
  (./chapters/chapter3.tex
 Chapter 3.
-(./chapters/c3/section3.7.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-<graph/3.7.1.png, id=204, 561.09625pt x 297.11pt>
-File: graph/3.7.1.png Graphic file (type png)
-<use graph/3.7.1.png>
-Package pdftex.def Info: graph/3.7.1.png  used on input line 16.
-(pdftex.def)             Requested size: 328.82707pt x 174.11919pt.
-
+(./chapters/c3/section3.8.tex))
 
 [28
 
 
 
 
- <./graph/3.7.1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-))
-
-[29] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux))
+] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: F43A4DF15972BA3E7CE4598A5C9D0DFA;474.
+(rerunfilecheck)             Checksum: 0EBC0DFA5E6DEE261585FB46D37EF33C;619.
  ) 
 Here is how much of TeX's memory you used:
- 30266 strings out of 473190
- 609894 string characters out of 5715800
- 1057133 words of memory out of 5000000
- 52922 multiletter control sequences out of 15000+600000
- 568924 words of font info for 74 fonts, out of 8000000 for 9000
+ 30232 strings out of 473190
+ 609086 string characters out of 5715800
+ 1056990 words of memory out of 5000000
+ 52895 multiletter control sequences out of 15000+600000
+ 568565 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,96p,579b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1172,11 +1155,11 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on note.pdf (5 pages, 188466 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on note.pdf (4 pages, 114013 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
