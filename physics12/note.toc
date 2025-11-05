@@ -69,3 +69,6 @@
 \contentsline {subsection}{\numberline {3.1.1}Definitions}{28}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Elastic Collisions}{28}{subsection.3.1.2}%
 \contentsline {subsubsection}{Steps of the collision}{28}{section*.2}%
+\contentsline {subsubsection}{Head-on Collision}{28}{section*.3}%
+\contentsline {subsection}{\numberline {3.1.3}Inelasic Collision}{29}{subsection.3.1.3}%
+\contentsline {subsubsection}{Completely inelastic collision}{29}{section*.4}%
