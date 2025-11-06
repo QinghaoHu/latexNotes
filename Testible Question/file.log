@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  5 NOV 2025 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  5 NOV 2025 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/qinghaohu/course/latexNotes/SES4U/note
-(/home/qinghaohu/course/latexNotes/SES4U/note.tex
+**"/home/qinghaohu/course/latexNotes/Testible Question/file"
+(/home/qinghaohu/course/latexNotes/Testible Question/file.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
@@ -812,27 +812,27 @@ Package: paracol 2018/12/31 v1.35
 \pcol@everyvbox=\toks47
 )
 \c@theorem=\count373
- (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux))
-\openout1 = `note.aux'.
+ (./file.aux (./chapters/unit1.aux) (./chapters/unit2.aux))
+\openout1 = `file.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -887,104 +887,51 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 112.
- (./note.out) (./note.out)
+Package hyperref Info: Link coloring OFF on input line 111.
+ (./file.out) (./file.out)
 \@outlinefile=\write4
-\openout4 = `note.out'.
+\openout4 = `file.out'.
 
 \c@lstlisting=\count380
-LaTeX Font Info:    Trying to load font information for U+msa on input line 115.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 115.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./note.toc)
-\tf@toc=\write5
-\openout5 = `note.toc'.
-
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./file.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 \newpage
-               [1
+l.39 ...rline {2}Testible questions}{8}{chapter.2}
+                                                  % [1
 
-]
-\openout2 = `chapters/chapter2.aux'.
+])
+\tf@toc=\write5
+\openout5 = `file.toc'.
 
- (./chapters/chapter2.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
+\openout2 = `chapters/unit2.aux'.
+
+ (./chapters/unit2.tex
 Chapter 2.
-(./chapters/c2/section1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-) (./chapters/c2/section2.tex [9
+[8
 
 
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-) (./chapters/c2/section3.tex
-<pictures/Kepler'sEllipse1.jpg, id=175, 602.25pt x 431.6125pt>
-File: pictures/Kepler'sEllipse1.jpg Graphic file (type jpg)
-<use pictures/Kepler'sEllipse1.jpg>
-Package pdftex.def Info: pictures/Kepler'sEllipse1.jpg  used on input line 5.
-(pdftex.def)             Requested size: 234.8775pt x 168.32819pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
@@ -995,36 +942,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10 <./pictures/Kepler'sEllipse1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[9]
 
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-<pictures/Kepler'sLaw3.png, id=187, 1162.3425pt x 590.205pt>
-File: pictures/Kepler'sLaw3.png Graphic file (type png)
-<use pictures/Kepler'sLaw3.png>
-Package pdftex.def Info: pictures/Kepler'sLaw3.png  used on input line 68.
-(pdftex.def)             Requested size: 328.82707pt x 166.96736pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapters/c2/section4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
@@ -1036,38 +963,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-<pictures/Eclipses.png, id=197, 996.72375pt x 598.235pt>
-File: pictures/Eclipses.png Graphic file (type png)
-<use pictures/Eclipses.png>
-Package pdftex.def Info: pictures/Eclipses.png  used on input line 34.
-(pdftex.def)             Requested size: 328.82707pt x 197.35426pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1075,11 +970,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12 <./pictures/Kepler'sLaw3.png (PNG copy)>]) (./chapters/c2/section5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
+[12])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1087,30 +978,72 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13 <./pictures/Eclipses.png (PNG copy)>]))
-Underfull \hbox (badness 10000) in paragraph at lines 26--120
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux))
-Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: C72487876DB5741FF2C9FAF1F4380690;2313.
+[13] (./file.aux (./chapters/unit1.aux) (./chapters/unit2.aux))
+Package rerunfilecheck Info: File `file.out' has not changed.
+(rerunfilecheck)             Checksum: 4C8DFF6DE9FB8231FC521F9C63AAEFE9;5944.
  ) 
 Here is how much of TeX's memory you used:
- 29863 strings out of 476041
- 598493 string characters out of 5793174
- 1864388 words of memory out of 6000000
- 49725 multiletter control sequences out of 15000+600000
- 522564 words of font info for 69 fonts, out of 8000000 for 9000
+ 29876 strings out of 476041
+ 598266 string characters out of 5793174
+ 1870388 words of memory out of 6000000
+ 49726 multiletter control sequences out of 15000+600000
+ 521859 words of font info for 67 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,96p,506b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,96p,522b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.1.12.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.12} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.11.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.11} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.10.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.10} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.9.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.9} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.8.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.8.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.8} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.6.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.6.1} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist, replaced by a fixed one
 
@@ -1122,15 +1055,6 @@ pdfTeX warning (dest): name{subsection.1.5.1} has been referenced but does not e
 
 
 pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.4} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{subsection.1.4.3} has been referenced but does not exist, replaced by a fixed one
@@ -1145,12 +1069,6 @@ pdfTeX warning (dest): name{subsection.1.4.1} has been referenced but does not e
 pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{subsection.1.3.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.3.3} has been referenced but does not exist, replaced by a fixed one
-
-
 pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not exist, replaced by a fixed one
 
 
@@ -1160,7 +1078,25 @@ pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not e
 pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{subsection.1.2.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.2.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.2.1} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.1.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.1.1} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist, replaced by a fixed one
@@ -1168,11 +1104,11 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on note.pdf (8 pages, 596044 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on file.pdf (9 pages, 100414 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 
