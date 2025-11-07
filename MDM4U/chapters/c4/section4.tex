@@ -1,0 +1,49 @@
+\section{Linear Formula}
+\subsection{Equations}
+\subsubsection{Equation solve for standard deviation}
+\begin{equation}
+    s = \sqrt{
+        \frac{
+            \sum (x - \bar{x})^2
+        }{
+            n - 1
+        }
+    } = 
+    \frac{
+        n\sum x^2 - (\sum x)^2
+    }{
+        n - 1
+    }
+\end{equation}
+
+\subsubsection{Correlation Coefficient}
+\begin{equation}
+    r = 
+    \frac{
+        s_{xy}
+    }{
+        s_x s_y
+    } = \frac{
+        n\sum xy - \sum x \sum y
+    }{
+        \sqrt{
+            n\sum x^2 - (\sum x)^2 
+        } \sqrt{
+            n \sum y^2 - (\sum y) ^ 2
+        }
+    }
+\end{equation}
+
+\subsubsection{The slope of the least-square line}
+\begin{equation}
+    a = \frac{s_{xy}}{s_x^2} = \frac{
+        n\sum xy - \sum x \sum y 
+    }{
+        n\sum x^2 - (\sum x)^2
+    }
+\end{equation}
+
+\subsubsection{Solve for the linear equation}
+\begin{equation}
+    b = \bar{y} - a\bar{x}
+\end{equation}

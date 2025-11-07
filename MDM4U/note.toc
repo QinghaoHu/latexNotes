@@ -53,6 +53,6 @@
 \contentsline {subsection}{\numberline {3.8.1}Some type of sampling}{15}{subsection.3.8.1}%
 \contentsline {section}{\numberline {3.9}Bias}{16}{section.3.9}%
 \contentsline {chapter}{\numberline {4}Two variable Statistics}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Linear Regression}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Residual}{17}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Regression}{17}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.1}Apply linear Regression}{17}{section.4.1}%
+\contentsline {subsubsection}{Outliers}{17}{section*.2}%
+\contentsline {subsection}{\numberline {4.1.1}RESIDUAL}{17}{subsection.4.1.1}%
