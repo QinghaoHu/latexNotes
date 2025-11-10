@@ -27,43 +27,74 @@
 \contentsline {subsection}{\numberline {1.8.1}basic}{13}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Special formula}{13}{subsection.1.8.2}%
 \contentsline {subsection}{\numberline {1.8.3}An example question}{14}{subsection.1.8.3}%
-\contentsline {section}{\numberline {1.9}Friction}{14}{section.1.9}%
+\contentsline {section}{\numberline {1.9}Friction}{15}{section.1.9}%
 \contentsline {subsection}{\numberline {1.9.1}Kinetic Friction}{15}{subsection.1.9.1}%
 \contentsline {subsection}{\numberline {1.9.2}Static Friction}{15}{subsection.1.9.2}%
 \contentsline {subsection}{\numberline {1.9.3}Remainder}{15}{subsection.1.9.3}%
-\contentsline {section}{\numberline {1.10}Tension, compression and Pulleys}{16}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Tention: T}{16}{subsection.1.10.1}%
-\contentsline {subsection}{\numberline {1.10.2}Compression: C}{16}{subsection.1.10.2}%
-\contentsline {section}{\numberline {1.11}Inclined plane with Friction}{17}{section.1.11}%
-\contentsline {subsection}{\numberline {1.11.1}How to determine the direction that the system will likely to accelerate}{17}{subsection.1.11.1}%
-\contentsline {subsection}{\numberline {1.11.2}Example template}{17}{subsection.1.11.2}%
-\contentsline {chapter}{\numberline {2}Unit 1B}{18}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Proportionality}{18}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Fictitious Forces and Apparent Weight}{19}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Compare Inertial and non-inertial F.O.R}{19}{subsection.2.2.1}%
-\contentsline {subsubsection}{Inertial F.O.R}{19}{section*.6}%
-\contentsline {subsubsection}{Non-Inertial F.O.R}{19}{section*.7}%
-\contentsline {subsection}{\numberline {2.2.2}Fictitious Forces}{19}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Apparent Weight}{19}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Some of the formulas}{19}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Lecture 2.5}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Uniform Circular Motion}{20}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Centripetal acceleration}{20}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Formulas}{20}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Motion of a car on Banked Turn}{21}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Forces}{21}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Critical Speed}{21}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Universal Gravitation, Gravitational field}{21}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Force of Gravity}{21}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Gravational Fields}{22}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Differences between strength of gravity and acceleration}{22}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Satellites}{23}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Netwon's Cannon}{23}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Geosynchronous}{23}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Formulas related to satellite}{23}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}Rotating Frame of Reference}{25}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Little problem}{25}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Perceived Acceleration in a Rotating Frame of Reference}{26}{subsection.2.7.2}%
-\contentsline {chapter}{\numberline {3}Unit 2: Energy and Momentum}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}HEAD-ON Collisions}{28}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Equations}{28}{subsection.3.1.1}%
+\contentsline {section}{\numberline {1.10}Tension, compression and Pulleys}{17}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Tention: T}{17}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}Compression: C}{17}{subsection.1.10.2}%
+\contentsline {section}{\numberline {1.11}Inclined plane with Friction}{18}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}How to determine the direction that the system will likely to accelerate}{18}{subsection.1.11.1}%
+\contentsline {subsection}{\numberline {1.11.2}Example template}{18}{subsection.1.11.2}%
+\contentsline {chapter}{\numberline {2}Unit 1B}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Proportionality}{19}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Fictitious Forces and Apparent Weight}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Compare Inertial and non-inertial F.O.R}{21}{subsection.2.2.1}%
+\contentsline {subsubsection}{Inertial F.O.R}{21}{section*.6}%
+\contentsline {subsubsection}{Non-Inertial F.O.R}{21}{section*.7}%
+\contentsline {subsection}{\numberline {2.2.2}Fictitious Forces}{21}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Apparent Weight}{21}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Some of the formulas}{21}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Lecture 2.5}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Uniform Circular Motion}{22}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Centripetal acceleration}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Formulas}{22}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Motion of a car on Banked Turn}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Forces}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Critical Speed}{23}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Universal Gravitation, Gravitational field}{24}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Force of Gravity}{24}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Gravational Fields}{24}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Differences between strength of gravity and acceleration}{24}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Satellites}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Netwon's Cannon}{26}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Geosynchronous}{26}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Formulas related to satellite}{26}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Rotating Frame of Reference}{28}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Little problem}{28}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Perceived Acceleration in a Rotating Frame of Reference}{29}{subsection.2.7.2}%
+\contentsline {chapter}{\numberline {3}Unit 2: Energy and Momentum}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Work and Kinetic Energy}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kinetic Energy}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Mechancial Work}{31}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Gravational Potential Energy}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Some boring definitions}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Formulas for GPE}{33}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}The law of the Conservation of Energy}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Boring Definitions}{34}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Question solving techniques}{34}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}String \& Elastic Potential Energy}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}The Force of String}{35}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Elastic Potential Energy}{35}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Ignore Gravational Potential Energy}{36}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Simple Harmonic Motion}{37}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Definitions}{37}{subsection.3.5.1}%
+\contentsline {subsubsection}{Simple Harmonic Motion}{37}{section*.9}%
+\contentsline {subsubsection}{Expectations}{37}{section*.10}%
+\contentsline {subsection}{\numberline {3.5.2}How can we solve form the acceleration of SHM}{38}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}The period of the Simple Harmonic Motion}{38}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Linear Momentum \& Impulse}{39}{section.3.6}%
+\contentsline {subsubsection}{Linear Momentum}{39}{section*.11}%
+\contentsline {subsubsection}{Impulse}{39}{section*.12}%
+\contentsline {section}{\numberline {3.7}Conservation of Momentum}{40}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Equation}{40}{subsection.3.7.1}%
+\contentsline {section}{\numberline {3.8}Types of Collisions}{42}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Definitions}{42}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Elastic Collisions}{42}{subsection.3.8.2}%
+\contentsline {subsubsection}{Steps of the collision}{42}{section*.13}%
+\contentsline {subsubsection}{Head-on Collision}{42}{section*.14}%
+\contentsline {subsection}{\numberline {3.8.3}Inelasic Collision}{43}{subsection.3.8.3}%
+\contentsline {subsubsection}{Completely inelastic collision}{43}{section*.15}%
+\contentsline {section}{\numberline {3.9}HEAD-ON Collisions}{44}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Equations}{44}{subsection.3.9.1}%

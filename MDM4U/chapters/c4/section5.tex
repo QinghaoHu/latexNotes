@@ -4,4 +4,16 @@ When you handle outliers, a good way is to creating two models to describe the r
 the outliers and the other does not. 
 
 \subsection{RESIDUAL}
-The \textbf{Residual} values that correspond to each respective data from a LINEAR regression 
+The \textbf{Residual} values that correspond to each respective data from a LINEAR regression can be used to create graph, called a \textbf{residual plot}, where the line of best fit is the horizontal axis 
+ of the plot. A residual plot helps us assess the fit of a regression line. If its pattern in the plot is an unstructured horizontal band centered at zero (the centre of the residuals), then the regression
+ line fits the data well. If its pattern has a curve, then the relationship is non-linear rather than linear; hence, a straight line is not a good model for such relationshp. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pictures/4.5.1.png}
+\end{figure}
+
+\subsubsection{Formula for Residual}
+\begin{equation}
+    \text{Residual} = \sum (y - y_{est})
+\end{equation}
