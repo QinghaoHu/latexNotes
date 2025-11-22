@@ -44,6 +44,7 @@ The closet point which light can still have enough energy to escape is called **
 
 The distance from the singularity to the event horizon is the Schwarzschild Radius (Rs)
 
+__Here is the equation solving for $R_s$__
 $$
 E_{m1} = E_{m2}\\
 0 = E_{k} + E_g\\

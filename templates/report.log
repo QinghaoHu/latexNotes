@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.9.14)  4 OCT 2025 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  14 NOV 2025 11:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -812,9 +812,7 @@ Package: paracol 2018/12/31 v1.35
 \pcol@everyvbox=\toks47
 )
 \c@theorem=\count373
- (./report.aux
-No file chapters/chapter1.aux.
-)
+ (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -920,15 +918,15 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29670 strings out of 476034
- 594575 string characters out of 5792864
- 1852388 words of memory out of 6000000
- 49631 multiletter control sequences out of 15000+600000
+ 29667 strings out of 476041
+ 594511 string characters out of 5793174
+ 1853388 words of memory out of 6000000
+ 49629 multiletter control sequences out of 15000+600000
  518444 words of font info for 55 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,6n,96p,512b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on report.pdf (2 pages, 35632 bytes).
+Output written on report.pdf (2 pages, 36096 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
