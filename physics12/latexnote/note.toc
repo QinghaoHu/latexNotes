@@ -105,3 +105,5 @@
 \contentsline {section}{\numberline {3.11}Escape from a Gravational Field}{47}{section.3.11}%
 \contentsline {subsubsection}{Solve for Escape Velocity}{47}{section*.17}%
 \contentsline {subsubsection}{Potential Communication Question}{47}{section*.18}%
+\contentsline {chapter}{\numberline {4}Electricity and Magnetism}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Review of Electrostatics}{50}{section.4.1}%

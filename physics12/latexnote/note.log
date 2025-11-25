@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  15 NOV 2025 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  23 NOV 2025 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,7 +820,7 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 \c@theorem=\count373
- (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux))
+ (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/c4/chapter4.aux))
 \openout1 = `note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
@@ -901,11 +901,11 @@ Package hyperref Info: Link coloring OFF on input line 114.
 \openout4 = `note.out'.
 
 \c@lstlisting=\count380
-LaTeX Font Info:    Trying to load font information for U+msa on input line 117.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 118.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 117.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 118.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -922,217 +922,121 @@ l.43 ... non-inertial F.O.R}{21}{subsection.2.2.1}
 \openout5 = `note.toc'.
 
  [3]
-\openout2 = `chapters/chapter3.aux'.
+\openout2 = `chapters/c4/chapter4.aux'.
 
- (./chapters/chapter3.tex
-Chapter 3.
-(./chapters/c3/section3.1.tex
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 4.
+ (./chapters/c4/chapter4.tex
+Chapter 4.
+[49
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 34.
-[31
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-) (./chapters/c3/section3.2.tex [32{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./chapters/c3/section3.3.tex [33]) (./chapters/c3/section3.4.tex [34]
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
-<graph/Hooke's Law.png, id=392, 843.15pt x 546.04pt>
-File: graph/Hooke's Law.png Graphic file (type png)
-<use graph/Hooke's Law.png>
-Package pdftex.def Info: graph/Hooke's Law.png  used on input line 37.
-(pdftex.def)             Requested size: 234.8775pt x 152.10695pt.
-<graph/elastic Potential energy.png, id=393, 442.65375pt x 248.93pt>
-File: graph/elastic Potential energy.png Graphic file (type png)
-<use graph/elastic Potential energy.png>
-Package pdftex.def Info: graph/elastic Potential energy.png  used on input line 64.
-(pdftex.def)             Requested size: 234.8775pt x 132.088pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35 <./graph/Hooke's Law.png (PNG copy)>]) (./chapters/c3/section3.5.tex [36 <./graph/elastic Potential energy.png (PNG copy)>]
-<graph/SHM.png, id=417, 940.51375pt x 447.6725pt>
-File: graph/SHM.png Graphic file (type png)
-<use graph/SHM.png>
-Package pdftex.def Info: graph/SHM.png  used on input line 14.
-(pdftex.def)             Requested size: 328.82707pt x 156.51694pt.
-<FBD/FBD1.png, id=418, 305.14pt x 400.49625pt>
-File: FBD/FBD1.png Graphic file (type png)
-<use FBD/FBD1.png>
-Package pdftex.def Info: FBD/FBD1.png  used on input line 25.
-(pdftex.def)             Requested size: 93.94957pt x 123.30922pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-[37
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.14}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.54     \item B
-                ungee jumping <./graph/SHM.png (PNG copy)> <./FBD/FBD1.png (PNG copy)>]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.15}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.64 \end{gather}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.64 \end{gather}
-                 ) (./chapters/c3/section3.6.tex [38
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.19}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1 \newpage
-            
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.20}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1 \newpage
-            ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-) (./chapters/c3/section3.7.tex [39]
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-<graph/3.7.1.png, id=453, 561.09625pt x 297.11pt>
-File: graph/3.7.1.png Graphic file (type png)
-<use graph/3.7.1.png>
-Package pdftex.def Info: graph/3.7.1.png  used on input line 17.
-(pdftex.def)             Requested size: 328.82707pt x 174.11919pt.
-[40 <./graph/3.7.1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
-
- []
-
-) (./chapters/c3/section3.8.tex [41]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-) (./chapters/c3/section3.9.tex [43]
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 7.
-) (./chapters/c3/section3.10.tex [44]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-<graph/3.10.1.png, id=496, 1430.34375pt x 775.89874pt>
-File: graph/3.10.1.png Graphic file (type png)
-<use graph/3.10.1.png>
-Package pdftex.def Info: graph/3.10.1.png  used on input line 21.
-(pdftex.def)             Requested size: 281.85587pt x 152.89201pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-[45 <./graph/3.10.1.png (PNG copy)>] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-[47])) [48] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux))
+] (./chapters/c4/section4.1.tex)) [50] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/c4/chapter4.aux))
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 24C1E75C566F8CC04E13C8E2F9B70836;5625.
+(rerunfilecheck)             Checksum: CABC9D5F1600E8C8259820B4BFEFD922;356.
  ) 
 Here is how much of TeX's memory you used:
- 30838 strings out of 476041
- 621015 string characters out of 5793174
+ 30238 strings out of 476041
+ 608677 string characters out of 5793174
  1873388 words of memory out of 6000000
- 50518 multiletter control sequences out of 15000+600000
- 522709 words of font info for 71 fonts, out of 8000000 for 9000
+ 50061 multiletter control sequences out of 15000+600000
+ 521362 words of font info for 67 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,13n,96p,520b,1091s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,96p,520b,484s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.3.11} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.10.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.10.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.10} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.9.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.9} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.8.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.8.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.8.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.8} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.7.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.5.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.5.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.5.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.4.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{subsection.2.7.2} has been referenced but does not exist, replaced by a fixed one
 
@@ -1325,11 +1229,11 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on note.pdf (22 pages, 1119717 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on note.pdf (6 pages, 87779 bytes).
 PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 210 named destinations out of 1000 (max. 500000)
- 435 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

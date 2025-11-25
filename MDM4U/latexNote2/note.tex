@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{memoir}
+\documentclass[10pt, a4paper]{report}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -12,21 +12,24 @@
 \usepackage{xcolor}
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{indentfirst}
-\usepackage[most]{tcolorbox}
+% \usepackage[most]{tcolorbox}
 \usepackage{blindtext}
 \usepackage{multicol}
 \usepackage{paracol}
 \usepackage{amsthm}
+\usepackage{titlesec}
 
 
 % --- Page Setup ---
-\setlength{\columnsep}{0.5cm}
-\geometry{margin=1in}
+\setlength{\columnsep}{0.6cm}
+\geometry{margin=0.6in}
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Qinghao Hu}
-\lhead{MDM4U}
-\cfoot{\thepage}
+\rhead{Hu}
+\lhead{Mathematics of Data Management}
+\rfoot{\thepage}
+
+
 
 % --- Colored Example Box (orange) ---
 \newtheoremstyle{bluehead}        % name
@@ -60,7 +63,7 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
-\setsecnumdepth{subsection}
+% \setsecnumdepth{subsection}
 
 
 
@@ -91,7 +94,7 @@
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/c5/chapter}
+\includeonly{chapters/c5/chapter}
 
 \begin{document}
 
@@ -99,7 +102,7 @@
 \tableofcontents
 \newpage
 
-% \include{chapters/c5/chapter}
+\include{chapters/c5/chapter}
 
 
 \end{document}

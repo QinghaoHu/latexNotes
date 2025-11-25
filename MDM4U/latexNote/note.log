@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  22 NOV 2025 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  22 NOV 2025 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/qinghaohu/course/latexNotes/templates/report
-(/home/qinghaohu/course/latexNotes/templates/report.tex
+**/home/qinghaohu/course/latexNotes/MDM4U/latexNote/note
+(/home/qinghaohu/course/latexNotes/MDM4U/latexNote/note.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
@@ -407,11 +407,22 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks31
+\thm@bodyfont=\toks32
+\thm@headfont=\toks33
+\thm@notefont=\toks34
+\thm@headpunct=\toks35
+\thm@preskip=\skip193
+\thm@postskip=\skip194
+\thm@headsep=\skip195
+\dth@everypar=\toks36
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks31
+\KV@toks@=\toks37
 ) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
@@ -426,18 +437,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen257
 \Gm@layouthoffset=\dimen258
 \Gm@layoutvoffset=\dimen259
-\Gm@dimlist=\toks32
+\Gm@dimlist=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip193
-\f@nch@O@elh=\skip194
-\f@nch@O@erh=\skip195
-\f@nch@O@olh=\skip196
-\f@nch@O@orh=\skip197
-\f@nch@O@elf=\skip198
-\f@nch@O@erf=\skip199
-\f@nch@O@olf=\skip256
-\f@nch@O@orf=\skip257
+\f@nch@headwidth=\skip196
+\f@nch@O@elh=\skip197
+\f@nch@O@erh=\skip198
+\f@nch@O@olh=\skip199
+\f@nch@O@orh=\skip256
+\f@nch@O@elf=\skip257
+\f@nch@O@erf=\skip258
+\f@nch@O@olf=\skip259
+\f@nch@O@orf=\skip260
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -454,7 +465,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen260
 \Gin@req@width=\dimen261
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks33
+\pgfutil@everybye=\toks39
 \pgfutil@tempdima=\dimen262
 \pgfutil@tempdimb=\dimen263
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -466,10 +477,10 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks42
 ))
 \pgf@x=\dimen264
 \pgf@y=\dimen265
@@ -487,9 +498,9 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \c@pgf@countb=\count326
 \c@pgf@countc=\count327
 \c@pgf@countd=\count328
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
 \pgf@sys@id@count=\count329
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -527,9 +538,9 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \pgfmath@dimen=\dimen274
 \pgfmath@count=\count332
 \pgfmath@box=\box59
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count333
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -612,8 +623,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen301
 \pgffor@skip=\dimen302
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -648,9 +659,9 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip258
+\labelindent=\skip261
 \enit@outerparindent=\dimen312
-\enit@toks=\toks45
+\enit@toks=\toks51
 \enit@inbox=\box69
 \enit@count@id=\count346
 \enitdp@description=\count347
@@ -760,7 +771,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip259
+\Hy@SectionHShift=\skip262
 ) (/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
 
@@ -790,47 +801,47 @@ Package zref Info: New property: page on input line 769.
 \c@abspage=\count362
 Package zref Info: New property: abspage on input line 65.
 )
-\mdf@templength=\skip260
+\mdf@templength=\skip263
 \c@mdf@globalstyle@cnt=\count363
-\mdf@skipabove@length=\skip261
-\mdf@skipbelow@length=\skip262
-\mdf@leftmargin@length=\skip263
-\mdf@rightmargin@length=\skip264
-\mdf@innerleftmargin@length=\skip265
-\mdf@innerrightmargin@length=\skip266
-\mdf@innertopmargin@length=\skip267
-\mdf@innerbottommargin@length=\skip268
-\mdf@splittopskip@length=\skip269
-\mdf@splitbottomskip@length=\skip270
-\mdf@outermargin@length=\skip271
-\mdf@innermargin@length=\skip272
-\mdf@linewidth@length=\skip273
-\mdf@innerlinewidth@length=\skip274
-\mdf@middlelinewidth@length=\skip275
-\mdf@outerlinewidth@length=\skip276
-\mdf@roundcorner@length=\skip277
-\mdf@footenotedistance@length=\skip278
-\mdf@userdefinedwidth@length=\skip279
-\mdf@needspace@length=\skip280
-\mdf@frametitleaboveskip@length=\skip281
-\mdf@frametitlebelowskip@length=\skip282
-\mdf@frametitlerulewidth@length=\skip283
-\mdf@frametitleleftmargin@length=\skip284
-\mdf@frametitlerightmargin@length=\skip285
-\mdf@shadowsize@length=\skip286
-\mdf@extratopheight@length=\skip287
-\mdf@subtitleabovelinewidth@length=\skip288
-\mdf@subtitlebelowlinewidth@length=\skip289
-\mdf@subtitleaboveskip@length=\skip290
-\mdf@subtitlebelowskip@length=\skip291
-\mdf@subtitleinneraboveskip@length=\skip292
-\mdf@subtitleinnerbelowskip@length=\skip293
-\mdf@subsubtitleabovelinewidth@length=\skip294
-\mdf@subsubtitlebelowlinewidth@length=\skip295
-\mdf@subsubtitleaboveskip@length=\skip296
-\mdf@subsubtitlebelowskip@length=\skip297
-\mdf@subsubtitleinneraboveskip@length=\skip298
-\mdf@subsubtitleinnerbelowskip@length=\skip299
+\mdf@skipabove@length=\skip264
+\mdf@skipbelow@length=\skip265
+\mdf@leftmargin@length=\skip266
+\mdf@rightmargin@length=\skip267
+\mdf@innerleftmargin@length=\skip268
+\mdf@innerrightmargin@length=\skip269
+\mdf@innertopmargin@length=\skip270
+\mdf@innerbottommargin@length=\skip271
+\mdf@splittopskip@length=\skip272
+\mdf@splitbottomskip@length=\skip273
+\mdf@outermargin@length=\skip274
+\mdf@innermargin@length=\skip275
+\mdf@linewidth@length=\skip276
+\mdf@innerlinewidth@length=\skip277
+\mdf@middlelinewidth@length=\skip278
+\mdf@outerlinewidth@length=\skip279
+\mdf@roundcorner@length=\skip280
+\mdf@footenotedistance@length=\skip281
+\mdf@userdefinedwidth@length=\skip282
+\mdf@needspace@length=\skip283
+\mdf@frametitleaboveskip@length=\skip284
+\mdf@frametitlebelowskip@length=\skip285
+\mdf@frametitlerulewidth@length=\skip286
+\mdf@frametitleleftmargin@length=\skip287
+\mdf@frametitlerightmargin@length=\skip288
+\mdf@shadowsize@length=\skip289
+\mdf@extratopheight@length=\skip290
+\mdf@subtitleabovelinewidth@length=\skip291
+\mdf@subtitlebelowlinewidth@length=\skip292
+\mdf@subtitleaboveskip@length=\skip293
+\mdf@subtitlebelowskip@length=\skip294
+\mdf@subtitleinneraboveskip@length=\skip295
+\mdf@subtitleinnerbelowskip@length=\skip296
+\mdf@subsubtitleabovelinewidth@length=\skip297
+\mdf@subsubtitlebelowlinewidth@length=\skip298
+\mdf@subsubtitleaboveskip@length=\skip299
+\mdf@subsubtitlebelowskip@length=\skip300
+\mdf@subsubtitleinneraboveskip@length=\skip301
+\mdf@subsubtitleinnerbelowskip@length=\skip302
  (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
@@ -839,33 +850,33 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@splitbox@one=\box73
 \mdf@splitbox@two=\box74
 \mdf@splitbox@save=\box75
-\mdfsplitboxwidth=\skip300
-\mdfsplitboxtotalwidth=\skip301
-\mdfsplitboxheight=\skip302
-\mdfsplitboxdepth=\skip303
-\mdfsplitboxtotalheight=\skip304
-\mdfframetitleboxwidth=\skip305
-\mdfframetitleboxtotalwidth=\skip306
-\mdfframetitleboxheight=\skip307
-\mdfframetitleboxdepth=\skip308
-\mdfframetitleboxtotalheight=\skip309
-\mdffootnoteboxwidth=\skip310
-\mdffootnoteboxtotalwidth=\skip311
-\mdffootnoteboxheight=\skip312
-\mdffootnoteboxdepth=\skip313
-\mdffootnoteboxtotalheight=\skip314
-\mdftotallinewidth=\skip315
-\mdfboundingboxwidth=\skip316
-\mdfboundingboxtotalwidth=\skip317
-\mdfboundingboxheight=\skip318
-\mdfboundingboxdepth=\skip319
-\mdfboundingboxtotalheight=\skip320
-\mdf@freevspace@length=\skip321
-\mdf@horizontalwidthofbox@length=\skip322
-\mdf@verticalmarginwhole@length=\skip323
-\mdf@horizontalspaceofbox=\skip324
-\mdfsubtitleheight=\skip325
-\mdfsubsubtitleheight=\skip326
+\mdfsplitboxwidth=\skip303
+\mdfsplitboxtotalwidth=\skip304
+\mdfsplitboxheight=\skip305
+\mdfsplitboxdepth=\skip306
+\mdfsplitboxtotalheight=\skip307
+\mdfframetitleboxwidth=\skip308
+\mdfframetitleboxtotalwidth=\skip309
+\mdfframetitleboxheight=\skip310
+\mdfframetitleboxdepth=\skip311
+\mdfframetitleboxtotalheight=\skip312
+\mdffootnoteboxwidth=\skip313
+\mdffootnoteboxtotalwidth=\skip314
+\mdffootnoteboxheight=\skip315
+\mdffootnoteboxdepth=\skip316
+\mdffootnoteboxtotalheight=\skip317
+\mdftotallinewidth=\skip318
+\mdfboundingboxwidth=\skip319
+\mdfboundingboxtotalwidth=\skip320
+\mdfboundingboxheight=\skip321
+\mdfboundingboxdepth=\skip322
+\mdfboundingboxtotalheight=\skip323
+\mdf@freevspace@length=\skip324
+\mdf@horizontalwidthofbox@length=\skip325
+\mdf@verticalmarginwhole@length=\skip326
+\mdf@horizontalspaceofbox=\skip327
+\mdfsubtitleheight=\skip328
+\mdfsubsubtitleheight=\skip329
 \c@mdfcountframes=\count364
 
 ****** mdframed patching \endmdf@trivlist
@@ -877,8 +888,6 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \c@mdf@env@ii=\count367
 \c@mdf@zref@counter=\count368
 Package zref Info: New property: mdf@pagevalue on input line 895.
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2023/03/17 version 6.0.3 text color boxes
  (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -940,7 +949,7 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.0.3'
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count377
 \lst@gtempboxa=\box88
-\lst@token=\toks46
+\lst@token=\toks52
 \lst@length=\count378
 \lst@currlwidth=\dimen320
 \lst@column=\count379
@@ -1021,8 +1030,8 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \page@free=\dimen326
 \premulticols=\dimen327
 \postmulticols=\dimen328
-\multicolsep=\skip327
-\multicolbaselineskip=\skip328
+\multicolsep=\skip330
+\multicolbaselineskip=\skip331
 \partial@page=\box91
 \last@line=\box92
 \maxbalancingoverflow=\dimen329
@@ -1092,8 +1101,8 @@ Package: paracol 2018/12/31 v1.35
 \pcol@textfloatsep=\dimen335
 \pcol@lrmargin=\dimen336
 \pagerim=\dimen337
-\pcol@topskip=\skip329
-\belowfootnoteskip=\skip330
+\pcol@topskip=\skip332
+\belowfootnoteskip=\skip333
 \pcol@topfnotes=\box135
 \pcol@prespan=\box136
 \pcol@rightpage=\box137
@@ -1101,42 +1110,37 @@ Package: paracol 2018/12/31 v1.35
 \pcol@tempboxa=\box139
 \pcol@tempboxb=\box140
 \pcol@colorins=\insert247
-\pcol@everyvbox=\toks47
-) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks48
-\thm@bodyfont=\toks49
-\thm@headfont=\toks50
-\thm@notefont=\toks51
-\thm@headpunct=\toks52
-\thm@preskip=\skip331
-\thm@postskip=\skip332
-\thm@headsep=\skip333
-\dth@everypar=\toks53
+\pcol@everyvbox=\toks53
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 \c@theorem=\count424
 \c@example=\count425
- (./report.aux)
-\openout1 = `report.aux'.
+ (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/c5/chapter.aux))
+\openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1161,7 +1165,7 @@ LaTeX Font Info:    ... okay on input line 96.
 * \footskip=25.29494pt
 * \marginparwidth=117.0pt
 * \marginparsep=7.0pt
-* \columnsep=14.22636pt
+* \columnsep=17.07182pt
 * \skip\footins=12.0pt plus 4.0pt minus 4.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1191,42 +1195,160 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 96.
- (./report.out) (./report.out)
+Package hyperref Info: Link coloring OFF on input line 159.
+ (./note.out) (./note.out)
 \@outlinefile=\write5
-\openout5 = `report.out'.
+\openout5 = `note.out'.
 
 \c@lstlisting=\count432
-LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 163.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 163.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./report.toc) [1
+) (./note.toc [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2]
+\openout2 = `chapters/c5/chapter.aux'.
+
+ (./chapters/c5/chapter.tex [23
+
+
+
+
+
+
+] (./chapters/c5/section1.tex
+Package mdframed Info: mdframed works in twoside mode on input line 4.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 4.
+Package mdframed Info: mdframed works in twoside mode on input line 19.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 19.
+) [24{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./chapters/c5/section2.tex
+<pictures/5.2.1.png, id=157, 1031.855pt x 1229.59375pt>
+File: pictures/5.2.1.png Graphic file (type png)
+<use pictures/5.2.1.png>
+Package pdftex.def Info: pictures/5.2.1.png  used on input line 8.
+(pdftex.def)             Requested size: 407.66833pt x 485.7874pt.
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [25 <./pictures/5.2.1.png (PNG copy)>])) [26]
 \tf@toc=\write6
-\openout6 = `report.toc'.
+\openout6 = `note.toc'.
 
- (./report.aux)
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B2EF697AA2E75CA98A438B9330A4CF02;84.
+ (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/c5/chapter.aux))
+Package rerunfilecheck Info: File `note.out' has not changed.
+(rerunfilecheck)             Checksum: C94FB8FFECC3DE8A30BCF586414D9D3A;597.
  ) 
 Here is how much of TeX's memory you used:
- 32983 strings out of 476041
- 640908 string characters out of 5793174
- 1857388 words of memory out of 6000000
- 52930 multiletter control sequences out of 15000+600000
- 520452 words of font info for 64 fonts, out of 8000000 for 9000
+ 33350 strings out of 476041
+ 649565 string characters out of 5793174
+ 1872388 words of memory out of 6000000
+ 53200 multiletter control sequences out of 15000+600000
+ 522658 words of font info for 71 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,96p,512b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on report.pdf (1 page, 41801 bytes).
+ 84i,12n,96p,520b,1021s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.4.8} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.9} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.8} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb>
+Output written on note.pdf (6 pages, 422877 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 232 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

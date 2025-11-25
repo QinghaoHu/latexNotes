@@ -1,7 +1,7 @@
 # Black Holes 
 [Kick here to review teacher's note](https://classroom.google.com/w/NzM2OTg1NjAzNDk2/t/all)
 ## Definitions
-### Intermediate to Large-Mass stars:
+1. ### Intermediate to Large-Mass stars:
 The core temperature is high enough to produce elements heavier than carbon. The fusion process continues will until **iron** is produced. This causes the fusion process to stop abruptly 
 
 - Star's temperature decreases very rapidly. 
@@ -9,7 +9,7 @@ The core temperature is high enough to produce elements heavier than carbon. The
 - Then, they collide with the core, which causes the fusion process to begin again. (Heavier elements are produced)
 - The gas then **rebounds** from the core and get flung out into space -> this is called a supernova
 
-### Once the fusion stops:
+2. ### Once the fusion stops:
 #### If the star is imtermediate size:
 - The force of gravity in the core is so strong that electrons are pulled out of their oribts. 
 - Electrons then combine with protons in the nucleus, to form neutrons -> A neutron star is formed
@@ -18,7 +18,7 @@ The core temperature is high enough to produce elements heavier than carbon. The
 - All of the mass at the core get drawn into a **singularity** 
 A block hole formed
 
-### Does blackhole have a stronger gravitational field tha the star it came from?
+3. s### Does blackhole have a stronger gravitational field tha the star it came from?
 Depends on the position!
 #### If you stay outside the original star
 - The star had a stronger grav.field because a black hole has less total mass than the original .

@@ -1,0 +1,32 @@
+\section{Geometric Distributions}
+\subsection{Example}
+\begin{example}
+Here is an example from our teacher's note:
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=1.0\textwidth]{pictures/5.4.1.png}
+    \end{figure}
+
+\end{example}
+
+\subsection{Definitions}
+\begin{definition}
+    The distribution of a discrete random variable $X$ is a geometric probability distribution if:
+    \begin{enumerate}
+        \item each trail of this experiment is \textbf{INDEPENDENT}
+        \item the outcome of each trial can be categorized into \textbf{Successful} or failed outcomes
+        \item the random varaible $X$ represents the number of failed outcomes \textbf{before} a success occurs
+    \end{enumerate}
+\end{definition}
+
+\noindent\hrulefill
+
+\begin{theorem}
+    If the distribution of X is a geometric probability distribution then:
+    \begin{gather}
+        P(x) = (1 - p)^x p\\
+        E(x) = \frac{1 - p}{p}\\
+        \sigma = \frac{\sqrt{1 - p}}{p}
+    \end{gather}
+\end{theorem}
+\noindent\hrulefill

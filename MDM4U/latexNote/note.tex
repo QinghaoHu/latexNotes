@@ -1,4 +1,4 @@
-\documentclass[10pt]{report}
+\documentclass[10pt, a4paper]{memoir}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -11,7 +11,7 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage[framemethod=tikz]{mdframed}
-\usepackage{indentfirst}
+% \usepackage{indentfirst}
 \usepackage[most]{tcolorbox}
 \usepackage{blindtext}
 \usepackage{multicol}
@@ -35,6 +35,12 @@
   showstringspaces=false
 }
 
+\makeatletter
+\renewcommand{\@seccntformat}[1]{%
+  \textcolor{red}{\S}\csname the#1\endcsname\quad}
+\makeatother
+
+
 % --- Page Setup ---
 \setlength{\columnsep}{0.6cm}
 \geometry{margin=1in}
@@ -44,15 +50,37 @@
 \lhead{MDM4U}
 \cfoot{\thepage}
 
+\newtheoremstyle{bluehead}        % name
+  {\topsep}                        % space above
+  {\topsep}                        % space below
+  {\itshape}                       % body font
+  {}                               % indent
+  {\color{blue}\bfseries}          % HEAD FONT (blue & bold)
+  {}                               % punctuation after name
+  {1em}                            % space after head
+  {}       
+
+  \newtheoremstyle{redhead}        % name
+  {\topsep}                        % space above
+  {\topsep}                        % space below
+  {\itshape}                       % body font
+  {}                               % indent
+  {\color{red}\bfseries}          % HEAD FONT (blue & bold)
+  {}                               % punctuation after name
+  {1em}                            % space after head
+  {}       
 % --- Theorem Environments ---
+\theoremstyle{bluehead}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{redhead}
+\newtheorem{example}{Example}
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
-\newtheorem{example}{Example}
+
 
 % --- Custom Commands ---
 \newcommand{\R}{\mathbb{R}}
@@ -126,12 +154,12 @@
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/chapter4}
+\includeonly{chapters/c5/chapter}
 
 \begin{document}
 
 \maketitle
-\newpage
+% \newpage
 \tableofcontents
 \newpage
 
@@ -141,6 +169,8 @@
 \include{chapters/chapter3}
 
 \include{chapters/chapter4}
+
+\include{chapters/c5/chapter}
 \end{document}
 
 % Referenc

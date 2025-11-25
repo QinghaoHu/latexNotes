@@ -1,0 +1,38 @@
+\section{Hypergeometric Distributions}
+\subsection{Example}
+\begin{example}
+    
+    An example from Teacher's note!
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=1.0\textwidth]{pictures/5.5.1.png}
+    \end{figure}
+
+\end{example}
+
+\subsection{Definitions}
+\begin{definition}
+    The distribution of a discrete random variable X is a hypergeometric probability distribution if:
+    \begin{enumerate}
+        \item the probability experiment is repeated a \textbf{fixed} number of times
+        \item the outcome of each trial can be categorized into \textbf{success} or failed outcomes
+        \item the random varaible $X$ represents the number of \textbf{successes}
+        \item each trial of experiment is \textbf{dependant}
+    \end{enumerate}
+\end{definition}
+
+\noindent\hrulefill
+
+\begin{theorem}
+    If the distribution of $X$ is hypergeometric with $n$ dependent trials, and $a$ represents the number of successful
+outcomes initially among a total of $N$ possible outcomes in the beginning, then
+\begin{gather}
+    P(x) = \frac{
+        \binom{a}{x} \binom{N - a}{n - x}
+    }{
+        \binom{N}{n}
+    } \\
+    E(x) = \frac{aN}{n}\\
+    \sigma = \sqrt{n(\frac{a}{N})(\frac{N - a}{N})(\frac{N - n}{N - 1})}
+\end{gather}
+\end{theorem}

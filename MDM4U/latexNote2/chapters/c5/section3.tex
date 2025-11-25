@@ -1,0 +1,45 @@
+\section{Binnomial Distributions}
+\subsection{Example}
+\begin{example}
+    A probability experiment involves rolling a regular 6-sided die three times. Let the random variable X represent all
+possible number of 4’s rolled. Complete the tree diagram, fill in the blanks, then show the distribution of X in a
+table.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\textwidth]{pictures/5.3.1.png}
+\end{figure}
+
+This question is a typical example of \textbf{Binominal Distribution}
+\end{example}
+
+\noindent\hrulefill
+
+\newpage
+\subsection{Definitions}
+% \noindent\hrulefill
+\begin{definition}
+    The distribution of a discrete random variable $X$ is a binomial probability distribution if:
+    \begin{enumerate}
+        \item The probability experiment is repeated a FIXED number of times (In the example, $n = 3$)
+        \item The outcome of each trial can be CATEGORIZED into successful or failed outcomes
+        \item The random varialbe $X$ represents the number of \textbf{successes}
+        \item Each trial of the experiment is \textbf{Independent}
+    \end{enumerate}
+\end{definition}
+
+\noindent\hrulefill
+
+\begin{theorem}
+    If the distribution of $X$ is a binominal probability, $N$ is the number of independent trials of the experiment and $p$ is the probability of 
+    success of each independent trail, then:
+    \begin{gather}
+        P(x) = \binom{n}{x}p^x(1-p)^{n - x}\\
+        E(x) = np\\
+        \sigma = \sqrt{np(1 - p)}
+    \end{gather}
+\end{theorem}
+
+\begin{remark}
+    The binominal distribution is only work for Discrete random variable!
+\end{remark}
