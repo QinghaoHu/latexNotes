@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  28 NOV 2025 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  27 NOV 2025 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/qinghaohu/course/latexNotes/MDM4U/latexNote2/note
-(/home/qinghaohu/course/latexNotes/MDM4U/latexNote2/note.tex
+**/home/qinghaohu/course/latexNotes/ProblemSolving/note
+(/home/qinghaohu/course/latexNotes/ProblemSolving/note.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
@@ -714,7 +714,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 )
 \c@theorem=\count356
 \c@example=\count357
- (./note.aux)
+ (./note.aux (./chapters/techniques/chapter.aux))
 \openout1 = `note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -815,40 +815,55 @@ l.103 \newpage
                [1
 
 ]
-\openout2 = `chapters/c6/chapter.aux'.
+\openout2 = `chapters/techniques/chapter.aux'.
 
- (./chapters/c6/chapter.tex
+ (./chapters/techniques/chapter.tex
 Chapter 1.
 [2
 
 
+] (./chapters/techniques/c1.tex) [3] (./chapters/techniques/c2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
-] (./chapters/c6/section1.tex)) [3] (./note.aux (./chapters/c5/chapter.aux) (./chapters/c6/chapter.aux))
+ []
 
-Package rerunfilecheck Warning: File `note.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `note.out':
-(rerunfilecheck)             Before: B2EF697AA2E75CA98A438B9330A4CF02;84
-(rerunfilecheck)             After:  D80E72E2850C37EF004553E76885C3BF;414.
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+)) [4] (./note.aux (./chapters/techniques/chapter.aux))
+Package rerunfilecheck Info: File `note.out' has not changed.
+(rerunfilecheck)             Checksum: FD9C62F455D0F3BF817A784863F25A14;712.
  ) 
 Here is how much of TeX's memory you used:
- 23469 strings out of 476041
- 433570 string characters out of 5793174
- 1855388 words of memory out of 6000000
- 43500 multiletter control sequences out of 15000+600000
- 522374 words of font info for 70 fonts, out of 8000000 for 9000
+ 23467 strings out of 476041
+ 433530 string characters out of 5793174
+ 1857388 words of memory out of 6000000
+ 43492 multiletter control sequences out of 15000+600000
+ 521669 words of font info for 68 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,89p,517b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.1} has been referenced but does not exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on note.pdf (4 pages, 110276 bytes).
+ 84i,11n,89p,515b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on note.pdf (5 pages, 82904 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  22 NOV 2025 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  28 NOV 2025 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -879,157 +879,66 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2023/03/17 version 6.0.3 text color boxes
- (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
- (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box76
-\tcb@upperbox=\box77
-\tcb@lowerbox=\box78
-\tcb@phantombox=\box79
-\c@tcbbreakpart=\count369
-\c@tcblayer=\count370
-\c@tcolorbox@number=\count371
-\tcb@temp=\box80
-\tcb@temp=\box81
-\tcb@temp=\box82
-\tcb@temp=\box83
- (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '6.0.3'
-\c@tcbrastercolumn=\count372
-\c@tcbrasterrow=\count373
-\c@tcbrasternum=\count374
-\c@tcbraster=\count375
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
-Package: tikzfill.image 2022/07/20 v1.0.0 Image filling library for TikZ
- (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
-Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
-) (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
-File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
-\l__tikzfill_img_box=\box84
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.3'
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
-Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
-)
-Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box85
-\tcb@totalupperbox=\box86
-\tcb@totallowerbox=\box87
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '6.0.3'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '6.0.3'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.3'
-\tcbfitdim=\dimen317
-\tcb@lowerfitdim=\dimen318
-\tcb@upperfitdim=\dimen319
-\tcb@cur@hbadness=\count376
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count377
-\lst@gtempboxa=\box88
-\lst@token=\toks46
-\lst@length=\count378
-\lst@currlwidth=\dimen320
-\lst@column=\count379
-\lst@pos=\count380
-\lst@lostspace=\dimen321
-\lst@width=\dimen322
-\lst@newlines=\count381
-\lst@lineno=\count382
-\lst@maxwidth=\dimen323
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count383
-\lst@skipnumbers=\count384
-\lst@framebox=\box89
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-))
-\c@tcblisting=\count385
-)) (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
-Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '6.0.3'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '6.0.3'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '6.0.3'
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
-File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '6.0.3'
-)) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count386
-\c@Blindtext=\count387
-\c@blind@countparstart=\count388
-\blind@countxx=\count389
-\blindtext@numBlindtext=\count390
-\blind@countyy=\count391
-\c@blindlist=\count392
-\c@blindlistlevel=\count393
-\c@blindlist@level=\count394
-\blind@listitem=\count395
-\c@blind@listcount=\count396
-\c@blind@levelcount=\count397
-\blind@mathformula=\count398
-\blind@Mathformula=\count399
-\c@blind@randomcount=\count400
-\c@blind@randommax=\count401
-\c@blind@pangramcount=\count402
-\c@blind@pangrammax=\count403
+\c@blindtext=\count369
+\c@Blindtext=\count370
+\c@blind@countparstart=\count371
+\blind@countxx=\count372
+\blindtext@numBlindtext=\count373
+\blind@countyy=\count374
+\c@blindlist=\count375
+\c@blindlistlevel=\count376
+\c@blindlist@level=\count377
+\blind@listitem=\count378
+\c@blind@listcount=\count379
+\c@blind@levelcount=\count380
+\blind@mathformula=\count381
+\blind@Mathformula=\count382
+\c@blind@randomcount=\count383
+\c@blind@randommax=\count384
+\c@blind@pangramcount=\count385
+\c@blind@pangrammax=\count386
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count404
-\mult@box=\box90
-\multicol@leftmargin=\dimen324
-\c@unbalance=\count405
-\c@collectmore=\count406
-\doublecol@number=\count407
-\multicoltolerance=\count408
-\multicolpretolerance=\count409
-\full@width=\dimen325
-\page@free=\dimen326
-\premulticols=\dimen327
-\postmulticols=\dimen328
+\c@tracingmulticols=\count387
+\mult@box=\box76
+\multicol@leftmargin=\dimen317
+\c@unbalance=\count388
+\c@collectmore=\count389
+\doublecol@number=\count390
+\multicoltolerance=\count391
+\multicolpretolerance=\count392
+\full@width=\dimen318
+\page@free=\dimen319
+\premulticols=\dimen320
+\postmulticols=\dimen321
 \multicolsep=\skip327
 \multicolbaselineskip=\skip328
-\partial@page=\box91
-\last@line=\box92
-\maxbalancingoverflow=\dimen329
-\mult@rightbox=\box93
-\mult@grightbox=\box94
-\mult@firstbox=\box95
-\mult@gfirstbox=\box96
+\partial@page=\box77
+\last@line=\box78
+\maxbalancingoverflow=\dimen322
+\mult@rightbox=\box79
+\mult@grightbox=\box80
+\mult@firstbox=\box81
+\mult@gfirstbox=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
@@ -1052,91 +961,77 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box116
 \@tempa=\box117
 \@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\@tempa=\box125
-\@tempa=\box126
-\@tempa=\box127
-\@tempa=\box128
-\@tempa=\box129
-\@tempa=\box130
-\@tempa=\box131
-\@tempa=\box132
-\c@minrows=\count410
-\c@columnbadness=\count411
-\c@finalcolumnbadness=\count412
-\last@try=\dimen330
-\multicolovershoot=\dimen331
-\multicolundershoot=\dimen332
-\mult@nat@firstbox=\box133
-\colbreak@box=\box134
-\mc@col@check@num=\count413
+\c@minrows=\count393
+\c@columnbadness=\count394
+\c@finalcolumnbadness=\count395
+\last@try=\dimen323
+\multicolovershoot=\dimen324
+\multicolundershoot=\dimen325
+\mult@nat@firstbox=\box119
+\colbreak@box=\box120
+\mc@col@check@num=\count396
 ) (/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2018/12/31 v1.35 
-\pcol@currcol=\count414
-\pcol@nextcol=\count415
-\pcol@ncol=\count416
-\pcol@ncolleft=\count417
-\pcol@page=\count418
-\pcol@basepage=\count419
-\pcol@toppage=\count420
-\pcol@footnotebase=\count421
-\pcol@nfootnotes=\count422
-\pcol@mcid=\count423
-\pcol@prevdepth=\dimen333
-\pcol@colht=\dimen334
-\pcol@textfloatsep=\dimen335
-\pcol@lrmargin=\dimen336
-\pagerim=\dimen337
+\pcol@currcol=\count397
+\pcol@nextcol=\count398
+\pcol@ncol=\count399
+\pcol@ncolleft=\count400
+\pcol@page=\count401
+\pcol@basepage=\count402
+\pcol@toppage=\count403
+\pcol@footnotebase=\count404
+\pcol@nfootnotes=\count405
+\pcol@mcid=\count406
+\pcol@prevdepth=\dimen326
+\pcol@colht=\dimen327
+\pcol@textfloatsep=\dimen328
+\pcol@lrmargin=\dimen329
+\pagerim=\dimen330
 \pcol@topskip=\skip329
 \belowfootnoteskip=\skip330
-\pcol@topfnotes=\box135
-\pcol@prespan=\box136
-\pcol@rightpage=\box137
-\pcol@colorstack@saved=\box138
-\pcol@tempboxa=\box139
-\pcol@tempboxb=\box140
+\pcol@topfnotes=\box121
+\pcol@prespan=\box122
+\pcol@rightpage=\box123
+\pcol@colorstack@saved=\box124
+\pcol@tempboxa=\box125
+\pcol@tempboxb=\box126
 \pcol@colorins=\insert247
-\pcol@everyvbox=\toks47
+\pcol@everyvbox=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks48
-\thm@bodyfont=\toks49
-\thm@headfont=\toks50
-\thm@notefont=\toks51
-\thm@headpunct=\toks52
+\thm@style=\toks47
+\thm@bodyfont=\toks48
+\thm@headfont=\toks49
+\thm@notefont=\toks50
+\thm@headpunct=\toks51
 \thm@preskip=\skip331
 \thm@postskip=\skip332
 \thm@headsep=\skip333
-\dth@everypar=\toks53
+\dth@everypar=\toks52
 )
-\c@theorem=\count424
-\c@example=\count425
+\c@theorem=\count407
+\c@example=\count408
  (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1146,22 +1041,22 @@ LaTeX Font Info:    ... okay on input line 96.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(43.36243pt, 510.78302pt, 43.36243pt)
+* v-part:(T,H,B)=(43.36243pt, 758.32199pt, 43.36243pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-30.06749pt
+* \textwidth=510.78302pt
+* \textheight=758.32199pt
+* \oddsidemargin=-28.90756pt
+* \evensidemargin=-28.90756pt
+* \topmargin=-58.97505pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
 * \marginparwidth=117.0pt
 * \marginparsep=7.0pt
-* \columnsep=14.22636pt
+* \columnsep=17.07182pt
 * \skip\footins=12.0pt plus 4.0pt minus 4.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1174,39 +1069,38 @@ LaTeX Font Info:    ... okay on input line 96.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count426
-\scratchdimen=\dimen338
-\scratchbox=\box141
-\nofMPsegments=\count427
-\nofMParguments=\count428
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count429
-\MPscratchDim=\dimen339
-\MPnumerator=\count430
-\makeMPintoPDFobject=\count431
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count409
+\scratchdimen=\dimen331
+\scratchbox=\box127
+\nofMPsegments=\count410
+\nofMParguments=\count411
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count412
+\MPscratchDim=\dimen332
+\MPnumerator=\count413
+\makeMPintoPDFobject=\count414
+\everyMPtoPDFconversion=\toks54
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 96.
+Package hyperref Info: Link coloring OFF on input line 97.
  (./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-\c@lstlisting=\count432
-LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./report.toc) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
@@ -1215,18 +1109,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: B2EF697AA2E75CA98A438B9330A4CF02;84.
  ) 
 Here is how much of TeX's memory you used:
- 32983 strings out of 476041
- 640908 string characters out of 5793174
- 1857388 words of memory out of 6000000
- 52930 multiletter control sequences out of 15000+600000
+ 26449 strings out of 476041
+ 474842 string characters out of 5793174
+ 1856388 words of memory out of 6000000
+ 46495 multiletter control sequences out of 15000+600000
  520452 words of font info for 64 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,96p,512b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on report.pdf (1 page, 41801 bytes).
+ 84i,11n,89p,512b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on report.pdf (2 pages, 48236 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

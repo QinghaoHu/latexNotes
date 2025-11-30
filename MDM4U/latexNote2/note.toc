@@ -13,3 +13,6 @@
 \contentsline {section}{\numberline {1.5}Hypergeometric Distributions}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Example}{9}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Definitions}{9}{subsection.1.5.2}%
+\contentsline {chapter}{\numberline {1}Normal Distribution}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Normal Distributions}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Definitions}{3}{subsection.1.1.1}%

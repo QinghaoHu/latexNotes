@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{memoir}
+\documentclass[10pt, a4paper]{report}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -17,6 +17,7 @@
 \usepackage{multicol}
 \usepackage{paracol}
 \usepackage{amsthm}
+\usepackage{titlesec}
 
 
 % --- Page Setup ---
@@ -27,6 +28,7 @@
 \rhead{Hu}
 \lhead{Mathematics of Data Management}
 \rfoot{\thepage}
+
 
 
 % --- Colored Example Box (orange) ---
@@ -92,7 +94,7 @@
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/c5/chapter}
+\includeonly{chapters/techniques/chapter}
 
 \begin{document}
 
@@ -100,7 +102,7 @@
 \tableofcontents
 \newpage
 
-% \include{chapters/c5/chapter}
+\include{chapters/techniques/chapter}
 
-$\tfrac{1}{2}$
+
 \end{document}
