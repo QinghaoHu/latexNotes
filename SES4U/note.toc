@@ -45,3 +45,6 @@
 \contentsline {chapter}{\numberline {3}Earth's Material \& Geological Process}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Rock cycle and Identification}{20}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Introduction to rock}{20}{subsection.3.1.1}%
+\contentsline {subsubsection}{Sedimentary Rock}{20}{section*.2}%
+\contentsline {subsubsection}{Metamorphic}{20}{section*.3}%
+\contentsline {subsubsection}{Igneous}{20}{section*.4}%
