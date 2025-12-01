@@ -43,4 +43,5 @@
 \contentsline {subsubsection}{Q3}{18}{section*.13}%
 \contentsline {subsubsection}{Q7}{18}{section*.15}%
 \contentsline {chapter}{\numberline {3}Earth's Material \& Geological Process}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Documentary}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Rock cycle and Identification}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Introduction to rock}{20}{subsection.3.1.1}%

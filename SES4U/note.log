@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  1 DEC 2025 07:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  1 DEC 2025 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -923,7 +923,7 @@ Chapter 3.
 
 
 
-] (./chapters/c3/s1.tex))
+] (./chapters/c3/s2.tex))
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -933,14 +933,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/c3.aux))
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: EDCDD6E03677678EBEA06E7D692D6D49;354.
+(rerunfilecheck)             Checksum: 3D5BF7E477F9BCE6CB364926F13B88C7;621.
  ) 
 Here is how much of TeX's memory you used:
- 29802 strings out of 476041
- 597235 string characters out of 5793174
+ 29793 strings out of 476041
+ 597168 string characters out of 5793174
  1865388 words of memory out of 6000000
  49693 multiletter control sequences out of 15000+600000
- 521211 words of font info for 65 fonts, out of 8000000 for 9000
+ 521518 words of font info for 66 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,96p,506b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1043,10 +1043,10 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on note.pdf (4 pages, 74839 bytes).
+Output written on note.pdf (4 pages, 74512 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
