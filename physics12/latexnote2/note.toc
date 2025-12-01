@@ -1,12 +1,4 @@
 \contentsline {chapter}{\numberline {1}Electricity and Magnetism}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Review of Electronstatics}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Electric Charge}{3}{subsection.1.1.1}%
-\contentsline {subsubsection}{Electron}{3}{section*.2}%
-\contentsline {subsubsection}{Charge of atom}{3}{section*.3}%
-\contentsline {subsubsection}{Coulomb}{3}{section*.4}%
-\contentsline {subsection}{\numberline {1.1.2}Conductors and Insulators}{3}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Different methods of charging}{3}{subsection.1.1.3}%
-\contentsline {subsubsection}{Charging an Object by Friction}{3}{section*.5}%
-\contentsline {subsubsection}{Carging an object by Induced Charge Separation}{4}{section*.6}%
-\contentsline {subsubsection}{Charging by Contact}{4}{section*.7}%
-\contentsline {subsubsection}{Charging by Induction}{4}{section*.8}%
+\contentsline {section}{\numberline {1.1}Coulomb's Law}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Background}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Formula}{3}{subsection.1.1.2}%
