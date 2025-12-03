@@ -376,9 +376,9 @@ INPUT ./chapters/c3.tex
 INPUT chapters/c3.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./chapters/c3/s2.tex
-INPUT ./chapters/c3/s2.tex
-INPUT chapters/c3/s2.tex
+INPUT ./chapters/c3/seminar.tex
+INPUT ./chapters/c3/seminar.tex
+INPUT chapters/c3/seminar.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm

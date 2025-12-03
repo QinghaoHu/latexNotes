@@ -1,3 +1,3 @@
 \contentsline {chapter}{\numberline {1}Electricity and Magnetism}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Electric Fields}{3}{section.1.1}%
-\contentsline {subsubsection}{Formulas}{3}{section*.2}%
+\contentsline {section}{\numberline {1.1}Unit 3 - Seminar Testable Question}{3}{section.1.1}%
+\contentsline {subsubsection}{}{3}{section*.2}%

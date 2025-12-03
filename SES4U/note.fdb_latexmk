@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764612505.8396 "/Users/huqinghao/latexNotes/SES4U/note.tex" "note.pdf" "note" 1764612506.72811 0
+["pdflatex"] 1764789107.34842 "/Users/huqinghao/latexNotes/SES4U/note.tex" "note.pdf" "note" 1764789108.30558 0
   "/Users/huqinghao/latexNotes/SES4U/note.tex" 1764610222.8263 3727 11ebae1e167804832e94075e78f83fc5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -199,17 +199,17 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1750852266 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1750852258 3345733 1bc04c57761db4480b2223ecc5fd2d6e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "chapters/c3.aux" 1764612506.64543 2287 919aabae961c28bf95753ee57b9f865f "pdflatex"
-  "chapters/c3.tex" 1764610169.10389 124 37bf621dc54801e3cd43e0084cb4a87b ""
-  "chapters/c3/s2.tex" 1764612505.6167 1301 296acf92146e3c6cd6077adfbdedb368 ""
+  "chapters/c3.aux" 1764789108.21507 2208 21499d6dde252201ddccbc8387bce43f "pdflatex"
+  "chapters/c3.tex" 1764783311.03194 250 29f861aeccc1952822aebf14fed34ea5 ""
+  "chapters/c3/seminar.tex" 1764789107.05917 649 9d2307e6db9adced73dec5e82cd5f8fe ""
   "chapters/chapter1.aux" 1762783828.88597 4338 753ac857210eb2b958e2aff4891f22e6 ""
   "chapters/chapter1.tex" 1762783828.88633 11226 1a8cdfb1cf144899a4cc15af36875d46 ""
   "chapters/chapter2.aux" 1762783828.8865 4552 180d96baf8bfaabc9fd6e872cd7d991b ""
   "chapters/chapter2.tex" 1762276627.52124 194 433f6a3ef1a2e80cf23cde99b9dda7ad ""
-  "note.aux" 1764612506.6457 284 be0607f73e5ed659ca8e91e94e3c1889 "pdflatex"
-  "note.out" 1764612506.64748 621 3d5bf7e477f9bce6cb364926f13b88c7 "pdflatex"
+  "note.aux" 1764789108.21534 284 be0607f73e5ed659ca8e91e94e3c1889 "pdflatex"
+  "note.out" 1764789108.21726 758 5777c57e3833f693b456ad7aaab50c35 "pdflatex"
   "note.tex" 1764610222.8263 3727 11ebae1e167804832e94075e78f83fc5 ""
-  "note.toc" 1764612506.64767 3968 47e263363f37dd17189881ab98695117 "pdflatex"
+  "note.toc" 1764789108.21759 3930 2fb2e9ecfad2a7d5c483c0754f3d4112 "pdflatex"
   (generated)
   "chapters/c3.aux"
   "note.aux"

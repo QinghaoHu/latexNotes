@@ -43,8 +43,7 @@
 \contentsline {subsubsection}{Q3}{18}{section*.13}%
 \contentsline {subsubsection}{Q7}{18}{section*.15}%
 \contentsline {chapter}{\numberline {3}Earth's Material \& Geological Process}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Earthquakes}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Terminology}{20}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Waves}{20}{subsection.3.1.2}%
-\contentsline {subsubsection}{Body wave}{20}{section*.2}%
-\contentsline {subsubsection}{Surface wave}{20}{section*.3}%
+\contentsline {section}{\numberline {3.1}Unit 3 - seminar Testable Question}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Formation and Identification of minerals}{20}{subsection.3.1.1}%
+\contentsline {subsubsection}{Question 1}{20}{section*.2}%
+\contentsline {subsubsection}{Question 2}{20}{section*.3}%
