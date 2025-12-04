@@ -43,7 +43,47 @@
 \contentsline {subsubsection}{Q3}{18}{section*.13}%
 \contentsline {subsubsection}{Q7}{18}{section*.15}%
 \contentsline {chapter}{\numberline {3}Earth's Material \& Geological Process}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Unit 3 - seminar Testable Question}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Formation and Identification of minerals}{20}{subsection.3.1.1}%
-\contentsline {subsubsection}{Question 1}{20}{section*.2}%
-\contentsline {subsubsection}{Question 2}{20}{section*.3}%
+\contentsline {section}{\numberline {3.1}Documentary}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Rock cycle and Identification}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Introduction to rock}{21}{subsection.3.2.1}%
+\contentsline {subsubsection}{Sedimentary Rock}{21}{section*.2}%
+\contentsline {subsubsection}{Metamorphic}{21}{section*.3}%
+\contentsline {subsubsection}{Igneous}{21}{section*.4}%
+\contentsline {section}{\numberline {3.3}Mineral Identification}{22}{section.3.3}%
+\contentsline {subsubsection}{Density}{22}{section*.5}%
+\contentsline {subsubsection}{Crystal}{22}{section*.6}%
+\contentsline {subsubsection}{Luster}{22}{section*.7}%
+\contentsline {subsubsection}{Hardness}{22}{section*.8}%
+\contentsline {subsubsection}{Streak}{22}{section*.9}%
+\contentsline {subsubsection}{Acid test}{22}{section*.10}%
+\contentsline {section}{\numberline {3.4}Earthquakes}{23}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Terminology}{23}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Waves}{23}{subsection.3.4.2}%
+\contentsline {subsubsection}{Body wave}{23}{section*.11}%
+\contentsline {subsubsection}{Surface wave}{23}{section*.12}%
+\contentsline {section}{\numberline {3.5}Unit 3 - seminar Testable Question}{24}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Formation and Identification of minerals}{24}{subsection.3.5.1}%
+\contentsline {subsubsection}{Question 1}{24}{section*.13}%
+\contentsline {subsubsection}{Question 2}{24}{section*.14}%
+\contentsline {subsection}{\numberline {3.5.2}Gemstones}{24}{subsection.3.5.2}%
+\contentsline {subsubsection}{Question 1}{24}{section*.15}%
+\contentsline {subsubsection}{Questoin 2}{24}{section*.16}%
+\contentsline {subsubsection}{Question 3}{24}{section*.17}%
+\contentsline {subsection}{\numberline {3.5.3}Marine geology - Deep sea sedimentation}{24}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Investigate technologies to predict earthquakes, volcanoes and tsunamis }{25}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Investigate the Canadian Lithoprobe Project and how it enhanced our understanding of the Earth’s interior.}{25}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Investigate the structural engineering techniques and advance technology used to build earthquake-resistant infrastructure}{25}{subsection.3.5.6}%
+\contentsline {subsubsection}{1}{25}{section*.18}%
+\contentsline {subsubsection}{2}{25}{section*.19}%
+\contentsline {subsubsection}{3}{25}{section*.20}%
+\contentsline {subsection}{\numberline {3.5.7}How have Earthquakes and volcanoes affected the development of cities?}{25}{subsection.3.5.7}%
+\contentsline {subsubsection}{2}{25}{section*.21}%
+\contentsline {subsubsection}{3}{26}{section*.22}%
+\contentsline {subsection}{\numberline {3.5.8}Minerals and human health}{26}{subsection.3.5.8}%
+\contentsline {subsection}{\numberline {3.5.9}Critical minerals}{26}{subsection.3.5.9}%
+\contentsline {subsection}{\numberline {3.5.10}The geological composition of famous buildings and landmarks}{26}{subsection.3.5.10}%
+\contentsline {subsection}{\numberline {3.5.11}Mining technologies}{27}{subsection.3.5.11}%
+\contentsline {subsection}{\numberline {3.5.12}Oil and natural gas}{27}{subsection.3.5.12}%
+\contentsline {subsubsection}{temperature-controlled distillation}{27}{section*.23}%
+\contentsline {subsection}{\numberline {3.5.13}Asteroid mining}{27}{subsection.3.5.13}%
+\contentsline {subsection}{\numberline {3.5.14}Weathering and Erosion}{27}{subsection.3.5.14}%
