@@ -1,3 +1,7 @@
 \contentsline {chapter}{\numberline {1}Electricity and Magnetism}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Unit 3 - Seminar Testable Question}{3}{section.1.1}%
-\contentsline {subsubsection}{}{3}{section*.2}%
+\contentsline {section}{\numberline {1.1}Electric Potential Energy \& Electric Potential}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Electric Potential Energy}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{Formula}{3}{section*.2}%
+\contentsline {subsection}{\numberline {1.1.2}Electric Potential for Point Charges}{3}{subsection.1.1.2}%
+\contentsline {subsubsection}{Formula}{4}{section*.3}%
+\contentsline {subsubsection}{Calculate the electrical potential around a point charge}{4}{section*.4}%
