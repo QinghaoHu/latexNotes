@@ -2,15 +2,18 @@
 If the population size $N$ is fairly large, and the sample size is relatively small, we can use a \underline{Normal Distribution}
 to simulate \underline{Hypergeometric}
 \begin{theorem}
-    If $X$ is a hypergometric random distribution of $n$ independent trials, each with probability of success $p$,
-    and if
+    Given that $N$ is the population size, $n$ is the sample size, and $a$ is the number of elements in the population 
+    with the particular characteristic, if
     \begin{gather*}
-        \frac{n}{N} < \tfrac{1}{10}\\
-        n(1 - p) > 5
+       \frac{n}{N} < \tfrac{1}{10}\\
+       n\frac{a}{N} > 5\\
+       n(\frac{N - a}{N}) > 5
     \end{gather*}
-    then the binomial random variable can be approximated by a normal distribution with 
+    then the hypergeometric random variable can be approximated by a normal distribution with 
     \begin{gather*}
-        \mu = np\\
-        \sigma = \sqrt{np(1 - p)}
+        \mu = \frac{an}{N}\\
+        \sigma = \sqrt{
+            n(\frac{a}{N})(\frac{N - a}{N})(\frac{N - n}{N - 1})
+        }
     \end{gather*}
 \end{theorem}
