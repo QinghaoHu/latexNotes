@@ -14,5 +14,5 @@
 \contentsline {subsection}{\numberline {1.5.1}Example}{9}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Definitions}{9}{subsection.1.5.2}%
 \contentsline {chapter}{\numberline {2}Normal Distribution}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Normal Distributions}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Definitions}{11}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.1}Approximate Binomial}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Approximate Hypergeometric}{12}{section.2.2}%

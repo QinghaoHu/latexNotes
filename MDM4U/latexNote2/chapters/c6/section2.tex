@@ -1,0 +1,32 @@
+\section{Normal Modelling}
+In the test, you definitely have no \underline{graphing calculator}. How can hack can we solve for the 
+probablity of Normal Distribution between two region. At this time, we can use \underline{Z-score} 
+
+\begin{theorem}
+    Assume we have a normal distribution, $N \sim X(\mu, \sigma^2)$, we want to solve for
+    \begin{equation}
+        P(x \leq X) \label{probablity6.2.1}
+    \end{equation}
+
+    First we need to solve for \underline{z-score} of $X$
+    \begin{equation*}
+        Z = \frac{X - \mu}{\sigma}\\
+    \end{equation*}
+
+    After we have the \underline{z-score}, we can rewrite \ref{probablity6.2.1}:
+    \begin{equation*}
+        P(z \leq Z)
+    \end{equation*}
+
+    Then use your \underline{z-score} table to find the value correspond to this \underline{z-score}.\\
+\end{theorem}
+
+\begin{theorem}
+    How to use \underline{z-score} to solve for some special $P$:
+    \begin{gather*}
+        P(X_1 < x < X_2) = P(x < X_2) - P(x < X_1)\\
+        P(X_1 > x) = 1 - P(x < X_1)
+    \end{gather*}
+\end{theorem}
+
+For discrete data, always perform $+/-0.5$
