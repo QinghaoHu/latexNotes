@@ -1,0 +1,18 @@
+\section{Confidence Intervals}
+\begin{theorem}
+    Repeated sampling from a normally distributed population produces a normally distributed sample means. Hence, 
+    the probability of observing a single sample mean, $\bar{x}$, within $z\sigma_{\bar{x}}$
+    of $\mu_{\bar{x}}$ is $1-\alpha$\\
+
+    As a result, we can get: 
+    \begin{equation*}
+        P(\mu_{\bar{x}} - z\sigma_{\bar{x}} < x < \mu_{\bar{x}} + z\sigma_{\bar{x}}) = 1 - \alpha
+    \end{equation*}
+
+    After rearrange, for a significance level of $\alpha$, we can get this:
+    \begin{equation*}
+        \bar{x} - z\frac{\sigma}{\sqrt{n}} < \mu_{\bar{x}} < \bar{x} + z\frac{\sigma}{\sqrt{n}}
+    \end{equation*}
+
+    Therefore, the boundaries for the interval estimate is $\bar{x} \pm z\frac{\sigma}{\sqrt{n}}$
+\end{theorem}

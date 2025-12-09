@@ -14,4 +14,4 @@
 \contentsline {subsection}{\numberline {1.5.1}Example}{9}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Definitions}{9}{subsection.1.5.2}%
 \contentsline {chapter}{\numberline {2}Normal Distribution}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Sampling Distributions}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Confidence Intervals}{11}{section.2.1}%
