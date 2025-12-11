@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  7 DEC 2025 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.9)  11 DEC 2025 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -763,12 +763,12 @@ LaTeX Font Info:    ... okay on input line 98.
 * \topmargin=-65.90756pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=17.07182pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -830,205 +830,44 @@ Chapter 1.
 [2
 
 
-] (./chapters/c4/s1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+] (./chapters/c4/s8.tex
+<pictures/4.8.1.png, id=34, 241.90375pt x 209.78375pt>
+File: pictures/4.8.1.png Graphic file (type png)
+<use pictures/4.8.1.png>
+Package pdftex.def Info: pictures/4.8.1.png  used on input line 48.
+(pdftex.def)             Requested size: 158.27264pt x 137.2637pt.
+<pictures/4.8.2.png, id=35, 385.44pt x 262.9825pt>
+File: pictures/4.8.2.png Graphic file (type png)
+<use pictures/4.8.2.png>
+Package pdftex.def Info: pictures/4.8.2.png  used on input line 58.
+(pdftex.def)             Requested size: 158.27264pt x 107.98804pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3]
-<pictures/4.1.1.png, id=111, 811.03pt x 319.1925pt>
-File: pictures/4.1.1.png Graphic file (type png)
-<use pictures/4.1.1.png>
-Package pdftex.def Info: pictures/4.1.1.png  used on input line 75.
-(pdftex.def)             Requested size: 369.29749pt x 145.34483pt.
-<pictures/4.1.2.png, id=112, 778.91pt x 289.08pt>
-File: pictures/4.1.2.png Graphic file (type png)
-<use pictures/4.1.2.png>
-Package pdftex.def Info: pictures/4.1.2.png  used on input line 86.
-(pdftex.def)             Requested size: 369.29749pt x 137.05858pt.
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4 <./pictures/4.1.1.png (PNG copy)> <./pictures/4.1.2.png (PNG copy)>] (./chapters/c4/s2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
+[3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./pictures/4.8.1.png> <./pictures/4.8.2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5] (./chapters/c4/s3.tex
-<pictures/4.3.1.png, id=128, 268.00125pt x 189.70876pt>
-File: pictures/4.3.1.png Graphic file (type png)
-<use pictures/4.3.1.png>
-Package pdftex.def Info: pictures/4.3.1.png  used on input line 15.
-(pdftex.def)             Requested size: 263.78506pt x 186.72382pt.
-<pictures/4.3.3.png, id=129, 752.8125pt x 341.275pt>
-File: pictures/4.3.3.png Graphic file (type png)
-<use pictures/4.3.3.png>
-Package pdftex.def Info: pictures/4.3.3.png  used on input line 21.
-(pdftex.def)             Requested size: 263.78506pt x 119.58342pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./pictures/4.3.1.png> <./pictures/4.3.3.png>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7] (./chapters/c4/s4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[8])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[9] (./chapters/c4/s5.tex
-<pictures/4.5.1.png, id=165, 789.95125pt x 222.8325pt>
-File: pictures/4.5.1.png Graphic file (type png)
-<use pictures/4.5.1.png>
-Package pdftex.def Info: pictures/4.5.1.png  used on input line 10.
-(pdftex.def)             Requested size: 263.78506pt x 74.40878pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[10 <./pictures/4.5.1.png (PNG copy)>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[11] (./chapters/c4/s6.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-))
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13] (./note.aux (./chapters/c4/chapter.aux))
+)) [4] (./note.aux (./chapters/c4/chapter.aux))
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: AD410E79CC493A00838689F76E1400A8;2706.
+(rerunfilecheck)             Checksum: FD37FAE044AF2752B8E0E21BF44408F3;499.
  ) 
 Here is how much of TeX's memory you used:
- 23621 strings out of 476041
- 437979 string characters out of 5793174
- 1869388 words of memory out of 6000000
- 43580 multiletter control sequences out of 15000+600000
- 522906 words of font info for 70 fonts, out of 8000000 for 9000
+ 23307 strings out of 476041
+ 432001 string characters out of 5793174
+ 1859388 words of memory out of 6000000
+ 43335 multiletter control sequences out of 15000+600000
+ 522043 words of font info for 69 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,12n,89p,521b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on note.pdf (14 pages, 370870 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on note.pdf (5 pages, 178223 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 39 words of extra memory for PDF output out of 10000 (max. 10000000)
 
