@@ -1,5 +1,6 @@
 \contentsline {chapter}{\numberline {1}Electricity and Magnetism}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}The motion of Charged Particles in Magnetic Fields}{3}{section.1.1}%
-\contentsline {subsubsection}{What will the motion of the particle look like}{3}{section*.2}%
-\contentsline {subsubsection}{Aurora Borealis}{3}{section*.3}%
-\contentsline {subsubsection}{Mass Spectrometers}{4}{section*.4}%
+\contentsline {section}{\numberline {1.1}The Magnetic Force on a Straight Conductor}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Definitions}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{Derive a formula for the magnetic force on the conductor}{3}{section*.2}%
+\contentsline {subsubsection}{The direction of the force}{4}{section*.3}%
+\contentsline {subsection}{\numberline {1.1.2}What is Tesla}{4}{subsection.1.1.2}%

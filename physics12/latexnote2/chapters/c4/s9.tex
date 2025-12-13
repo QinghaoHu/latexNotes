@@ -1,0 +1,97 @@
+\section{The Magnetic Force on a Straight Conductor}
+\subsection{Definitions}
+\begin{theorem}
+    The magnetic force on a straight conductor can be described by this formula:
+    \begin{equation*}
+        F_M = BIL\sin\theta
+    \end{equation*}
+    \begin{center}
+        $F_M$ is the magnitude of the magnetic force on the straight conductor (in $N$)\\
+        $B$ is the strength of the magnetic field that the conductor is in(in $T$)\\
+        $I$ is the current flowing through the conductor in $A$\\
+        $L$ is the length of the conductor that is the magnetic field (in $m$)\\
+        $\theta$ is the angle in between the current and the magnetic field
+    \end{center}
+\end{theorem}
+\subsubsection{Derive a formula for the magnetic force on the conductor}
+
+\begin{lemma}
+    The magnitude of the magnetic force of one charged particle in the conductor can be evaluated by this formula:
+    \begin{equation}
+        F_{M(\text{single charge})} = \left|q\right|vB\sin\theta \label{eq4.9.3}
+    \end{equation}
+\end{lemma}
+
+\begin{lemma}
+    If one of the charged particles travels from one end of the conductor to the other end, we can rewrite $v$ into 
+    \begin{equation}
+        v = \frac{L}{\Delta t} \label{eq4.9.2}
+    \end{equation}
+\end{lemma}
+
+\begin{lemma}
+    Current is defined as the amount of \underline{charge} that passes through a location, per unit time. In the time of $\Delta t$, $n$ charges 
+    pass through the end of the conductor
+    \begin{equation}
+        I = \frac{nq}{\Delta t} \label{eq4.9.4}
+    \end{equation} 
+\end{lemma}
+
+\noindent\hrulefill
+\begin{proof}
+Assume we have a straight conductor with these parameters in magnetic field:
+\begin{center}
+    A length of $L$\\
+    A magnetic Field strength of $B$\\
+    A current of $I$\\
+    Angle between the current and the magnetic field: $\theta$
+\end{center}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{pictures/4.9.1.png}
+\end{figure}
+
+
+The $F_M$ on all of the charged particles in the conductor will be the \underline{sum} of all the $F_M$ on the individual charged particles. 
+Each particle will experience an \underline{idential} $F_M$ because each particle has the same \underline{velocity and charge}. Also the magnetic 
+field that the conductor is in is \underline{uniform}.\\
+
+So we can multiple \ref{eq4.9.3} by $n$:
+\begin{equation}
+    F_{M(\text{on all charge})} = n \times \left |q\right |vB\sin\theta \label{eq4.9.1}
+\end{equation}
+
+
+
+Sub \ref{eq4.9.2} into \ref{eq4.9.1}:
+\begin{equation}
+    F_{M(\text{all charge})} = n \times \frac{\left|q\right|}{\Delta t}LB\sin\theta \label{eq4.9.5}
+\end{equation}
+
+Sub \ref{eq4.9.4} into \ref{eq4.9.5}
+    \begin{equation*}
+        F_{M(\text{all charge})} = ILB\sin\theta
+    \end{equation*}
+\end{proof}
+
+\subsubsection{The direction of the force}
+If you want to use the \underline{Right hand Rule \# 3}, you should point your thumb to the direction of the \underline{current flow}\\
+
+In the contrary, if you want to use \underline{Left hand Rule \# 3}, you should point your thumb to the direction of the \underline{electron flow}
+
+\subsection{What is Tesla}
+\underline{1 Tesla} is the strength of the magnetic field that will cause a force of \underline{1 Newton} to be exerted one a \underline{1m} long straight conductor 
+that has a current of \underline{1 A}
+\begin{proof}
+    \begin{gather*}
+         F_M = BIL\sin\theta (\theta = 90^{\circ})\\
+         B = \frac{F_M}{IL}\\
+         1T = \frac{1N}{1A \times 1m}
+    \end{gather*}
+   
+\end{proof}
+
+If we have 2 Tesla of magnetic Field Strength:
+\begin{gather*}
+    2T = \frac{2N}{1A \times 1m}
+\end{gather*}
