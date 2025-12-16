@@ -1,6 +1,40 @@
 \contentsline {chapter}{\numberline {1}Electricity and Magnetism}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}The Magnetic Force on a Straight Conductor}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Definitions}{3}{subsection.1.1.1}%
-\contentsline {subsubsection}{Derive a formula for the magnetic force on the conductor}{3}{section*.2}%
-\contentsline {subsubsection}{The direction of the force}{4}{section*.3}%
-\contentsline {subsection}{\numberline {1.1.2}What is Tesla}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.1}Review of Electronstatics}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Electric Charge}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{Electron}{3}{section*.2}%
+\contentsline {subsubsection}{Charge of atom}{3}{section*.3}%
+\contentsline {subsubsection}{Coulomb}{3}{section*.4}%
+\contentsline {subsection}{\numberline {1.1.2}Conductors and Insulators}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Different methods of charging}{3}{subsection.1.1.3}%
+\contentsline {subsubsection}{Charging an Object by Friction}{3}{section*.5}%
+\contentsline {subsubsection}{Carging an object by Induced Charge Separation}{3}{section*.6}%
+\contentsline {subsubsection}{Charging by Contact}{4}{section*.7}%
+\contentsline {subsubsection}{Charging by Induction}{4}{section*.8}%
+\contentsline {section}{\numberline {1.2}Coulomb's Law}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Background}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Formula}{5}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Electric Fields}{6}{section.1.3}%
+\contentsline {subsubsection}{Formulas}{6}{section*.9}%
+\contentsline {section}{\numberline {1.4}Electric Potential Energy \& Electric Potential}{8}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Electric Potential Energy}{8}{subsection.1.4.1}%
+\contentsline {subsubsection}{Formula}{8}{section*.10}%
+\contentsline {subsection}{\numberline {1.4.2}Electric Potential for Point Charges}{8}{subsection.1.4.2}%
+\contentsline {subsubsection}{Formula}{8}{section*.11}%
+\contentsline {subsubsection}{Calculate the electrical potential around a point charge}{9}{section*.12}%
+\contentsline {section}{\numberline {1.5}Electrical Potential Difference}{10}{section.1.5}%
+\contentsline {subsubsection}{Formula}{10}{section*.13}%
+\contentsline {section}{\numberline {1.6}The electrical field in between two charged parallel plates}{12}{section.1.6}%
+\contentsline {subsubsection}{Derive of $\mathcal {E} = \frac {\Delta V}{d}$}{12}{section*.14}%
+\contentsline {section}{\numberline {1.7}Magnetic Force on Moving Charges}{14}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Magnetic Force}{14}{subsection.1.7.1}%
+\contentsline {subsubsection}{\textcolor {blue}{Why electron creates a magnetic field}}{14}{section*.15}%
+\contentsline {subsection}{\numberline {1.7.2}Right Hand Rule}{14}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}The motion of Charged Particles in Magnetic Fields}{15}{section.1.8}%
+\contentsline {subsubsection}{What will the motion of the particle look like}{15}{section*.16}%
+\contentsline {subsubsection}{Aurora Borealis}{15}{section*.17}%
+\contentsline {subsubsection}{Mass Spectrometers}{16}{section*.18}%
+\contentsline {section}{\numberline {1.9}The Magnetic Force on a Straight Conductor}{17}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Definitions}{17}{subsection.1.9.1}%
+\contentsline {subsubsection}{Derive a formula for the magnetic force on the conductor}{17}{section*.19}%
+\contentsline {subsubsection}{The direction of the force}{18}{section*.20}%
+\contentsline {subsection}{\numberline {1.9.2}What is Tesla}{18}{subsection.1.9.2}%

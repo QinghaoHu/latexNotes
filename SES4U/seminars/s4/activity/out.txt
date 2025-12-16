@@ -1,0 +1,26 @@
+Assume we have 293 blocks
+
+0 Pre-Archean Eon
+
+35 Archean Eon
+
+132 Proterozoic Eon
+
+258 Phanerozoic Eon
+258 Paleozoic Era
+258 Cambrian Period
+262 Ordovician Period
+264 Silurian Period
+266 Devonian Period
+270 Mississippian Period
+272 Pennsylvanian Period
+274 Permian Period
+277 Mesozoic Era
+277 Triassic Period
+280 Jurassic Period
+284 Cretaceous Period
+289 Cenozoic Era
+289 Tertiary Period
+293 Quaternary Period
+293 Pleistocene Epoch
+293 Holocene Epoch
