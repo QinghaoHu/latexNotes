@@ -28,16 +28,20 @@
 \contentsline {subsubsection}{Formula}{10}{section*.16}%
 \contentsline {section}{\numberline {1.6}The electrical field in between two charged parallel plates}{12}{section.1.6}%
 \contentsline {subsubsection}{Derive of $\mathcal {E} = \frac {\Delta V}{d}$}{12}{section*.17}%
-\contentsline {section}{\numberline {1.7}Magnetic Force on Moving Charges}{14}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Magnetic Force}{14}{subsection.1.7.1}%
-\contentsline {subsubsection}{\textcolor {blue}{Why electron creates a magnetic field}}{14}{section*.18}%
-\contentsline {subsection}{\numberline {1.7.2}Right Hand Rule}{14}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}The motion of Charged Particles in Magnetic Fields}{15}{section.1.8}%
-\contentsline {subsubsection}{What will the motion of the particle look like}{15}{section*.19}%
-\contentsline {subsubsection}{Aurora Borealis}{15}{section*.20}%
-\contentsline {subsubsection}{Mass Spectrometers}{16}{section*.21}%
-\contentsline {section}{\numberline {1.9}The Magnetic Force on a Straight Conductor}{17}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Definitions}{17}{subsection.1.9.1}%
-\contentsline {subsubsection}{Derive a formula for the magnetic force on the conductor}{17}{section*.22}%
-\contentsline {subsubsection}{The direction of the force}{18}{section*.23}%
-\contentsline {subsection}{\numberline {1.9.2}What is Tesla}{18}{subsection.1.9.2}%
+\contentsline {section}{\numberline {1.7}Intro to Magnetism}{14}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Solenoid}{14}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Magnetic Domain Theory}{14}{subsection.1.7.2}%
+\contentsline {subsubsection}{Factors affecting the magnetic field created by a permanent magnet}{14}{section*.18}%
+\contentsline {section}{\numberline {1.8}Magnetic Force on Moving Charges}{15}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Magnetic Force}{15}{subsection.1.8.1}%
+\contentsline {subsubsection}{\textcolor {blue}{Why electron creates a magnetic field}}{15}{section*.19}%
+\contentsline {subsection}{\numberline {1.8.2}Right Hand Rule}{15}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}The motion of Charged Particles in Magnetic Fields}{16}{section.1.9}%
+\contentsline {subsubsection}{What will the motion of the particle look like}{16}{section*.20}%
+\contentsline {subsubsection}{Aurora Borealis}{16}{section*.21}%
+\contentsline {subsubsection}{Mass Spectrometers}{17}{section*.22}%
+\contentsline {section}{\numberline {1.10}The Magnetic Force on a Straight Conductor}{18}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Definitions}{18}{subsection.1.10.1}%
+\contentsline {subsubsection}{Derive a formula for the magnetic force on the conductor}{18}{section*.23}%
+\contentsline {subsubsection}{The direction of the force}{19}{section*.24}%
+\contentsline {subsection}{\numberline {1.10.2}What is Tesla}{19}{subsection.1.10.2}%
