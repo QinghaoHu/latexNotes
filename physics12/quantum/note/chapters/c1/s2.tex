@@ -25,7 +25,7 @@ reference frame.
 \end{definition}
 
 \subsubsection{$\Delta t$ vs $\Delta t_s$}
-$\Delta t_s$ is a Synchronized clock measurement of the time from $v$'s frame of reference. $\Delta t$ is the moving clock measurement from a stationary perspective. 
+$\Delta t_s$ is a Synchronized clock measurement of the time from observer 1's frame of reference. $\Delta t$ is the moving clock measurement from a stationary perspective(Observer 2). 
 
 \begin{figure}[!h]
     \centering
@@ -63,6 +63,9 @@ $\Delta t_s$ is a Synchronized clock measurement of the time from $v$'s frame of
         (\Delta t)^2 = \frac{4}{c^2} \times (d^2 + (\frac{v\Delta t}{2})^2)\\
         \Delta t^2 = (\frac{2d}{c})^2 + (\frac{v\Delta t}{c})^2\\
         \Delta t^2 = (\Delta t_s)^2 + (\frac{v\Delta t}{c})^2\\
+        \Delta t^2  - \frac{v^2\Delta t^2}{c^2} = (\Delta t_s)^2\\
+        \Delta t^2(1 - \frac{v^2}{c^2}) = (\Delta t_s)^2\\
+        \Delta t^2 = \frac{(\Delta t_s)^2}{1 - (\frac{v^2}{c^2})}\\
         \Delta t = \frac{\Delta t_s}{\sqrt{1 - \frac{v^2}{c^2}}}
     \end{gather*}
 \end{proof}
@@ -77,4 +80,5 @@ According to the theory of special relativity, $\Delta t > \Delta t_s$. As a res
     \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
 \end{equation*}
 
-If we look at the factor of the $\gamma$, it only matters when the speed of the rocket is fast enoguh!
+If we look at the factor of the $\gamma$, it only matters when the speed of the rocket is fast enoguh, or 
+at least $0.3c$!

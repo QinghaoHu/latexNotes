@@ -1,0 +1,53 @@
+\section{Length Contraction, Simultaneity, and Relativistic Momentum}
+\subsection{Length Contraction}
+In the previous section, we discussed about time dilation. In the same paper, Herr Einstein stated that the length of a
+moving object is different from this object's moving frame and stationary rest frame. 
+
+\begin{definition}
+    [proper length($L_s$)] the length of an object or distance between two points as measured 
+    by an observer who is stationary relative to the object or distance
+\end{definition}
+
+\begin{example}
+    Assume we want to measure the length of the car from observer 1 's perspective and observer 2's perspective.
+    \begin{figure}
+        [!h]
+        \centering
+        \includegraphics[width=0.3\textwidth]{pictures/1.3.1.png}
+    \end{figure}
+
+    \subsubsection{How can we solve this little problem}
+    \noindent\hrulefill
+    \begin{lemma} \label{lemma 1.3.1}
+        Length = speed $\times$ time
+        \begin{equation*}
+            L = v\Delta t 
+        \end{equation*}
+    \end{lemma}
+    \noindent\hrulefill
+
+    From \ref{lemma 1.3.1}, we understand that the length of the object can be easily find by calculating 
+    the time used by the object to pass point B.\\
+    
+    From observer 1's perspective, the time that this object pass point B is $\Delta t$ (measure at front and back 
+    accroding to his FOR, so this is a non-proper measurement)\\
+
+    From observer 2's perspective, the time that this object pass point B is $\Delta t_s$ (time measure at the same 
+    point relative to the observer 2)\\
+
+    As a result,
+    \begin{equation*}
+        L_s = v\Delta t
+    \end{equation*}
+    and 
+    \begin{equation*}
+        L = v \Delta t_s
+    \end{equation*}
+    Let's start from the time dilation formula:
+    \begin{gather*}
+        \Delta t = \frac{\Delta t_s}{\sqrt{1 - \frac{v^2}{c^2}}}\\
+        v\Delta t = \frac{v\Delta t_s}{\sqrt{1 - \frac{v^2}{c^2}}}\\
+         L_s = L\times \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}\\
+         L = L_s \sqrt{1 - \frac{v^2}{c^2}}
+    \end{gather*}
+\end{example}

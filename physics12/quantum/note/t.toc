@@ -1,7 +1,4 @@
 \contentsline {chapter}{\numberline {1}Relativity}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}The Special Theory of Relativity}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Time Dilation}{4}{section.1.2}%
-\contentsline {subsubsection}{Proper time vs non-proper time measurement}{4}{section*.2}%
-\contentsline {subsubsection}{$\Delta t$ vs $\Delta t_s$}{4}{section*.3}%
-\contentsline {subsubsection}{Derivation of Special Relativity equation}{5}{section*.4}%
-\contentsline {subsubsection}{Lorentz factor $\gamma $}{6}{section*.5}%
+\contentsline {section}{\numberline {1.1}Length Contraction, Simultaneity, and Relativistic Momentum}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Length Contraction}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{How can we solve this little problem}{3}{section*.2}%
