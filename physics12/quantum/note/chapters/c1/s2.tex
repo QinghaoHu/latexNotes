@@ -1,0 +1,80 @@
+\section{Time Dilation}
+\begin{remark}
+    Please go to Mr. Yang's video \href{https://www.youtube.com/watch?v=RtzFzYz0K1E&list=PLFXBrCJVstjiXNKHnM6E7zShEnUiG_zJP&index=1&t=1377s}{here}!
+    Here is just a brief personal review note about \textit{time dilation} in that video.\\
+    Please check the textbook first, this note is only a summary! 
+\end{remark}
+
+\underline{\textit{Time Dilation}}, the model explains the slowing down of time in one reference frame moving relative to an observer in another 
+reference frame. 
+
+\subsubsection{Proper time vs non-proper time measurement}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{pictures/1.2.4.png}
+\end{figure}
+
+\begin{definition}
+    [Synchroinzed Clock Measurement/Proper time]
+    A people measures a time at the same location/coordinate from his frame of reference!
+\end{definition}
+
+\begin{definition}
+    [Moving Clock Measurement/Non-proper time measurement]
+    A people measures a time at the different location/coordinate from his frame of reference!
+\end{definition}
+
+\subsubsection{$\Delta t$ vs $\Delta t_s$}
+$\Delta t_s$ is a Synchronized clock measurement of the time from $v$'s frame of reference. $\Delta t$ is the moving clock measurement from a stationary perspective. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{pictures/1.2.1.png}
+    \caption{From the inertial FOR which has recorded $\Delta t_s$}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{pictures/1.2.2.png}
+    \caption{From the inertial FOR which has recorded $\Delta t$}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{pictures/1.2.3.png}
+    \caption{Path of light from observer 2's FOR}
+\end{figure}
+
+\subsubsection{Derivation of Special Relativity equation}
+\begin{lemma}
+    \begin{equation*}
+        \Delta t = \frac{\text{distance}}{\text{speed}}
+    \end{equation*}
+\end{lemma}
+\begin{proof}
+    To start off, we need to solve for $z$:
+    \begin{gather}
+        z = \sqrt{d^2 + (\frac{v\Delta t}{2})^2} \label{eq1.2.1}
+    \end{gather}
+    Then, let's solve for $\Delta t$
+    \begin{gather*}
+        \Delta t = \frac{2z}{c}\\
+        \Delta t = \frac{2}{c} \times \sqrt{d^2 + (\frac{v\Delta t}{2})^2}\\
+        (\Delta t)^2 = \frac{4}{c^2} \times (d^2 + (\frac{v\Delta t}{2})^2)\\
+        \Delta t^2 = (\frac{2d}{c})^2 + (\frac{v\Delta t}{c})^2\\
+        \Delta t^2 = (\Delta t_s)^2 + (\frac{v\Delta t}{c})^2\\
+        \Delta t = \frac{\Delta t_s}{\sqrt{1 - \frac{v^2}{c^2}}}
+    \end{gather*}
+\end{proof}
+
+According to the theory of special relativity, $\Delta t > \Delta t_s$. As a result, 
+\begin{equation*}
+     \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \ge 1   
+\end{equation*}
+
+\subsubsection{Lorentz factor $\gamma$}
+\begin{equation*}
+    \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation*}
+
+If we look at the factor of the $\gamma$, it only matters when the speed of the rocket is fast enoguh!

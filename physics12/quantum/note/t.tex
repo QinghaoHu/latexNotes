@@ -1,0 +1,106 @@
+\documentclass[10pt]{report}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{indentfirst}
+% \usepackage[most]{tcolorbox}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{paracol}
+\usepackage{amsthm}
+
+
+% --- Page Setup ---
+\setlength{\columnsep}{0.6cm}
+\geometry{margin=0.6in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Hu}
+\lhead{Relativity Theory + Quantum Mechanicsm}
+\rfoot{\thepage}
+
+
+% --- Colored Example Box (orange) ---
+\newtheoremstyle{bluehead}        % name
+  {\topsep}                        % space above
+  {\topsep}                        % space below
+  {\itshape}                       % body font
+  {}                               % indent
+  {\color{blue}\bfseries}          % HEAD FONT (blue & bold)
+  {}                               % punctuation after name
+  {\newline}                            % space after head
+  {}       
+
+  \newtheoremstyle{redhead}        % name
+  {\topsep}                        % space above
+  {\topsep}                        % space below
+  {\itshape}                       % body font
+  {}                               % indent
+  {\color{red}\bfseries}          % HEAD FONT (blue & bold)
+  {}                               % punctuation after name
+  {\newline}                            % space after head
+  {}       
+% --- Theorem Environments ---
+\theoremstyle{bluehead}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{postulate}{Postulate}
+\theoremstyle{redhead}
+\newtheorem{example}{Example}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+
+
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\newcommand{\mypic}[3]{
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=#3\textwidth]{#1}
+        \caption{#2}
+    \end{figure}
+}
+
+\newenvironment{worddef}[1]
+  {\par\noindent\textbf{#1:} \itshape}
+  {\par\normalfont}
+
+% --- Title ---
+\title{\textbf{Grade 12 Math of Data Management} \\ \large MDM4U}
+\author{Qinghao Hu}
+\date{\today}
+
+% \includeonly{chapters/c5/chapter}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\include{chapters/c1/chapter}
+
+
+\end{document}
