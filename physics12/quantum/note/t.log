@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.9)  23 DEC 2025 21:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.9)  25 DEC 2025 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,8 +24,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \stockwidth=\dimen141
 \trimtop=\skip51
 \trimedge=\skip52
- (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem10.clo
-File: mem10.clo 2022/07/29 v0.5 memoir class 10pt size option
+ (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem11.clo
+File: mem11.clo 2022/07/29 v0.5 memoir class 11pt size option
 )
 \binding=\skip53
 \spinemargin=\skip54
@@ -1015,24 +1015,24 @@ Package: amsthm 2020/05/29 v2.20.6
  (./t.aux (./chapters/c1/chapter.aux) (./chapters/c2/chapter.aux))
 \openout1 = `t.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1050,12 +1050,12 @@ LaTeX Font Info:    ... okay on input line 97.
 * \textheight=708.24513pt
 * \oddsidemargin=-28.90756pt
 * \evensidemargin=-28.90756pt
-* \topmargin=-58.97505pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=128.0pt
+* \topmargin=-62.38136pt
+* \headheight=13.6pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=111.0pt
 * \marginparsep=7.0pt
 * \columnsep=17.07182pt
 * \skip\footins=12.0pt plus 4.0pt minus 4.0pt
@@ -1087,16 +1087,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 97.
+Package hyperref Info: Link coloring OFF on input line 98.
  (./t.out) (./t.out)
 \@outlinefile=\write5
 \openout5 = `t.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./t.toc) [1
@@ -1104,11 +1104,91 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `chapters/c2/chapter.aux'.
 
- (./chapters/c2/chapter.tex [11
+ (./chapters/c2/chapter.tex (./chapters/c2/s1.tex
+<pictures/2.1.1.png, id=61, 718.685pt x 250.9375pt>
+File: pictures/2.1.1.png Graphic file (type png)
+<use pictures/2.1.1.png>
+Package pdftex.def Info: pictures/2.1.1.png  used on input line 43.
+(pdftex.def)             Requested size: 369.29749pt x 128.94899pt.
+ [11
 
 
 
-] (./chapters/c2/s3.tex
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./pictures/2.1.1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+) [12] (./chapters/c2/s2.tex
+<pictures/2.1.2.png, id=78, 330.23375pt x 203.76125pt>
+File: pictures/2.1.2.png Graphic file (type png)
+<use pictures/2.1.2.png>
+Package pdftex.def Info: pictures/2.1.2.png  used on input line 10.
+(pdftex.def)             Requested size: 199.16928pt x 122.89505pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+[13 <./pictures/2.1.2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+<pictures/2.2.2.png, id=103, 754.82pt x 340.27126pt>
+File: pictures/2.2.2.png Graphic file (type png)
+<use pictures/2.2.2.png>
+Package pdftex.def Info: pictures/2.2.2.png  used on input line 150.
+(pdftex.def)             Requested size: 284.52756pt x 128.2608pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+
+ []
+
+<pictures/2.2.3.png, id=104, 311.1625pt x 354.32375pt>
+File: pictures/2.2.3.png Graphic file (type png)
+<use pictures/2.2.3.png>
+Package pdftex.def Info: pictures/2.2.3.png  used on input line 167.
+(pdftex.def)             Requested size: 170.71652pt x 194.39748pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./pictures/2.2.2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+) [16 <./pictures/2.2.3.png (PNG copy)>] (./chapters/c2/s3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -1118,42 +1198,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<pictures/2.3.1.png, id=54, 703.62875pt x 328.22626pt>
+<pictures/2.3.1.png, id=123, 703.62875pt x 328.22626pt>
 File: pictures/2.3.1.png Graphic file (type png)
 <use pictures/2.3.1.png>
 Package pdftex.def Info: pictures/2.3.1.png  used on input line 39.
 (pdftex.def)             Requested size: 256.0748pt x 119.44849pt.
-[12 <./pictures/2.3.1.png (PNG copy)>]
-<pictures/2.3.2.png, id=68, 726.715pt x 313.17pt>
+[17 <./pictures/2.3.1.png (PNG copy)>]
+<pictures/2.3.2.png, id=135, 726.715pt x 313.17pt>
 File: pictures/2.3.2.png Graphic file (type png)
 <use pictures/2.3.2.png>
 Package pdftex.def Info: pictures/2.3.2.png  used on input line 52.
 (pdftex.def)             Requested size: 256.0748pt x 110.3518pt.
-<pictures/2.3.3.png, id=69, 714.67pt x 431.6125pt>
+<pictures/2.3.3.png, id=136, 714.67pt x 431.6125pt>
 File: pictures/2.3.3.png Graphic file (type png)
 <use pictures/2.3.3.png>
 Package pdftex.def Info: pictures/2.3.3.png  used on input line 77.
 (pdftex.def)             Requested size: 312.9803pt x 189.02098pt.
- [13 <./pictures/2.3.2.png (PNG copy)> <./pictures/2.3.3.png (PNG copy)>])) [14] (./chapters/appendax.tex) [15
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18 <./pictures/2.3.2.png (PNG copy)>]) [19 <./pictures/2.3.3.png (PNG copy)>] (./chapters/c2/s4.tex
+<pictures/2.4.1.png, id=152, 321.2pt x 252.945pt>
+File: pictures/2.4.1.png Graphic file (type png)
+<use pictures/2.4.1.png>
+Package pdftex.def Info: pictures/2.4.1.png  used on input line 17.
+(pdftex.def)             Requested size: 142.26378pt x 112.03333pt.
+<pictures/2.4.2.png, id=153, 365.365pt x 273.02pt>
+File: pictures/2.4.2.png Graphic file (type png)
+<use pictures/2.4.2.png>
+Package pdftex.def Info: pictures/2.4.2.png  used on input line 32.
+(pdftex.def)             Requested size: 113.81102pt x 85.04358pt.
+ [20 <./pictures/2.4.1.png (PNG copy)> <./pictures/2.4.2.png (PNG copy)>]
+<pictures/2.4.3.png, id=162, 1000.73875pt x 500.87125pt>
+File: pictures/2.4.3.png Graphic file (type png)
+<use pictures/2.4.3.png>
+Package pdftex.def Info: pictures/2.4.3.png  used on input line 62.
+(pdftex.def)             Requested size: 369.88582pt x 185.12839pt.
+<pictures/2.4.4.png, id=163, 965.6075pt x 425.59pt>
+File: pictures/2.4.4.png Graphic file (type png)
+<use pictures/2.4.4.png>
+Package pdftex.def Info: pictures/2.4.4.png  used on input line 82.
+(pdftex.def)             Requested size: 369.88582pt x 163.02466pt.
+ [21 <./pictures/2.4.3.png (PNG copy)> <./pictures/2.4.4.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+[22])) [23] (./chapters/appendax.tex [24
 
 
 
-]
+]) [25]
 \tf@toc=\write6
 \openout6 = `t.toc'.
 
  (./t.aux (./chapters/c1/chapter.aux) (./chapters/c2/chapter.aux))
-Package rerunfilecheck Info: File `t.out' has not changed.
-(rerunfilecheck)             Checksum: 5BDA8FF66BA4F8B22E3F7EF762339A14;750.
+
+Package rerunfilecheck Warning: File `t.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `t.out':
+(rerunfilecheck)             Before: 0C627711D95788A19798321E1C666423;1506
+(rerunfilecheck)             After:  85016E8574375727EBC4054DA68AD5B2;1512.
  ) 
 Here is how much of TeX's memory you used:
- 26581 strings out of 476041
- 477674 string characters out of 5793174
- 1861388 words of memory out of 6000000
- 46576 multiletter control sequences out of 15000+600000
- 522317 words of font info for 70 fonts, out of 8000000 for 9000
+ 27066 strings out of 476041
+ 487300 string characters out of 5793174
+ 1863388 words of memory out of 6000000
+ 46990 multiletter control sequences out of 15000+600000
+ 522885 words of font info for 70 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,89p,520b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,520b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist, replaced by a fixed one
 
@@ -1169,11 +1291,11 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on t.pdf (6 pages, 278399 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on t.pdf (16 pages, 781874 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
