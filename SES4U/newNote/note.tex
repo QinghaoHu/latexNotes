@@ -1,4 +1,4 @@
-\documentclass[11pt]{memoir}
+\documentclass[10pt, a4paper]{memoir}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -20,18 +20,16 @@
 \usepackage{titlesec}
 
 
-
 % --- Page Setup ---
 \setlength{\columnsep}{0.6cm}
 \geometry{margin=0.6in}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Hu}
-\lhead{Relativity Theory + Quantum Mechanicsm}
+\lhead{Earth and Space Science}
 \rfoot{\thepage}
 \setsecnumdepth{subsection}
 \setsecnumdepth{subsubsection}
-
 
 % --- Colored Example Box (orange) ---
 \newtheoremstyle{bluehead}        % name
@@ -60,12 +58,12 @@
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{postulate}{Postulate}
 \theoremstyle{redhead}
 \newtheorem{example}{Example}
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
+% Red § + red number for \section
 \titleformat{\section}
   {\normalfont\Large\bfseries}            % format of the title text
   {\textcolor{red}{\S\thesection}}        % label (this is what becomes red)
@@ -84,7 +82,6 @@
   {\textcolor{red}{\S\thechapter:}}    % label (no "Chapter", just §<num>:)
   {0.50em}                             % space between label and title
   {}           
-
 
 
 % --- Custom Commands ---
@@ -110,21 +107,18 @@
   {\par\normalfont}
 
 % --- Title ---
-\title{\textbf{Special theory of Relativity and Quantum Mechanics} \\ \large SPH4U}
+\title{\textbf{Grade 12 Earth and Space Science} \\ \large SES4U}
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/c2/chapter}
+% \includeonly{chapters/c5/chapter}
 
 \begin{document}
 
 \maketitle
 \tableofcontents
+\newpage
 
-
-\include{chapters/c1/chapter}
-\include{chapters/c2/chapter}
-
-% \input{chapters/appendax.tex}
+\include{unit4/c4}
 
 \end{document}
