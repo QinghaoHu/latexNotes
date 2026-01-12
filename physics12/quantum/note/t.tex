@@ -1,4 +1,4 @@
-\documentclass[11pt]{memoir}
+\documentclass[10pt]{article}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -22,15 +22,15 @@
 
 
 % --- Page Setup ---
-\setlength{\columnsep}{0.6cm}
-\geometry{margin=0.6in}
+\setlength{\columnsep}{0.3cm}
+% \geometry{margin=1. 3in}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Hu}
 \lhead{Relativity Theory + Quantum Mechanicsm}
-\rfoot{\thepage}
-\setsecnumdepth{subsection}
-\setsecnumdepth{subsubsection}
+\cfoot{\thepage}
+% \setsecnumdepth{subsection}
+% \setsecnumdepth{subsubsection}
 
 
 % --- Colored Example Box (orange) ---
@@ -54,36 +54,36 @@
   {\newline}                            % space after head
   {}       
 % --- Theorem Environments ---
-\theoremstyle{bluehead}
+% \theoremstyle{bluehead}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{postulate}{Postulate}
-\theoremstyle{redhead}
+% \theoremstyle{redhead}
 \newtheorem{example}{Example}
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
-\titleformat{\section}
-  {\normalfont\Large\bfseries}            % format of the title text
-  {\textcolor{red}{\S\thesection}}        % label (this is what becomes red)
-  {0.50em}                                % separation between label and title
-  {}                                      % before-code
+% \titleformat{\section}
+%   {\normalfont\Large\bfseries}            % format of the title text
+%   {\textcolor{red}{\S\thesection}}        % label (this is what becomes red)
+%   {0.50em}                                % separation between label and title
+%   {}                                      % before-code
 
-% Red § + red number for \subsection
-\titleformat{\subsection}
-  {\normalfont\large\bfseries}
-  {\textcolor{red}{\S\thesubsection}}
-  {0.50em}
-  {}
+% % Red § + red number for \subsection
+% \titleformat{\subsection}
+%   {\normalfont\large\bfseries}
+%   {\textcolor{red}{\S\thesubsection}}
+%   {0.50em}
+%   {}
 
-\titleformat{\chapter}[hang]
-  {\normalfont\huge\bfseries}          % chapter title style
-  {\textcolor{red}{\S\thechapter:}}    % label (no "Chapter", just §<num>:)
-  {0.50em}                             % space between label and title
-  {}           
+% \titleformat{\chapter}[hang]
+%   {\normalfont\huge\bfseries}          % chapter title style
+%   {\textcolor{red}{\S\thechapter:}}    % label (no "Chapter", just §<num>:)
+%   {0.50em}                             % space between label and title
+%   {}           
 
 
 
@@ -114,11 +114,15 @@
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/c2/chapter}
+% \includeonly{chapters/c1/chapter}
 
 \begin{document}
 
 \maketitle
+
+In unit 5, you are expecting to self-study special relativity and quantum thoery. 
+
+\newpage
 \tableofcontents
 
 

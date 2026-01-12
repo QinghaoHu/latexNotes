@@ -1,0 +1,155 @@
+\documentclass[10pt]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{indentfirst}
+% \usepackage[most]{tcolorbox}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{paracol}
+\usepackage{amsthm}
+
+
+% --- Page Setup ---
+% \setlength{\columnsep}{0.6cm}
+% \geometry{margin=0.6in}
+% \pagestyle{fancy}
+% \fancyhf{}
+% \rhead{Hu}
+% \lhead{Mathematics of Data Management}
+% \rfoot{\thepage}
+
+
+% --- Colored Example Box (orange) ---
+\newtheoremstyle{bluehead}        % name
+  {\topsep}                        % space above
+  {\topsep}                        % space below
+  {\itshape}                       % body font
+  {}                               % indent
+  {\color{blue}\bfseries}          % HEAD FONT (blue & bold)
+  {}                               % punctuation after name
+  {\newline}                            % space after head
+  {}       
+
+  \newtheoremstyle{redhead}        % name
+  {\topsep}                        % space above
+  {\topsep}                        % space below
+  {\itshape}                       % body font
+  {}                               % indent
+  {\color{red}\bfseries}          % HEAD FONT (blue & bold)
+  {}                               % punctuation after name
+  {\newline}                            % space after head
+  {}       
+% --- Theorem Environments ---
+\theoremstyle{bluehead}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{postulate}{Postulate}
+\theoremstyle{redhead}
+\newtheorem{example}{Example}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+
+% \setsecnumdepth{subsection}
+
+
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\newcommand{\mypic}[3]{
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=#3\textwidth]{#1}
+        \caption{#2}
+    \end{figure}
+}
+
+\newenvironment{worddef}[1]
+  {\par\noindent\textbf{#1:} \itshape}
+  {\par\normalfont}
+
+% --- Title ---
+\title{\textbf{Grade 12 Math of Data Management} \\ \large MDM4U}
+\author{Qinghao Hu}
+\date{\today}
+
+\begin{document}
+
+\section{Special Theory of Relativity}
+\subsection{Introduction}
+
+There are two posulates for Theory of special Relativity
+\begin{postulate}
+    Physics law are the same in all inertial frame of reference. No physics experiment can ever determine whether you are at rest or moving at a constant velocity 
+\end{postulate}
+
+\begin{postulate}
+    There is at lease one inertial frame of reference, for an observer at rest in this frame of reference, the speed of light $c$, in a vacuum is independent of the motion of the light source. 
+\end{postulate}
+
+\begin{definition}
+    [Theory of Special Relativity] All physics law are the same in all inertial frame of reference, and the speed of light is independent of the motion of the light source or its observer in all inertial frame of reference. 
+\end{definition}
+
+\subsection{Time Dilation}
+\begin{definition}
+    [Proper time] a people measures the time at the same location/coordinate from his frame of reference
+\end{definition}
+
+\begin{definition}
+    [Improper time] a people measures the time at the different location/coordinate from his frame of reference
+\end{definition}
+
+In Einstein's thought experiment, the time measured by the observer at the rest is: 
+\[
+    z = \sqrt{d^2 + (\frac{\Delta t_m v}{2})^2}
+\]
+
+The time dilation formula: 
+\begin{equation}
+    \Delta t_m = \frac{\Delta t_s}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation}
+
+\subsection{Length Contraction}
+\begin{definition}
+    [Length Contraction] the shortening of distance or length in an inertial frame of reference moving relative to an observer in another inertial frame of reference. 
+\end{definition}
+The length contraction can be describe through this formula: 
+\begin{equation}
+    L = L_s \sqrt{1 - \frac{v^2}{c^2}}
+\end{equation}
+
+Einstein suggested that we need to use proper time to calculate the momentum of an object, which is called relativistic momentum
+\begin{equation}
+    p = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation}
+
+\begin{definition}
+    [rest mass] the mass of an object measured at rest with respect to the observer, also called proper mass
+\end{definition}
+
+\subsection{Mass - Energy Equivalence}
+
+\end{document}
+
