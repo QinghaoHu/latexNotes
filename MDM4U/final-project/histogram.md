@@ -3,17 +3,14 @@
 ![Distribution of Global Temperature Anomaly (Bin Width = 0.10 degree Celsius)](Code_Generated_Image.png)
 
 ## 2. Statistics result
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Statistic} & \textbf{Value} \\ \hline
-\text{Min} & 0.29 \\ \hline
-\text{Median} & 0.79 \\ \hline
-\text{Max} & 1.48 \\ \hline
-\text{Mean} & 0.8202 \\ \hline
-\text{IQR} & 0.2725 \\ \hline
-\end{array}
-$$
+| Statistic | Value |
+| :---: | :---: |
+| **Total Data Points ($N$)** | **240** |
+| Minimum | 0.29 |
+| Median | 0.79 |
+| Maximum | 1.48 |
+| Mean | 0.8202 |
+| IQR | 0.2725 |
 
 ## 3. Frequency Distribution (Bin Width = 0.10)
 <!-- <div align="center"> -->
