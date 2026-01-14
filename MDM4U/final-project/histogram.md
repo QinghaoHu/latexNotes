@@ -7,12 +7,11 @@ $$
 \begin{array}{|c|c|}
 \hline
 \textbf{Statistic} & \textbf{Value} \\ \hline
-N & 240 \\ \hline
-Min & 0.29 \\ \hline
-Median & 0.79 \\ \hline
-Max & 1.48 \\ \hline
-Mean & 0.8202 \\ \hline
-IQR & 0.2725 \\ \hline
+\text{Min} & 0.29 \\ \hline
+\text{Median} & 0.79 \\ \hline
+\text{Max} & 1.48 \\ \hline
+\text{Mean} & 0.8202 \\ \hline
+\text{IQR} & 0.2725 \\ \hline
 \end{array}
 $$
 
