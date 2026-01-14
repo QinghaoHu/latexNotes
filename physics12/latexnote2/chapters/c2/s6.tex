@@ -1,0 +1,93 @@
+\section{Satellites}
+A satellite is an object that \red{orbits around another object}\\
+
+There are \textbf{natural} satellites and \textbf{artifical} object
+\begin{itemize}
+    \item The moon is a \textbf{natural} satellite of the Earth
+    \item The international space station (ISS) is an \textbf{artifical} object
+\end{itemize}
+
+\subsection{Netwon's Cannon}
+His idea was: \textit{if a cannon is placed on the top of a very tall mountain, and if you could ignore air resistance. The cannon 
+shoots a cannonball horizontal}\\
+
+At the idea speed: the distance the cannonball has fall \textbf{equals} the distance that the Earth has \textbf{turned away}\\
+
+If $v  < v_{idea}$, the distance between the ball and Earth's surface will \textbf{decrease}\\
+
+If $v  > v_{idea}$, the distance between the ball and Earth's surface will \textbf{increase}\\
+
+The cannon must has a constant speed and travel in the perfect circular path
+
+\subsection{Geosynchronous}
+They have the same orbital period as the \textbf{rotational speed} of the object they are on the ground\\
+
+The period is around \textbf{24 hrs}\\
+
+There is a special type of geosynchronous is called \textbf{Geostationary}
+\begin{itemize}
+    \item "Hang above" a location on Earth's \textbf{Equator}
+    \item They orbit in the same \textbf{direction} that the Earth rotates
+\end{itemize}
+
+\subsection{Formulas related to satellite}
+We will derive each formulas in this handout:\\
+
+To start off, let's draw the FBD for the satellite\\
+\begin{center}
+    \begin{tikzpicture}[scale=1.2, >=Stealth]
+
+    % Earth
+    \shade[ball color=blue!40] (0,0) circle (1);
+    \node at (0,0) {\textbf{Earth}};
+
+    % Satellite position
+    \coordinate (satellite) at (0,3);
+    \filldraw[gray!60] (satellite) circle (0.15);
+    \node[above=2pt of satellite] {Satellite};
+
+    % Forces
+    \draw[thick, red, ->] (satellite) -- ++(0,-1.2)
+        node[midway, right] {$F_g$};
+    \draw[thick, blue, ->] (satellite) -- ++(0,1.2)
+        node[midway, right] {$F_{\text{fict}}$};
+
+    % Orbit line
+    \draw[dashed, gray] (0,0) circle (3);
+    \node[right] at (0,1.5) {Orbit altitude};
+
+    % Optional: radius vector
+    \draw[->, thick, black!50] (0,0) -- (satellite)
+        node[midway, left] {$r$};
+
+    \end{tikzpicture}
+\end{center}
+
+\textbf{Down} is negative\\
+
+Let's derive the formula for satellite:
+\begin{gather*}
+    \sum \vec{F} = m*\vec{a_{per}}\\
+    F_g - F_{fict} = 0\\
+    mg - m*\left|F_{FOR}\right| = 0\\
+    mg = ma_c\\
+    a_c = \frac{Gm}{R^2} 
+\end{gather*}
+
+Sub in $a_c = \frac{V^2}{R}$:
+\begin{gather*}
+    \frac{v^2}{R} = \frac{GM}{R^2}\\
+    v = \sqrt{\frac{GM}{R}}
+\end{gather*}
+
+\begin{center}
+    $v$ = orbital speed\\
+    $M$ = mass of the object that is obited in (kg)
+\end{center}
+
+Sub in $a_c = \frac{4\pi^2 R}{T^2}$
+\begin{gather*}
+    \frac{4\pi^2 R}{T^2} = \frac{GM}{R}\\
+    T^2 = \frac{4\pi^2 R^3}{GM}\\
+    T = \sqrt{\frac{4\pi^2 R^3}{GM}}
+\end{gather*}

@@ -1,4 +1,4 @@
-\documentclass[10pt]{report}
+\documentclass[10pt, a4paper]{article}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -20,15 +20,16 @@
 % \usepackage{abstract}
 \usepackage{amsthm}
 
+\usetikzlibrary{arrows.meta, positioning}
 
 % --- Page Setup ---
-\setlength{\columnsep}{0.6cm}
-\geometry{margin=0.6in}
+\setlength{\columnsep}{0.3cm}
+% \geometry{margin=0.6in}
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Qinghao Hu}
+\rhead{\thepage}
 \lhead{SPH4U-V2}
-\rfoot{\thepage}
+% \rfoot{\thepage}
 
 % --- Colored Example Box (orange) ---
 \newtheoremstyle{bluehead}        % name
@@ -51,13 +52,13 @@
   {\newline}                            % space after head
   {}       
 % --- Theorem Environments ---
-\theoremstyle{bluehead}
+% \theoremstyle{bluehead}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
-\theoremstyle{redhead}
+% \theoremstyle{redhead}
 \newtheorem{example}{Example}
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
@@ -93,14 +94,26 @@
 \author{Qinghao Hu}
 \date{\today}
 
-\includeonly{chapters/c4/chapter}
+% \includeonly{chapters/c3/chapter}
 
 \begin{document}
 
 \maketitle
+
+
+Here is the note for my SPH4U class. 
+Thanks for Mr. McCumber for the materials and teaching. 
+
+\newpage
 \tableofcontents
 \newpage
 
+\include{chapters/c1/chapter}
+\newpage
+\include{chapters/c2/chapter}
+\newpage
+
+\include{chapters/c3/chapter}
 \include{chapters/c4/chapter}
 
 \end{document}

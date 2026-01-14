@@ -1,0 +1,100 @@
+% \newpage
+\section{Simple Harmonic Motion}
+\subsection{Definitions}
+\subsubsection{Simple Harmonic Motion}
+An object undergoes simple harmonic motion, if two conditions are met:
+\begin{enumerate}
+    \item The net force acting on the object is \textbf{directly proportional} to the object's displacement away from equilibrium
+    (The location where $\sum F = 0$)
+    \item The direction the net force acts on the object must be \textbf{opposite} the object's displacement from equilibrium. 
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{pictures/SHM.png}
+\end{figure}
+
+Let see the FBD for $m$:
+
+\columnratio{0.4, 0.6}
+
+\begin{paracol}{2}
+    \begin{leftcolumn}
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.2\textwidth]{FBD/FBD1.png}
+        \end{figure}
+    \end{leftcolumn}
+    \begin{rightcolumn}
+        \begin{gather}
+            \sum \vec{F} = \vec{F_{spring}}\\
+            \sum m\vec{a} = -k\vec{x}\\
+            \vec{a} = \frac{-k \vec{x}}{m}
+        \end{gather}        
+    \end{rightcolumn}
+\end{paracol}
+Changing to proportionality:
+\begin{equation}
+    \text{Net Force} \propto -\vec{x}
+\end{equation}
+
+\subsubsection{Expectations}
+\begin{definition}
+    [Simple Harmonic Motion] Go through repeated oscillations at the same amplitude. 
+\end{definition}
+
+If there was \textbf{friction} acting on the object, it would no longer undergo simple harmonic motion. We would call the motion of the object: 
+\textbf{damped Harmonic Motion}\\
+
+Some Real life examples:
+\begin{itemize}
+    \item Car shock absorbers
+    \item A guitar string
+    \item A pendalam or a string
+    \item Bungee jumping
+\end{itemize}
+
+\subsection{How can we solve form the acceleration of SHM}
+Returning to our FBD of the mass and the net force statement from it:
+\begin{gather}
+    \sum \vec{F} = m \vec{a}\\
+    \vec{F_s} = m\vec{a}\\
+    -k\vec{x} = m\vec{a}\\
+    \vec{a} = \frac{-kx}{m}
+\end{gather}
+\begin{center}
+    $\vec{a}$ is the acceleration of the mass (in $m/s^2$)\\
+    $k$ is the force constant of the spring (in $N/m$)\\
+    $\vec{x}$ is the displacement of the mass from its equilibrium position (in m)\\
+    $m$ is the mass of the object that is attached to the spring (in kg)
+\end{center}
+
+\begin{remark}
+    Because the acceleration is a vector, we need to make a direction convention to use the equation. 
+\end{remark}
+
+\subsection{The period of the Simple Harmonic Motion}
+The y-component of the uniform circular motion is similar to the acceleration of the simple Harmonic Motion
+\begin{paracol}{2}
+    \begin{leftcolumn}
+        For the object going around circle:
+        \begin{equation}
+            a_c = \frac{4 \pi^2 R}{T^2}
+        \end{equation}
+    \end{leftcolumn}
+    \begin{rightcolumn}
+        For the mass on the end of the spring:
+        \begin{gather}
+            \vec{a} = -\frac{k \vec{x}}{m}\\
+            \left | \vec{a} \right | = \frac{kx}{m}
+        \end{gather}
+    \end{rightcolumn}
+\end{paracol}
+
+When the object is on the top/bottom of the perfect circular motion, the acceleration is equal to the magnitude of the acceleration of the object at the equilibrium position:
+\begin{gather}
+    a_c = \left | a \right |\\
+    \frac{4 \pi^2 R}{T^2} = \frac{kx}{m}\\
+    T = +/- \sqrt{\frac{m * 4\pi^2 R}{kx}} (\text{At this time $R$ = $x$})\\
+    T = 2\pi * \sqrt{\frac{m}{k}}
+\end{gather}

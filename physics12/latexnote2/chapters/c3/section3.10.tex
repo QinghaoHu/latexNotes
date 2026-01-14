@@ -1,0 +1,149 @@
+% \newpage
+\section{Real Gravitatonal Potential Energy}
+
+\subsection{Real gravitional potential Energy}
+In earlier time in this unit, we studied a formula for gravitatonal Potential Energy
+\begin{equation}
+    E_g = mgh
+\end{equation}
+
+In fact, there are few problems with our old formula:
+\begin{enumerate}
+    \item It assumes that $g$ is constat (it change as the distance above the Earth's surface changes)
+    \item the formula uses a reference location which we define. This is not an absolute location, where $E_g$ is 0
+\end{enumerate}
+
+So, let's derive for the new equation of gravitatonal Potential Energy\\
+
+Consider a satellite of mass $m_s$ at a large distance $r$ from the centre of planet Eart (mass $M_e$)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pictures/3.10.1.png}
+\end{figure}
+
+We understand the work done by a force is basically the area under the curve one a Force vs displacement graph\\
+
+So:
+\begin{gather}
+    \text{Work done} = \int_{r = R}^{r = \infty} F_g dr \nonumber \\
+    = \int_{r = R}^{r = \infty} \frac{
+        G M_E m_s
+    }{
+        R^2
+    }dr \nonumber \\
+    = G M_E m_s * \int_{r = R}^{r = \infty} \frac{1}{R^2} dr \nonumber \\
+    \cdots \nonumber \\
+    W = \frac{
+        G M_E m_s
+    }{
+        R
+    }
+\end{gather}
+
+The work done is equal to the increase in gravitational potential energy prossessed by the satellite
+\begin{gather}
+    W = \Delta E_g = E_{g\infty} - E_{gR} = \frac{G M_E m_s}{R} \nonumber \\
+    E_{gR} = \frac{
+        - G M_E m_s
+    }{
+        R
+    }
+\end{gather}
+
+\subsection{Satellite}
+The Kineatic Energy of a satellite orbit around the earth could be calculated using thine formula:
+\begin{equation}
+    E_k = \frac{
+        G \space M_E \space m_s
+    }{
+        2R
+    }
+\end{equation}
+
+Then we can calculate the total mechancial energy of the system:
+\begin{gather}
+    E_T = E_k + E_g\\
+    E_T = \frac{
+        - G M_E m_s
+    }{
+        R
+    } +
+    \frac{
+        G M_E m_s
+    }{
+        2R
+    } \\
+    = -\frac{
+        G M_E m_s
+    }{
+        2R
+    } \label{eq: eq4}
+\end{gather}
+
+The \ref{eq: eq4} is the \textit{Total Mechancial Energy} of the satellite
+
+\newpage
+\section{Escape from a Gravational Field}
+\begin{definition}
+    [Binding Energy] The \textbf{Minimum $E_k$} required for an object to escape a second object's gravational field. For the minimum $E_k$, required by the first object, the first object must reach an 
+    \textbf{infinite distance away} from the second object by the time that the second object's force of gravity \textbf{stop} the first object
+\end{definition}
+
+\begin{definition}
+    [Escape Energy] This is a specific type of binding energy. It is an object's binding energy when the object is originally \textbf{on the surface} of the second object
+\end{definition}
+
+\begin{example}
+    The \textbf{escape energy} of an object from the Earth's surface is the minimum \textbf{additional} kinetic energy the object needs to have to escape the Earth's gravational field
+\end{example}
+
+\begin{definition}
+    [Escape Velocity] The \textbf{Minimum speed} an object would need to have (when launched vertically) when it is on an object's surface to escape its gravitational field 
+\end{definition}
+
+\subsubsection{Solve for Escape Velocity}
+Let's assume position 2 is the postion where the object escape the planet's gravitational field and position 1 is on the surface of that planet
+\begin{gather}
+    E_{M2} = E_{M1}\\
+    0 = E_{T1}\\
+    0 = E_{k1} + E_{g1}\\
+    E_{k1} = -E_{g1}\\
+    \frac{1}{2} m v_1^2 = -\frac{G M_E m_s}{R_1}\\
+    v_1 = \sqrt{\frac{
+        2 G M_E
+    }{
+        R_1
+    }} \label{eq: eq5}
+\end{gather}
+
+The \ref{eq: eq5} is the formula for Escape Velocity
+
+\subsubsection{Potential Communication Question}
+Why do most rocket launches occur from locations close to the equator?\\
+
+\indent Because on the Earth's surface, the rocket's speed is not actually 0. The rocket has whatever speed the Earth's surface has and the Earth is moving fastest at the equator. \\
+
+Let's solve for the speed of the rocket at the equator:
+\begin{gather}
+    v = \frac{2\pi R}{T}\\
+    v = \frac{2 \pi 6.38 * 10^3}{24.0h}\\
+    v = \frac{
+        2 * \pi * 6.38 * 10^3
+    }{
+        86400s
+    }\\
+    v = 463.96\cdots m/s
+\end{gather}
+
+How does this help?\\
+Assume position is surface, position 2 is on the orbit
+\begin{gather*}
+    E_{M2} = E_{M1} + E_{added}\\
+    E_{M2} = E_{k1} + E_{g1} + E_{added}\\
+    E_{added} = E_{M2} - E_{k1} - E_{g1}
+\end{gather*}
+Because we have initial $E_{K1}$, less $E_{added}$ is needed. As a result, less fuel will be used. Cost less money
+
+\begin{remark}
+    Assume that for an "Object on a surface", $E_K$ is always 0 unless the questions explicitly says "At the equator"
+\end{remark}

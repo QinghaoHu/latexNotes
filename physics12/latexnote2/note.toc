@@ -1,47 +1,150 @@
-\contentsline {chapter}{\numberline {1}Electricity and Magnetism}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Review of Electronstatics}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Electric Charge}{3}{subsection.1.1.1}%
-\contentsline {subsubsection}{Electron}{3}{section*.2}%
-\contentsline {subsubsection}{Charge of atom}{3}{section*.3}%
-\contentsline {subsubsection}{Coulomb}{3}{section*.4}%
-\contentsline {subsection}{\numberline {1.1.2}Conductors and Insulators}{3}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Different methods of charging}{3}{subsection.1.1.3}%
-\contentsline {subsubsection}{Charging an Object by Friction}{3}{section*.5}%
-\contentsline {subsubsection}{Carging an object by Induced Charge Separation}{3}{section*.6}%
-\contentsline {subsubsection}{Charging by Contact}{4}{section*.7}%
-\contentsline {subsubsection}{Charging by Induction}{4}{section*.8}%
-\contentsline {section}{\numberline {1.2}Coulomb's Law}{5}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Background}{5}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Formula}{5}{subsection.1.2.2}%
-\contentsline {subsubsection}{Point Charge}{5}{section*.9}%
-\contentsline {subsubsection}{Compared to $F_g = \frac {Gm_1m_2}{R^2}$}{5}{section*.10}%
-\contentsline {section}{\numberline {1.3}Electric Fields}{6}{section.1.3}%
-\contentsline {subsubsection}{Parallel Plates}{6}{section*.11}%
-\contentsline {subsubsection}{Formulas}{6}{section*.12}%
-\contentsline {section}{\numberline {1.4}Electric Potential Energy \& Electric Potential}{8}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Electric Potential Energy}{8}{subsection.1.4.1}%
-\contentsline {subsubsection}{Formula}{8}{section*.13}%
-\contentsline {subsection}{\numberline {1.4.2}Electric Potential for Point Charges}{8}{subsection.1.4.2}%
-\contentsline {subsubsection}{Formula}{8}{section*.14}%
-\contentsline {subsubsection}{Calculate the electrical potential around a point charge}{9}{section*.15}%
-\contentsline {section}{\numberline {1.5}Electrical Potential Difference}{10}{section.1.5}%
-\contentsline {subsubsection}{Formula}{10}{section*.16}%
-\contentsline {section}{\numberline {1.6}The electrical field in between two charged parallel plates}{12}{section.1.6}%
-\contentsline {subsubsection}{Derive of $\mathcal {E} = \frac {\Delta V}{d}$}{12}{section*.17}%
-\contentsline {section}{\numberline {1.7}Intro to Magnetism}{14}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Solenoid}{14}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Magnetic Domain Theory}{14}{subsection.1.7.2}%
-\contentsline {subsubsection}{Factors affecting the magnetic field created by a permanent magnet}{14}{section*.18}%
-\contentsline {section}{\numberline {1.8}Magnetic Force on Moving Charges}{15}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Magnetic Force}{15}{subsection.1.8.1}%
-\contentsline {subsubsection}{\textcolor {blue}{Why electron creates a magnetic field}}{15}{section*.19}%
-\contentsline {subsection}{\numberline {1.8.2}Right Hand Rule}{15}{subsection.1.8.2}%
-\contentsline {section}{\numberline {1.9}The motion of Charged Particles in Magnetic Fields}{16}{section.1.9}%
-\contentsline {subsubsection}{What will the motion of the particle look like}{16}{section*.20}%
-\contentsline {subsubsection}{Aurora Borealis}{16}{section*.21}%
-\contentsline {subsubsection}{Mass Spectrometers}{17}{section*.22}%
-\contentsline {section}{\numberline {1.10}The Magnetic Force on a Straight Conductor}{18}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Definitions}{18}{subsection.1.10.1}%
-\contentsline {subsubsection}{Derive a formula for the magnetic force on the conductor}{18}{section*.23}%
-\contentsline {subsubsection}{The direction of the force}{19}{section*.24}%
-\contentsline {subsection}{\numberline {1.10.2}What is Tesla}{19}{subsection.1.10.2}%
+\contentsline {section}{\numberline {1}Review of Describing and Graphing Motion}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Position: $\vec {d}$}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}displacement: $\Delta \vec {d}$}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Velocity: $\vec {v}$}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Acceleration: $\vec {a}$}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Graphing motion}{6}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Equations of Motion}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Format requirements for answering Motion questionss}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Adding and Subtracting 2-Dimensional Vectors}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vector addition and subtraction key words}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Steps for solving a vector problem}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Another question type}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Frame of Reference}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}1 Dimension Frame of Reference}{10}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Relative Velocities in Two Dimensions}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Recall}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Definition}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}F.O.R in 2-D}{12}{section.6}%
+\contentsline {section}{\numberline {7}Review of Netwon's Laws of Montion}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Netwon's First Laws}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Newton's second Law}{13}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Newton's Third Law}{13}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Free Body Diagrams (FBD)}{14}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Application of Newton's second Law}{14}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Review of Projectile Motion}{15}{section.8}%
+\contentsline {subsection}{\numberline {8.1}basic}{15}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Special formula}{15}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}An example question}{16}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Friction}{17}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Kinetic Friction}{17}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Static Friction}{17}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Remainder}{17}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Tension, compression and Pulleys}{19}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Tention: T}{19}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Compression: C}{19}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Inclined plane with Friction}{20}{section.11}%
+\contentsline {subsection}{\numberline {11.1}How to determine the direction that the system will likely to accelerate}{20}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Example template}{20}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Proportionality}{21}{section.12}%
+\contentsline {section}{\numberline {13}Fictitious Forces and Apparent Weight}{22}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Compare Inertial and non-inertial F.O.R}{22}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}Inertial F.O.R}{22}{subsubsection.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}Non-Inertial F.O.R}{22}{subsubsection.13.1.2}%
+\contentsline {subsection}{\numberline {13.2}Fictitious Forces}{22}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Apparent Weight}{22}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Some of the formulas}{22}{subsection.13.4}%
+\contentsline {section}{\numberline {14}Lecture 2.5}{23}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Uniform Circular Motion}{23}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Centripetal acceleration}{23}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Formulas}{23}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Motion of a car on Banked Turn}{24}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Forces}{24}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Critical Speed}{24}{subsection.15.2}%
+\contentsline {section}{\numberline {16}Universal Gravitation, Gravitational field}{25}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Force of Gravity}{25}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Gravational Fields}{25}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Differences between strength of gravity and acceleration}{25}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Satellites}{27}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Netwon's Cannon}{27}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Geosynchronous}{27}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Formulas related to satellite}{27}{subsection.17.3}%
+\contentsline {section}{\numberline {18}Rotating Frame of Reference}{29}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Little problem}{29}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Perceived Acceleration in a Rotating Frame of Reference}{30}{subsection.18.2}%
+\contentsline {section}{\numberline {19}Work and Kinetic Energy}{32}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Kinetic Energy}{32}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Mechancial Work}{32}{subsection.19.2}%
+\contentsline {subsubsection}{\numberline {19.2.1}What does the sign of the work mean?}{32}{subsubsection.19.2.1}%
+\contentsline {section}{\numberline {20}Gravational Potential Energy}{34}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Some boring definitions}{34}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Formulas for GPE}{34}{subsection.20.2}%
+\contentsline {section}{\numberline {21}The law of the Conservation of Energy}{35}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Boring Definitions}{35}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Question solving techniques}{35}{subsection.21.2}%
+\contentsline {section}{\numberline {22}String \& Elastic Potential Energy}{36}{section.22}%
+\contentsline {subsection}{\numberline {22.1}The Force of String}{36}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Elastic Potential Energy}{37}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Ignore Gravational Potential Energy}{37}{subsection.22.3}%
+\contentsline {section}{\numberline {23}Simple Harmonic Motion}{38}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Definitions}{38}{subsection.23.1}%
+\contentsline {subsubsection}{\numberline {23.1.1}Simple Harmonic Motion}{38}{subsubsection.23.1.1}%
+\contentsline {subsubsection}{\numberline {23.1.2}Expectations}{38}{subsubsection.23.1.2}%
+\contentsline {subsection}{\numberline {23.2}How can we solve form the acceleration of SHM}{39}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}The period of the Simple Harmonic Motion}{39}{subsection.23.3}%
+\contentsline {section}{\numberline {24}Linear Momentum \& Impulse}{40}{section.24}%
+\contentsline {subsubsection}{\numberline {24.0.1}Linear Momentum}{40}{subsubsection.24.0.1}%
+\contentsline {subsubsection}{\numberline {24.0.2}Impulse}{40}{subsubsection.24.0.2}%
+\contentsline {section}{\numberline {25}Conservation of Momentum}{41}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Equation}{41}{subsection.25.1}%
+\contentsline {section}{\numberline {26}Types of Collisions}{43}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Definitions}{43}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Elastic Collisions}{43}{subsection.26.2}%
+\contentsline {subsubsection}{\numberline {26.2.1}Steps of the collision}{43}{subsubsection.26.2.1}%
+\contentsline {subsubsection}{\numberline {26.2.2}Head-on Collision}{43}{subsubsection.26.2.2}%
+\contentsline {subsection}{\numberline {26.3}Inelasic Collision}{44}{subsection.26.3}%
+\contentsline {subsubsection}{\numberline {26.3.1}Completely inelastic collision}{44}{subsubsection.26.3.1}%
+\contentsline {section}{\numberline {27}HEAD-ON Collisions}{45}{section.27}%
+\contentsline {subsection}{\numberline {27.1}Equations}{45}{subsection.27.1}%
+\contentsline {section}{\numberline {28}Real Gravitatonal Potential Energy}{46}{section.28}%
+\contentsline {subsection}{\numberline {28.1}Real gravitional potential Energy}{46}{subsection.28.1}%
+\contentsline {subsection}{\numberline {28.2}Satellite}{47}{subsection.28.2}%
+\contentsline {section}{\numberline {29}Escape from a Gravational Field}{48}{section.29}%
+\contentsline {subsubsection}{\numberline {29.0.1}Solve for Escape Velocity}{48}{subsubsection.29.0.1}%
+\contentsline {subsubsection}{\numberline {29.0.2}Potential Communication Question}{48}{subsubsection.29.0.2}%
+\contentsline {section}{\numberline {30}Review of Electronstatics}{50}{section.30}%
+\contentsline {subsection}{\numberline {30.1}Electric Charge}{50}{subsection.30.1}%
+\contentsline {subsubsection}{\numberline {30.1.1}Electron}{50}{subsubsection.30.1.1}%
+\contentsline {subsubsection}{\numberline {30.1.2}Charge of atom}{50}{subsubsection.30.1.2}%
+\contentsline {subsubsection}{\numberline {30.1.3}Coulomb}{50}{subsubsection.30.1.3}%
+\contentsline {subsection}{\numberline {30.2}Conductors and Insulators}{50}{subsection.30.2}%
+\contentsline {subsection}{\numberline {30.3}Different methods of charging}{51}{subsection.30.3}%
+\contentsline {subsubsection}{\numberline {30.3.1}Charging an Object by Friction}{51}{subsubsection.30.3.1}%
+\contentsline {subsubsection}{\numberline {30.3.2}Carging an object by Induced Charge Separation}{51}{subsubsection.30.3.2}%
+\contentsline {subsubsection}{\numberline {30.3.3}Charging by Contact}{51}{subsubsection.30.3.3}%
+\contentsline {subsubsection}{\numberline {30.3.4}Charging by Induction}{51}{subsubsection.30.3.4}%
+\contentsline {section}{\numberline {31}Coulomb's Law}{52}{section.31}%
+\contentsline {subsection}{\numberline {31.1}Background}{52}{subsection.31.1}%
+\contentsline {subsection}{\numberline {31.2}Formula}{52}{subsection.31.2}%
+\contentsline {subsubsection}{\numberline {31.2.1}Point Charge}{52}{subsubsection.31.2.1}%
+\contentsline {subsubsection}{\numberline {31.2.2}Compared to $F_g = \frac {Gm_1m_2}{R^2}$}{52}{subsubsection.31.2.2}%
+\contentsline {section}{\numberline {32}Electric Fields}{53}{section.32}%
+\contentsline {subsubsection}{\numberline {32.0.1}Parallel Plates}{53}{subsubsection.32.0.1}%
+\contentsline {subsubsection}{\numberline {32.0.2}Formulas}{53}{subsubsection.32.0.2}%
+\contentsline {section}{\numberline {33}Electric Potential Energy \& Electric Potential}{55}{section.33}%
+\contentsline {subsection}{\numberline {33.1}Electric Potential Energy}{55}{subsection.33.1}%
+\contentsline {subsubsection}{\numberline {33.1.1}Formula}{55}{subsubsection.33.1.1}%
+\contentsline {subsection}{\numberline {33.2}Electric Potential for Point Charges}{55}{subsection.33.2}%
+\contentsline {subsubsection}{\numberline {33.2.1}Formula}{56}{subsubsection.33.2.1}%
+\contentsline {subsubsection}{\numberline {33.2.2}Calculate the electrical potential around a point charge}{56}{subsubsection.33.2.2}%
+\contentsline {section}{\numberline {34}Electrical Potential Difference}{57}{section.34}%
+\contentsline {subsubsection}{\numberline {34.0.1}Formula}{57}{subsubsection.34.0.1}%
+\contentsline {section}{\numberline {35}The electrical field in between two charged parallel plates}{59}{section.35}%
+\contentsline {subsubsection}{\numberline {35.0.1}Derive of $\mathcal {E} = \frac {\Delta V}{d}$}{59}{subsubsection.35.0.1}%
+\contentsline {section}{\numberline {36}Intro to Magnetism}{61}{section.36}%
+\contentsline {subsection}{\numberline {36.1}Solenoid}{61}{subsection.36.1}%
+\contentsline {subsection}{\numberline {36.2}Magnetic Domain Theory}{61}{subsection.36.2}%
+\contentsline {subsubsection}{\numberline {36.2.1}Factors affecting the magnetic field created by a permanent magnet}{61}{subsubsection.36.2.1}%
+\contentsline {section}{\numberline {37}Magnetic Force on Moving Charges}{62}{section.37}%
+\contentsline {subsection}{\numberline {37.1}Magnetic Force}{62}{subsection.37.1}%
+\contentsline {subsubsection}{\numberline {37.1.1}\textcolor {blue}{Why electron creates a magnetic field}}{62}{subsubsection.37.1.1}%
+\contentsline {subsection}{\numberline {37.2}Right Hand Rule}{63}{subsection.37.2}%
+\contentsline {section}{\numberline {38}The motion of Charged Particles in Magnetic Fields}{64}{section.38}%
+\contentsline {subsubsection}{\numberline {38.0.1}What will the motion of the particle look like}{64}{subsubsection.38.0.1}%
+\contentsline {subsubsection}{\numberline {38.0.2}Aurora Borealis}{64}{subsubsection.38.0.2}%
+\contentsline {subsubsection}{\numberline {38.0.3}Mass Spectrometers}{65}{subsubsection.38.0.3}%
+\contentsline {section}{\numberline {39}The Magnetic Force on a Straight Conductor}{66}{section.39}%
+\contentsline {subsection}{\numberline {39.1}Definitions}{66}{subsection.39.1}%
+\contentsline {subsubsection}{\numberline {39.1.1}Derive a formula for the magnetic force on the conductor}{66}{subsubsection.39.1.1}%
+\contentsline {subsubsection}{\numberline {39.1.2}The direction of the force}{67}{subsubsection.39.1.2}%
+\contentsline {subsection}{\numberline {39.2}What is Tesla}{67}{subsection.39.2}%
