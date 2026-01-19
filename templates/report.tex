@@ -1,69 +1,81 @@
-\documentclass[10pt, a4paper]{memoir}
+\documentclass[a4paper]{article}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath, amssymb}
+\usepackage{amsmath, amssymb, amsthm}
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{enumitem}
-\usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{indentfirst}
-% \usepackage[most]{tcolorbox}
 \usepackage{blindtext}
 \usepackage{multicol}
 \usepackage{paracol}
-\usepackage{amsthm}
 
+% Index
+\usepackage{imakeidx}
+\makeindex[intoc, title=Index]
+
+% Hyperref (put late)
+\usepackage[hidelinks]{hyperref}
 
 % --- Page Setup ---
-\setlength{\columnsep}{0.6cm}
 \geometry{margin=0.6in}
+\setlength{\columnsep}{0.6cm}
+
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Hu}
-\lhead{Mathematics of Data Management}
+
+% 左页眉：当前章节名（自动）
+\lhead{\emph{\nouppercase{\leftmark}}}
+
+% 右页眉：首页不显示，其余页显示课程名
+\rhead{%
+  \ifnum\thepage=1
+  \else
+    Mathematics of Data Management
+  \fi
+}
+
 \rfoot{\thepage}
 
+% 每个 section 强制新页（Cambridge style）
+\let\oldsection\section
+\renewcommand{\section}{\newpage\oldsection}
 
-% --- Colored Example Box (orange) ---
-\newtheoremstyle{bluehead}        % name
-  {\topsep}                        % space above
-  {\topsep}                        % space below
-  {\itshape}                       % body font
-  {}                               % indent
-  {\color{blue}\bfseries}          % HEAD FONT (blue & bold)
-  {}                               % punctuation after name
-  {\newline}                            % space after head
-  {}       
-
-  \newtheoremstyle{redhead}        % name
-  {\topsep}                        % space above
-  {\topsep}                        % space below
-  {\itshape}                       % body font
-  {}                               % indent
-  {\color{red}\bfseries}          % HEAD FONT (blue & bold)
-  {}                               % punctuation after name
-  {\newline}                            % space after head
-  {}       
-% --- Theorem Environments ---
-\theoremstyle{bluehead}
+% --- Theorem Environments (ONE numbered system) ---
+\theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
-\newtheorem{definition}[theorem]{Definition}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
-\theoremstyle{redhead}
-\newtheorem{example}{Example}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
-% \setsecnumdepth{subsection}
+% --- Cambridge-style semantic (unnumbered) environments ---
+\theoremstyle{definition}
+\newtheorem*{axiom}{Axiom}
+\newtheorem*{assumption}{Assumption}
+\newtheorem*{notation}{Notation}
 
+% --- Index term command ---
+\newcommand{\term}[1]{\emph{#1}\index{#1}}
 
+% --- Lists ---
+\renewcommand{\labelitemi}{--}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelenumi}{(\roman{*})}
+
+% --- QED symbol ---
+\renewcommand{\qedsymbol}{$\square$}
 
 % --- Custom Commands ---
 \newcommand{\R}{\mathbb{R}}
@@ -75,12 +87,12 @@
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 
-\newcommand{\mypic}[3]{
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=#3\textwidth]{#1}
-        \caption{#2}
-    \end{figure}
+\newcommand{\mypic}[3]{%
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=#3\textwidth]{#1}
+    \caption{#2}
+  \end{figure}
 }
 
 \newenvironment{worddef}[1]
@@ -92,15 +104,19 @@
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/c5/chapter}
-
 \begin{document}
 
 \maketitle
 \tableofcontents
 \newpage
 
-% \include{chapters/c5/chapter}
+% Example usage:
+% \begin{definition}
+% A \term{random variable} is ...
+% \end{definition}
+%
+% \printindex
 
 $\tfrac{1}{2}$
+
 \end{document}
