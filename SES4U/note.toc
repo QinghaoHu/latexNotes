@@ -1,34 +1,34 @@
-\contentsline {chapter}{\numberline {1}Unit 1: Astronomy}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Episode 1: Standing up in the Milky Way}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Episode 4: A Spacetie Odyssey}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Measuing the Universe}{4}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Some important constants}{4}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Unit Conversion}{4}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Radar}{4}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Parallex}{4}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Cepheid Variable Stars, Redshift and Hubble's Law}{5}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Apparent Magnitude and Absolute Magnitude}{5}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Cepheid Variable stars}{5}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Determining absolute magnitudes using Cepheld Variables}{6}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Hubble's Law}{6}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}Redshift}{6}{subsection.1.4.5}%
-\contentsline {subsection}{\numberline {1.4.6}Overall summary of this section}{6}{subsection.1.4.6}%
-\contentsline {section}{\numberline {1.5}Cosmology}{8}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Some stupid theories}{8}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Is our Universe finite?}{8}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Developments in Cosmology}{9}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Our Solar System}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Wonders of the Solar System}{11}{section.2.1}%
-\contentsline {subsubsection}{Q1}{11}{section*.2}%
-\contentsline {subsubsection}{Q2}{11}{section*.3}%
-\contentsline {subsubsection}{Q3}{11}{section*.4}%
-\contentsline {subsubsection}{Q4}{11}{section*.5}%
-\contentsline {subsubsection}{Q5}{11}{section*.6}%
+\contentsline {chapter}{\numberline {1}Unit 1: Astronomy}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Episode 1: Standing up in the Milky Way}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Episode 4: A Spacetie Odyssey}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Measuing the Universe}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Some important constants}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Unit Conversion}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Radar}{5}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Parallex}{5}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Cepheid Variable Stars, Redshift and Hubble's Law}{7}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Apparent Magnitude and Absolute Magnitude}{7}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Cepheid Variable stars}{7}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Determining absolute magnitudes using Cepheld Variables}{7}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Hubble's Law}{7}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Redshift}{8}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {1.4.6}Overall summary of this section}{8}{subsection.1.4.6}%
+\contentsline {section}{\numberline {1.5}Cosmology}{9}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Some stupid theories}{9}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Is our Universe finite?}{9}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Developments in Cosmology}{10}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Our Solar System}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Wonders of the Solar System}{12}{section.2.1}%
+\contentsline {subsubsection}{Q1}{12}{section*.2}%
+\contentsline {subsubsection}{Q2}{12}{section*.3}%
+\contentsline {subsubsection}{Q3}{12}{section*.4}%
+\contentsline {subsubsection}{Q4}{12}{section*.5}%
+\contentsline {subsubsection}{Q5}{12}{section*.6}%
 \contentsline {subsubsection}{Q8}{12}{section*.8}%
 \contentsline {section}{\numberline {2.2}Newton's Law of Gravitation}{13}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Kepler's Law of Planetory Motion}{14}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Kepler's first law}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Kepler's second law}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Kepler's second law}{14}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Kepler's Third Law}{15}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Sun-Earth-Moon System}{16}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Earth's Rotationsc}{16}{subsection.2.4.1}%
@@ -36,54 +36,54 @@
 \contentsline {subsection}{\numberline {2.4.2}Earth's Orbit}{16}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Tide}{16}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Eclipses}{16}{subsection.2.4.4}%
-\contentsline {subsubsection}{LUNAR ECLIPSE}{17}{section*.10}%
-\contentsline {subsection}{\numberline {2.4.5}SOLAR ECLIPSE}{17}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}The wonders of the Solar System: Episode: 5}{18}{section.2.5}%
-\contentsline {subsubsection}{Q1}{18}{section*.11}%
-\contentsline {subsubsection}{Q3}{18}{section*.13}%
-\contentsline {subsubsection}{Q7}{18}{section*.15}%
-\contentsline {chapter}{\numberline {3}Earth's Material \& Geological Process}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Documentary}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Rock cycle and Identification}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Introduction to rock}{21}{subsection.3.2.1}%
-\contentsline {subsubsection}{Sedimentary Rock}{21}{section*.2}%
-\contentsline {subsubsection}{Metamorphic}{21}{section*.3}%
-\contentsline {subsubsection}{Igneous}{21}{section*.4}%
-\contentsline {section}{\numberline {3.3}Mineral Identification}{22}{section.3.3}%
-\contentsline {subsubsection}{Density}{22}{section*.5}%
-\contentsline {subsubsection}{Crystal}{22}{section*.6}%
-\contentsline {subsubsection}{Luster}{22}{section*.7}%
-\contentsline {subsubsection}{Hardness}{22}{section*.8}%
-\contentsline {subsubsection}{Streak}{22}{section*.9}%
-\contentsline {subsubsection}{Acid test}{22}{section*.10}%
-\contentsline {section}{\numberline {3.4}Earthquakes}{23}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Terminology}{23}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Waves}{23}{subsection.3.4.2}%
-\contentsline {subsubsection}{Body wave}{23}{section*.11}%
-\contentsline {subsubsection}{Surface wave}{23}{section*.12}%
-\contentsline {section}{\numberline {3.5}Unit 3 - seminar Testable Question}{24}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Formation and Identification of minerals}{24}{subsection.3.5.1}%
-\contentsline {subsubsection}{Question 1}{24}{section*.13}%
-\contentsline {subsubsection}{Question 2}{24}{section*.14}%
-\contentsline {subsection}{\numberline {3.5.2}Gemstones}{24}{subsection.3.5.2}%
-\contentsline {subsubsection}{Question 1}{24}{section*.15}%
-\contentsline {subsubsection}{Questoin 2}{24}{section*.16}%
-\contentsline {subsubsection}{Question 3}{24}{section*.17}%
-\contentsline {subsection}{\numberline {3.5.3}Marine geology - Deep sea sedimentation}{24}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Investigate technologies to predict earthquakes, volcanoes and tsunamis }{25}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Investigate the Canadian Lithoprobe Project and how it enhanced our understanding of the Earth’s interior.}{25}{subsection.3.5.5}%
-\contentsline {subsection}{\numberline {3.5.6}Investigate the structural engineering techniques and advance technology used to build earthquake-resistant infrastructure}{25}{subsection.3.5.6}%
-\contentsline {subsubsection}{1}{25}{section*.18}%
-\contentsline {subsubsection}{2}{25}{section*.19}%
-\contentsline {subsubsection}{3}{25}{section*.20}%
-\contentsline {subsection}{\numberline {3.5.7}How have Earthquakes and volcanoes affected the development of cities?}{25}{subsection.3.5.7}%
-\contentsline {subsubsection}{2}{25}{section*.21}%
-\contentsline {subsubsection}{3}{26}{section*.22}%
-\contentsline {subsection}{\numberline {3.5.8}Minerals and human health}{26}{subsection.3.5.8}%
-\contentsline {subsection}{\numberline {3.5.9}Critical minerals}{26}{subsection.3.5.9}%
-\contentsline {subsection}{\numberline {3.5.10}The geological composition of famous buildings and landmarks}{26}{subsection.3.5.10}%
-\contentsline {subsection}{\numberline {3.5.11}Mining technologies}{27}{subsection.3.5.11}%
-\contentsline {subsection}{\numberline {3.5.12}Oil and natural gas}{27}{subsection.3.5.12}%
-\contentsline {subsubsection}{temperature-controlled distillation}{27}{section*.23}%
-\contentsline {subsection}{\numberline {3.5.13}Asteroid mining}{27}{subsection.3.5.13}%
-\contentsline {subsection}{\numberline {3.5.14}Weathering and Erosion}{27}{subsection.3.5.14}%
+\contentsline {subsubsection}{LUNAR ECLIPSE}{16}{section*.10}%
+\contentsline {subsection}{\numberline {2.4.5}SOLAR ECLIPSE}{16}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}The wonders of the Solar System: Episode: 5}{17}{section.2.5}%
+\contentsline {subsubsection}{Q1}{17}{section*.11}%
+\contentsline {subsubsection}{Q3}{17}{section*.13}%
+\contentsline {subsubsection}{Q7}{17}{section*.15}%
+\contentsline {chapter}{\numberline {3}Earth's Material \& Geological Process}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Documentary}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Rock cycle and Identification}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Introduction to rock}{20}{subsection.3.2.1}%
+\contentsline {subsubsection}{Sedimentary Rock}{20}{section*.16}%
+\contentsline {subsubsection}{Metamorphic}{20}{section*.17}%
+\contentsline {subsubsection}{Igneous}{20}{section*.18}%
+\contentsline {section}{\numberline {3.3}Mineral Identification}{21}{section.3.3}%
+\contentsline {subsubsection}{Density}{21}{section*.19}%
+\contentsline {subsubsection}{Crystal}{21}{section*.20}%
+\contentsline {subsubsection}{Luster}{21}{section*.21}%
+\contentsline {subsubsection}{Hardness}{21}{section*.22}%
+\contentsline {subsubsection}{Streak}{21}{section*.23}%
+\contentsline {subsubsection}{Acid test}{21}{section*.24}%
+\contentsline {section}{\numberline {3.4}Earthquakes}{22}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Terminology}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Waves}{22}{subsection.3.4.2}%
+\contentsline {subsubsection}{Body wave}{22}{section*.25}%
+\contentsline {subsubsection}{Surface wave}{22}{section*.26}%
+\contentsline {section}{\numberline {3.5}Unit 3 - seminar Testable Question}{23}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Formation and Identification of minerals}{23}{subsection.3.5.1}%
+\contentsline {subsubsection}{Question 1}{23}{section*.27}%
+\contentsline {subsubsection}{Question 2}{23}{section*.28}%
+\contentsline {subsection}{\numberline {3.5.2}Gemstones}{23}{subsection.3.5.2}%
+\contentsline {subsubsection}{Question 1}{23}{section*.29}%
+\contentsline {subsubsection}{Questoin 2}{23}{section*.30}%
+\contentsline {subsubsection}{Question 3}{23}{section*.31}%
+\contentsline {subsection}{\numberline {3.5.3}Marine geology - Deep sea sedimentation}{23}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Investigate technologies to predict earthquakes, volcanoes and tsunamis }{24}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Investigate the Canadian Lithoprobe Project and how it enhanced our understanding of the Earth’s interior.}{24}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Investigate the structural engineering techniques and advance technology used to build earthquake-resistant infrastructure}{24}{subsection.3.5.6}%
+\contentsline {subsubsection}{1}{24}{section*.32}%
+\contentsline {subsubsection}{2}{24}{section*.33}%
+\contentsline {subsubsection}{3}{24}{section*.34}%
+\contentsline {subsection}{\numberline {3.5.7}How have Earthquakes and volcanoes affected the development of cities?}{24}{subsection.3.5.7}%
+\contentsline {subsubsection}{2}{24}{section*.35}%
+\contentsline {subsubsection}{3}{25}{section*.36}%
+\contentsline {subsection}{\numberline {3.5.8}Minerals and human health}{25}{subsection.3.5.8}%
+\contentsline {subsection}{\numberline {3.5.9}Critical minerals}{25}{subsection.3.5.9}%
+\contentsline {subsection}{\numberline {3.5.10}The geological composition of famous buildings and landmarks}{25}{subsection.3.5.10}%
+\contentsline {subsection}{\numberline {3.5.11}Mining technologies}{26}{subsection.3.5.11}%
+\contentsline {subsection}{\numberline {3.5.12}Oil and natural gas}{26}{subsection.3.5.12}%
+\contentsline {subsubsection}{temperature-controlled distillation}{26}{section*.37}%
+\contentsline {subsection}{\numberline {3.5.13}Asteroid mining}{26}{subsection.3.5.13}%
+\contentsline {subsection}{\numberline {3.5.14}Weathering and Erosion}{26}{subsection.3.5.14}%

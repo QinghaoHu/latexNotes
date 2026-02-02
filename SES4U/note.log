@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  3 DEC 2025 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.9)  26 JAN 2026 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -906,7 +906,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 ...Earth’s interior.}{25}{subsection.3.5.5}
+l.74 ...Earth’s interior.}{26}{subsection.3.5.5}
                                                   % [1
 
 ])
@@ -914,16 +914,301 @@ l.74 ...Earth’s interior.}{25}{subsection.3.5.5}
 \openout5 = `note.toc'.
 
  [2]
+\openout2 = `chapters/chapter1.aux'.
+
+ (./chapters/chapter1.tex
+Chapter 1.
+[3
+
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 85.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+<pictures/parallex.png, id=366, 937.5025pt x 415.5525pt>
+File: pictures/parallex.png Graphic file (type png)
+<use pictures/parallex.png>
+Package pdftex.def Info: pictures/parallex.png  used on input line 107.
+(pdftex.def)             Requested size: 422.05772pt x 187.07298pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 111.
+Package mdframed Info: Not enough space on this page on input line 119.
+[5 <./pictures/parallex.png (PNG copy)>]
+Package mdframed Info: Not enough space on this page on input line 119.
+ [6]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 129.
+<pictures/ApparentMagnitude.png, id=384, 1446.40375pt x 438.63875pt>
+File: pictures/ApparentMagnitude.png Graphic file (type png)
+<use pictures/ApparentMagnitude.png>
+Package pdftex.def Info: pictures/ApparentMagnitude.png  used on input line 134.
+(pdftex.def)             Requested size: 527.57014pt x 159.99136pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 137.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 145.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 157.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 174.
+[7 <./pictures/ApparentMagnitude.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 197.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 204.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 217.
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 225.
+[8]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 243.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 251.
+Package mdframed Info: Not enough space on this page on input line 254.
+ [9]
+<pictures/Einestin.png, id=402, 188.705pt x 199.74625pt>
+File: pictures/Einestin.png Graphic file (type png)
+<use pictures/Einestin.png>
+Package pdftex.def Info: pictures/Einestin.png  used on input line 273.
+(pdftex.def)             Requested size: 105.5124pt x 111.68645pt.
+<pictures/hubble.png, id=403, 447.6725pt x 433.62pt>
+File: pictures/hubble.png Graphic file (type png)
+<use pictures/hubble.png>
+Package pdftex.def Info: pictures/hubble.png  used on input line 294.
+(pdftex.def)             Requested size: 158.27264pt x 153.30429pt.
+ [10 <./pictures/Einestin.png (PNG copy)> <./pictures/hubble.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 312.
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+) [11]
+\openout2 = `chapters/chapter2.aux'.
+
+ (./chapters/chapter2.tex
+Chapter 2.
+(./chapters/c2/section1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+) (./chapters/c2/section2.tex [12
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+) (./chapters/c2/section3.tex [13]
+<pictures/Kepler'sEllipse1.jpg, id=433, 602.25pt x 431.6125pt>
+File: pictures/Kepler'sEllipse1.jpg Graphic file (type jpg)
+<use pictures/Kepler'sEllipse1.jpg>
+Package pdftex.def Info: pictures/Kepler'sEllipse1.jpg  used on input line 6.
+(pdftex.def)             Requested size: 263.78506pt x 189.05391pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+[14 <./pictures/Kepler'sEllipse1.jpg>]
+<pictures/Kepler'sLaw3.png, id=440, 1162.3425pt x 590.205pt>
+File: pictures/Kepler'sLaw3.png Graphic file (type png)
+<use pictures/Kepler'sLaw3.png>
+Package pdftex.def Info: pictures/Kepler'sLaw3.png  used on input line 69.
+(pdftex.def)             Requested size: 369.29749pt x 187.51859pt.
+) (./chapters/c2/section4.tex [15 <./pictures/Kepler'sLaw3.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+<pictures/Eclipses.png, id=447, 996.72375pt x 598.235pt>
+File: pictures/Eclipses.png Graphic file (type png)
+<use pictures/Eclipses.png>
+Package pdftex.def Info: pictures/Eclipses.png  used on input line 35.
+(pdftex.def)             Requested size: 211.02483pt x 126.65543pt.
+) (./chapters/c2/section5.tex [16 <./pictures/Eclipses.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+))
+Underfull \hbox (badness 10000) in paragraph at lines 27--121
+
+ []
+
+[17]
 \openout2 = `chapters/c3.aux'.
 
  (./chapters/c3.tex
 Chapter 3.
-[19
+[18
 
 
 
 
-] (./chapters/c3/s1.tex) [20] (./chapters/c3/s2.tex
+] (./chapters/c3/s1.tex) [19] (./chapters/c3/s2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -953,17 +1238,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-) [21{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./chapters/c3/s3.tex
+) [20] (./chapters/c3/s3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) [22] (./chapters/c3/s4.tex
+) [21] (./chapters/c3/s4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-) [23] (./chapters/c3/seminar.tex
+) [22] (./chapters/c3/seminar.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -973,122 +1258,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[24] [25] [26])) [27] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/c3.aux))
+[23] [24] [25])) [26] (./note.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/c3.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 30E3639129304B7AAEE16CD723B947CC;5714.
+(rerunfilecheck)             Checksum: 06157772FDA15C0D711B415D41819D24;11542.
  ) 
 Here is how much of TeX's memory you used:
- 29924 strings out of 476041
- 598876 string characters out of 5793174
+ 30539 strings out of 476041
+ 612657 string characters out of 5793174
  1869388 words of memory out of 6000000
- 49730 multiletter control sequences out of 15000+600000
- 522350 words of font info for 70 fonts, out of 8000000 for 9000
+ 50256 multiletter control sequences out of 15000+600000
+ 522709 words of font info for 71 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,11n,96p,790b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.4.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.4.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.4.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.4.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.4.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.5.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.5.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.4.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.3.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.3.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on note.pdf (12 pages, 144885 bytes).
+ 84i,12n,96p,790b,1154s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on note.pdf (27 pages, 1210219 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
- 118 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 640 words of extra memory for PDF output out of 10000 (max. 10000000)
 

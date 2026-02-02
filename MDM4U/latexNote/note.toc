@@ -1,101 +1,95 @@
 \contentsline {chapter}{Contents}{1}{section*.1}%
-\contentsline {chapter}{\numberline {1}Unit 1}{3}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}Unit 1}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Lecture 1}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}The Fundamental or Multiplicative Counting Principle}{3}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Additive Counting Principle}{3}{subsection.1.1.2}%
+\contentsline {subsection}{The Fundamental or Multiplicative Counting Principle}{3}{section*.2}%
+\contentsline {subsection}{Additive Counting Principle}{3}{section*.3}%
 \contentsline {section}{\numberline {1.2}Lecture 1.2}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Like Term Permutations}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Pascal Triangle}{3}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Venn Diagrams}{3}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Combination}{4}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Unit 2, Probability}{5}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}Unit 2, Probability}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Probability}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Definitions of Probability}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Definitions of other stupid stuffs}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Formulas}{5}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Examples}{5}{subsection.2.1.4}%
+\contentsline {subsection}{Definitions of Probability}{5}{section*.4}%
+\contentsline {subsection}{Definitions of other stupid stuffs}{5}{section*.5}%
+\contentsline {subsection}{Formulas}{5}{section*.6}%
+\contentsline {subsection}{Examples}{5}{section*.7}%
 \contentsline {section}{\numberline {2.2}Dependent Events}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Definitions}{6}{subsection.2.2.1}%
+\contentsline {subsection}{Definitions}{6}{section*.8}%
 \contentsline {section}{\numberline {2.3}Mutually Exclusive Events}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Some boring Definitions}{6}{subsection.2.3.1}%
-\contentsline {chapter}{\numberline {3}One Variable Statistics}{7}{chapter.3}%
+\contentsline {subsection}{Some boring Definitions}{6}{section*.9}%
+\contentsline {chapter}{\chapternumberline {3}One Variable Statistics}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Variables and Data}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Definitions}{7}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}One Variable Graphs}{8}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Some Definitions}{8}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Central Tendency}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Definitions of Central Tendency}{10}{subsection.3.3.1}%
-\contentsline {subsubsection}{CENTRAL}{10}{section*.2}%
-\contentsline {subsubsection}{Mean}{10}{section*.3}%
-\contentsline {subsubsection}{How to choose form}{11}{section*.4}%
-\contentsline {subsubsection}{Weighted}{11}{section*.5}%
-\contentsline {section}{\numberline {3.4}Standard Deviation}{11}{section.3.4}%
-\contentsline {subsubsection}{Spread}{11}{section*.6}%
-\contentsline {subsubsection}{Deviation of Detum}{11}{section*.7}%
-\contentsline {subsubsection}{Standard deviation}{12}{section*.8}%
-\contentsline {subsubsection}{Z-score}{12}{section*.9}%
-\contentsline {section}{\numberline {3.5}Quartiles}{12}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Definitions}{12}{subsection.3.5.1}%
-\contentsline {subsubsection}{Range}{12}{section*.10}%
-\contentsline {subsubsection}{Quartiles}{12}{section*.11}%
-\contentsline {subsubsection}{InterQuartile}{13}{section*.12}%
-\contentsline {subsubsection}{Box-and-whisker plots}{13}{section*.13}%
-\contentsline {subsubsection}{Outlier}{13}{section*.14}%
-\contentsline {subsection}{\numberline {3.5.2}Percentiles}{13}{subsection.3.5.2}%
-\contentsline {subsubsection}{\textcolor {red}{Remainder}}{14}{section*.15}%
-\contentsline {section}{\numberline {3.6}Spread Grouped Data}{14}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}For weighted data}{14}{subsection.3.6.1}%
-\contentsline {section}{\numberline {3.7}Collect data}{14}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Anonymous and not be anonymous}{14}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Survey Questions}{14}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Questions should be avoided}{14}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Experimental vs Observational study}{15}{subsection.3.7.4}%
-\contentsline {section}{\numberline {3.8}sampling}{15}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Some type of sampling}{15}{subsection.3.8.1}%
-\contentsline {section}{\numberline {3.9}Bias}{16}{section.3.9}%
-\contentsline {chapter}{\numberline {4}Two variable Statistics}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Lecture 1: Graphs}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Definitions}{17}{subsection.4.1.1}%
-\contentsline {subsubsection}{Two variable graphed}{17}{section*.5}%
-\contentsline {subsubsection}{Correlation}{17}{section*.6}%
-\contentsline {subsubsection}{Contingency}{18}{section*.9}%
-\contentsline {section}{\numberline {4.2}Linear Correlation}{18}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Why Scatter plot?}{18}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Some boring Definitions}{18}{subsection.4.2.2}%
-\contentsline {subsubsection}{Linear Relationship}{18}{section*.10}%
-\contentsline {section}{\numberline {4.3}Linear Regression}{19}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Residual}{19}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Regression}{19}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Linear Formula}{20}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Equations}{20}{subsection.4.4.1}%
-\contentsline {subsubsection}{Equation solve for standard deviation}{20}{section*.11}%
-\contentsline {subsubsection}{Correlation Coefficient}{20}{section*.12}%
-\contentsline {subsubsection}{The slope of the least-square line}{20}{section*.13}%
-\contentsline {subsubsection}{Solve for the linear equation}{20}{section*.14}%
-\contentsline {section}{\numberline {4.5}Apply linear Regression}{20}{section.4.5}%
-\contentsline {subsubsection}{Outliers}{20}{section*.15}%
-\contentsline {subsection}{\numberline {4.5.1}RESIDUAL}{20}{subsection.4.5.1}%
-\contentsline {subsubsection}{Formula for Residual}{21}{section*.16}%
-\contentsline {section}{\numberline {4.6}Causal Relationships}{21}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Definitions}{21}{subsection.4.6.1}%
-\contentsline {subsubsection}{Cause and Effect Relationship}{21}{section*.17}%
-\contentsline {subsubsection}{Reverse cause and effect relationship}{21}{section*.18}%
-\contentsline {subsubsection}{Common cause relationship}{21}{section*.19}%
-\contentsline {subsubsection}{Accidential relationship}{21}{section*.20}%
-\contentsline {subsubsection}{Extraneous variable}{21}{section*.22}%
-\contentsline {section}{\numberline {4.7}Cofficient of Determination}{21}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Defintions}{21}{subsection.4.7.1}%
-\contentsline {subsubsection}{The equation of Cofficient of Determination}{21}{section*.23}%
-\contentsline {section}{\numberline {4.8}Non-linear regression}{22}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Types of Regression}{22}{subsection.4.8.1}%
-\contentsline {subsubsection}{Linear}{22}{section*.24}%
-\contentsline {subsubsection}{Quadratic}{22}{section*.25}%
-\contentsline {subsubsection}{Power}{22}{section*.26}%
-\contentsline {subsubsection}{Exponental}{22}{section*.27}%
-\contentsline {subsection}{\numberline {4.8.2}Natural Constant $\mathrm {e}$}{22}{subsection.4.8.2}%
-\contentsline {chapter}{\chapternumberline {5}Probability Distribution}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Probability Distributions}{24}{section.5.1}%
-\contentsline {subsection}{Definitions for Probability Distributions}{24}{section*.2}%
-\contentsline {section}{\numberline {5.2}Uniform Distributions}{25}{section.5.2}%
-\contentsline {subsection}{Different Distributions}{25}{section*.3}%
-\contentsline {subsection}{Characteristics of Uniform Distribution}{25}{section*.4}%
+\contentsline {subsection}{Definitions}{7}{section*.10}%
+\contentsline {section}{\numberline {3.2}One Variable Graphs}{9}{section.3.2}%
+\contentsline {subsection}{Some Definitions}{9}{section*.11}%
+\contentsline {section}{\numberline {3.3}Central Tendency}{11}{section.3.3}%
+\contentsline {subsection}{Definitions of Central Tendency}{11}{section*.12}%
+\contentsline {subsubsection}{CENTRAL}{11}{section*.13}%
+\contentsline {subsubsection}{Mean}{11}{section*.14}%
+\contentsline {subsubsection}{How to choose form}{11}{section*.15}%
+\contentsline {subsubsection}{Weighted}{11}{section*.16}%
+\contentsline {section}{\numberline {3.4}Standard Deviation}{12}{section.3.4}%
+\contentsline {subsubsection}{Spread}{12}{section*.17}%
+\contentsline {subsubsection}{Deviation of Detum}{12}{section*.18}%
+\contentsline {subsubsection}{Standard deviation}{12}{section*.19}%
+\contentsline {subsubsection}{Z-score}{12}{section*.20}%
+\contentsline {section}{\numberline {3.5}Quartiles}{13}{section.3.5}%
+\contentsline {subsection}{Definitions}{13}{section*.21}%
+\contentsline {subsubsection}{Range}{13}{section*.22}%
+\contentsline {subsubsection}{Quartiles}{13}{section*.23}%
+\contentsline {subsubsection}{InterQuartile}{13}{section*.24}%
+\contentsline {subsubsection}{Box-and-whisker plots}{13}{section*.25}%
+\contentsline {subsubsection}{Outlier}{13}{section*.26}%
+\contentsline {subsection}{Percentiles}{14}{section*.27}%
+\contentsline {subsubsection}{\textcolor {red}{Remainder}}{14}{section*.28}%
+\contentsline {section}{\numberline {3.6}Spread Grouped Data}{15}{section.3.6}%
+\contentsline {subsection}{For weighted data}{15}{section*.29}%
+\contentsline {section}{\numberline {3.7}Collect data}{16}{section.3.7}%
+\contentsline {subsection}{Anonymous and not be anonymous}{16}{section*.30}%
+\contentsline {subsection}{Survey Questions}{16}{section*.31}%
+\contentsline {subsection}{Questions should be avoided}{16}{section*.34}%
+\contentsline {subsection}{Experimental vs Observational study}{16}{section*.35}%
+\contentsline {section}{\numberline {3.8}sampling}{17}{section.3.8}%
+\contentsline {subsection}{Some type of sampling}{17}{section*.38}%
+\contentsline {section}{\numberline {3.9}Bias}{18}{section.3.9}%
+\contentsline {chapter}{\chapternumberline {4}Two variable Statistics}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lecture 1: Graphs}{19}{section.4.1}%
+\contentsline {subsection}{Definitions}{19}{section*.39}%
+\contentsline {subsubsection}{Two variable graphed}{19}{section*.43}%
+\contentsline {subsubsection}{Correlation}{19}{section*.44}%
+\contentsline {subsubsection}{Contingency}{20}{section*.47}%
+\contentsline {section}{\numberline {4.2}Linear Correlation}{21}{section.4.2}%
+\contentsline {subsection}{Why Scatter plot?}{21}{section*.48}%
+\contentsline {subsection}{Some boring Definitions}{21}{section*.49}%
+\contentsline {subsubsection}{Linear Relationship}{21}{section*.50}%
+\contentsline {section}{\numberline {4.3}Linear Regression}{22}{section.4.3}%
+\contentsline {subsection}{Residual}{22}{section*.51}%
+\contentsline {subsection}{Regression}{22}{section*.52}%
+\contentsline {section}{\numberline {4.4}Linear Formula}{23}{section.4.4}%
+\contentsline {subsection}{Equations}{23}{section*.53}%
+\contentsline {subsubsection}{Equation solve for standard deviation}{23}{section*.54}%
+\contentsline {subsubsection}{Correlation Coefficient}{23}{section*.55}%
+\contentsline {subsubsection}{The slope of the least-square line}{23}{section*.56}%
+\contentsline {subsubsection}{Solve for the linear equation}{23}{section*.57}%
+\contentsline {section}{\numberline {4.5}Apply linear Regression}{24}{section.4.5}%
+\contentsline {subsubsection}{Outliers}{24}{section*.58}%
+\contentsline {subsection}{RESIDUAL}{24}{section*.59}%
+\contentsline {subsubsection}{Formula for Residual}{24}{section*.60}%
+\contentsline {section}{\numberline {4.6}Causal Relationships}{25}{section.4.6}%
+\contentsline {subsection}{Definitions}{25}{section*.61}%
+\contentsline {subsubsection}{Cause and Effect Relationship}{25}{section*.62}%
+\contentsline {subsubsection}{Reverse cause and effect relationship}{25}{section*.63}%
+\contentsline {subsubsection}{Common cause relationship}{25}{section*.64}%
+\contentsline {subsubsection}{Accidential relationship}{25}{section*.65}%
+\contentsline {subsubsection}{Extraneous variable}{25}{section*.67}%
+\contentsline {section}{\numberline {4.7}Cofficient of Determination}{26}{section.4.7}%
+\contentsline {subsection}{Defintions}{26}{section*.68}%
+\contentsline {subsubsection}{The equation of Cofficient of Determination}{26}{section*.69}%
+\contentsline {section}{\numberline {4.8}Non-linear regression}{27}{section.4.8}%
+\contentsline {subsection}{Types of Regression}{27}{section*.70}%
+\contentsline {subsubsection}{Linear}{27}{section*.71}%
+\contentsline {subsubsection}{Quadratic}{27}{section*.72}%
+\contentsline {subsubsection}{Power}{27}{section*.73}%
+\contentsline {subsubsection}{Exponental}{27}{section*.74}%
+\contentsline {subsection}{Natural Constant $\mathrm {e}$}{27}{section*.75}%
