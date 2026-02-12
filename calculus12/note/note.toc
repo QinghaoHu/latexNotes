@@ -1,7 +1,12 @@
 \contentsline {section}{\numberline {1}Slope}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Measuring Rates of Change on a Table or a Graph}{3}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Intervial of the function}{3}{subsubsection.1.1.1}%
-\contentsline {section}{\numberline {2}Reference Sheet}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Assume Knowledge}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Log Laws}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Trig Laws}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2}Determine approximation for the slope of the tangent}{3}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Trends and increasing/decreasing}{4}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Measuring Rates of Change Using a Defined Relation}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Difference Quotient}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Approximating the slope of the tangent}{5}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Reference Sheet}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Assume Knowledge}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Log Laws}{7}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Trig Laws}{7}{subsubsection.2.1.2}%

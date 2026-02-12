@@ -1,0 +1,60 @@
+\subsection{Measuring Rates of Change Using a Defined Relation}
+\subsubsection{Difference Quotient}
+\begin{definition}
+    [Difference Quotient] a measure of the average rate of change of the function over an interval. 
+    In other words, it is a simplified expression for the slope of a secant. 
+    It can be expressed as
+    \[
+        m = \frac{f(x + h) - f(x)}{h}
+    \]
+    where $h \neq 0$
+\end{definition}
+Let's proof the difference Quotient
+\begin{proof}
+    We have the formula of the slope: 
+    \[
+        m = \frac{y_2 - y_1}{x_2 - x_1}
+    \]
+    Assume we have two points: $(x, f(x))$ and $(x + h, f(x + h))$, sub these two points into the formula of slope.
+    \begin{gather*}
+        m = \frac{f(x + h) - f(x)}{(x + h) - x}\\
+        m = \frac{f(x + h) - f(x)}{h}
+    \end{gather*}
+\end{proof}
+
+Let's look at an example. 
+\begin{example}
+    Determine a general expression for the slope given the function $f(x) = -x^2 + 4x + 5$\\
+    \begin{gather*}
+        m = \frac{f(x + h) - f(x)}{h} \\
+        m = \frac{
+            -(x + h)^2 + 4(x + h) + 5 - (-x^2 + 4x + 5)
+        }{
+            h
+        }\\
+        m = \frac{
+            -x^2 - 2xh - h^2 + 4x + 4h + 5 + x^2 -4x - 5
+        }{
+            h
+        }\\
+        m = \frac{
+            -2xh - h^2 + 4h 
+        }{h}\\
+        m = -2x + 4 - h, h \neq 0
+    \end{gather*}
+\end{example}
+
+\subsubsection{Approximating the slope of the tangent}
+Recall:
+\begin{itemize}
+    \item The slope of a secant line will give the average rate of change of the 'y' values over a givern interval of 'x'.
+    \item The slope of a tangent line will give the instantaneous rate of change of the 'y' value at a givern value of 'x'.
+\end{itemize}
+
+\noindent For difference quotient 
+\[
+    \frac{f(x + h) - f(x)}{h}
+\]
+if $h$ is extremely small, we can approximate the slope of the tangent line. \\
+
+In later sections, we will discuss about principle of limits. At that time, you will have a better understanding about today's topic. 
