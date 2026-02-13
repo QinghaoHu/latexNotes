@@ -1,9 +1,31 @@
 \subsection{The Concept of Limit}
-\begin{definition}
-    Assume we have function $f(x)$, $x$, and limit of the function $L$.
+\begin{definition} [Limits]
+    Assume we have function $f(x)$, $x$, and 
+    \[ \lim_{x \to a} f(x) = L \]
     Using the $\delta-\epsilon$ language:\\
-    if 
     \[
-        \exists
+        \forall \epsilon > 0, \exists \delta > 0 \text{ such that } 0 < \left|a - x\right| < \delta \implies 
+        \left|f(x) - L\right| < \epsilon
     \]
+    Remember, $f(a)$ does not have to be defined. 
+
+
+    For limts, we are solving for the expected value instead of defined value. 
+    When the following conditions are met, the limits exists
+    \begin{itemize}
+        \item \[\lim_{x \to a^{-}} f(x) \text{ must exist }\] 
+        \item \[\lim_{x \to a^{+}} f(x) \text{ must exist }\]
+        \item \[\lim_{x \to a^{-}} f(x) = \lim_{x \to a^{+}} f(x)\]
+    \end{itemize}
+\end{definition}
+
+\begin{definition}
+    [Continuity] a function which there are no "breaks" or "gaps" in the function. 
+    
+    These conditions must be met
+    \begin{enumerate}
+        \item \[\lim_{x \to a} f(x) \text{ exist }\]
+        \item \[f(a) \text{ must be defined }\]
+        \item \[\lim_{x \to a} = f(a)\]
+    \end{enumerate}
 \end{definition}
