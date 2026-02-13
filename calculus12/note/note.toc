@@ -6,7 +6,9 @@
 \contentsline {subsection}{\numberline {1.2}Measuring Rates of Change Using a Defined Relation}{5}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Difference Quotient}{5}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Approximating the slope of the tangent}{5}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}Reference Sheet}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Assume Knowledge}{7}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Log Laws}{7}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Trig Laws}{7}{subsubsection.2.1.2}%
+\contentsline {section}{\numberline {2}Continuity and Limits}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Concept of Limit}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Reference Sheet}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Assume Knowledge}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Log Laws}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Trig Laws}{8}{subsubsection.3.1.2}%
