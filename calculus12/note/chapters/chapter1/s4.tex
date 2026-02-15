@@ -1,0 +1,73 @@
+\subsection{Continuity and Limits}
+\begin{definition}
+    [Limits Law]
+    Assume we have function $f(x)$ and $g(x)$, which 
+    \[
+        \lim_{x \to a} f(x) \text{ and } \lim_{x \to a} g(x) \text{ both exist}
+    \]
+    We also have constant $c$
+    We get these properties:
+    \begin{enumerate}
+        \item \[\lim_{x\to a} c = c\]
+        \item \[\lim_{x \to a} x = a\]
+        \item \[
+            \lim_{x \to a} \left[f(x) + g(x) \right] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)
+        \]
+        \item \[
+            \lim_{x \to a} \left[f(x) - g(x) \right] = \lim_{x \to a} f(x) - \lim_{x \to a} g(x)
+        \]
+        \item \[
+            \lim_{x \to a} \left[f(x) * g(x) \right] = \lim_{x \to a} f(x) * \lim_{x \to a} g(x)
+        \]
+        \item \[
+            \lim_{x \to a}\frac{f(x)}{g(x)} = \frac{
+                \lim_{x \to a} f(x) 
+            }{
+                \lim_{x \to a} g(x)
+            }  
+        \]
+        \item \[
+        \lim_{x \to a} \left[f(x)\right]^n = (\lim_{x \to a}f(x))^n 
+        \]
+        \item \[
+        \lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{(\lim_{x \to a}f(x))} 
+        \]
+    \end{enumerate}
+\end{definition}
+
+Somes cases you should be careful
+\begin{example}
+    Evaluate and simplify
+    \[
+        \lim_{x \to a} \sqrt{x}
+    \]
+    Recall: if a limit exist
+    \begin{enumerate}
+        \item \[ \lim_{x \to a^{-}} f(x) \text{ exists}\]
+        \item \[ \lim_{x \to a^{+}} f(x) \text{ exists}\]
+        \item \[ \lim_{x \to a^{-}} f(x) = \lim_{x \to a^{+}} f(x)\]
+    \end{enumerate}
+    In this case, \[ \lim_{x \to 0^{-}} \sqrt{x} \text{ does not exist}\] because 
+    \[
+        D: {x \in \mathcal{R} | x \geq 0}
+    \]
+\end{example}
+
+\begin{example}
+    Evaluate and simplify: 
+    \[
+        \lim_{x \to 1} x^2 - 5x
+    \]
+    \begin{remark}
+        Please be carefull with the bracket, don't mix with 
+        \[
+            \lim_{x \to 1} (x^2 - 5x)
+        \]
+    \end{remark}
+    The solution should be:
+    \begin{gather*}
+        = (\lim_{x \to 1}x)^2 - 5x \\
+        = (1)^2 - 5x\\
+        = 1 - 5x
+    \end{gather*}
+\end{example}
