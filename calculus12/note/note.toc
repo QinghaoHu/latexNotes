@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Continuity and Limits}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}The Concept of Limit}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Continuity and Limits}{4}{subsection.1.2}%
@@ -5,3 +6,26 @@
 \contentsline {subsection}{\numberline {2.1}Assume Knowledge}{6}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Log Laws}{6}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Trig Laws}{6}{subsubsection.2.1.2}%
+=======
+\contentsline {section}{\numberline {1}Slope}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Measuring Rates of Change on a Table or a Graph}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Intervial of the function}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Determine approximation for the slope of the tangent}{3}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Trends and increasing/decreasing}{4}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Measuring Rates of Change Using a Defined Relation}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Difference Quotient}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Approximating the slope of the tangent}{5}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Continuity and Limits}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Concept of Limit}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Continuity and Limits}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Discontinuity and Limits}{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Jump Discontinuity}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Infinite Discontinuity}{10}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Removable Discontinuity}{10}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Derivatives}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduction to Derivatives}{12}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Reference Sheet}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Assume Knowledge}{13}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Log Laws}{13}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Trig Laws}{13}{subsubsection.4.1.2}%
+>>>>>>> refs/remotes/origin/main

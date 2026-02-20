@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex note.idx"] 1771013248.89126 "note.idx" "note.ind" "note" 1771013517.29665 0
-  "note.idx" 1771013516.9546 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex note.idx"] 1771610043.41411 "note.idx" "note.ind" "note" 1771616783.24246 0
+  "note.idx" 1771616782.84092 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "note.ilg"
   "note.ind"
   (rewritten before read)
-["pdflatex"] 1771013516.59691 "/Users/huqinghao/note/latexNotes/calculus12/note/note.tex" "note.pdf" "note" 1771013517.29675 0
+["pdflatex"] 1771616782.48782 "/Users/huqinghao/note/latexNotes/calculus12/note/note.tex" "note.pdf" "note" 1771616783.24257 0
   "/Users/huqinghao/note/latexNotes/calculus12/note/note.tex" 1770915814.22731 2719 d46eab0ded969a6bf6e2052d99f6cdc2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -48,6 +48,8 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1248133631 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -193,17 +195,23 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1750852266 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1750852258 3345733 1bc04c57761db4480b2223ecc5fd2d6e ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "chapters/chapter1/c1.aux" 1771013517.20691 1454 fce2714527d37b412d120279d62c66fc "pdflatex"
-  "chapters/chapter1/c1.tex" 1771011347.72522 221 e1e076a23c4c5f970137207284a477ef ""
+  "chapters/chapter1/c1.aux" 1771616783.14335 3540 ddbe2fe74bfad209d63c997852d9a507 "pdflatex"
+  "chapters/chapter1/c1.tex" 1771616781.45945 312 98c183dc4f216694529b6a94521bfc9a ""
+  "chapters/chapter1/s1.tex" 1770915814.22455 2392 ed798d8985d4c6fab2bcc2b278e165b8 ""
+  "chapters/chapter1/s2.tex" 1770915814.22465 1992 17f0614ff05e6c995bee29c7fe510c13 ""
+  "chapters/chapter1/s3.tex" 1771011270.78405 1221 192e45f4328f36bad19ff81342a91684 ""
   "chapters/chapter1/s4.tex" 1771013516.37277 2108 cdb1e43809ec5a86009efdb463f92173 ""
-  "chapters/referenceSheet/reference.aux" 1771013517.21703 1707 bb1a84885a01e87f82003bbc6a04035f "pdflatex"
+  "chapters/chapter1/s5.tex" 1771610591.17406 2436 39b726362b4968d43964caa448e83231 ""
+  "chapters/chapter1/s6.tex" 1771616761.00613 40 a9ffb12dce1d7d49e52d8908ae646832 ""
+  "chapters/referenceSheet/reference.aux" 1771616783.15369 1713 901d285f6cb6365abbaf977ec5617f65 "pdflatex"
   "chapters/referenceSheet/reference.tex" 1770590594.16156 1112 e3f68f108c0a10f307948407413568cc ""
   "introduction.tex" 1770915814.22504 199 481804d3905aff89be1136dd3e62ed0b ""
-  "note.aux" 1771013517.21727 278 8e2b0d9510235f7e9d9929f27909e3c2 "pdflatex"
-  "note.ind" 1771013248.97483 0 d41d8cd98f00b204e9800998ecf8427e "makeindex note.idx"
-  "note.out" 1771013517.21826 808 7706f77d3ea047de03603b3b2012c583 "pdflatex"
+  "note.aux" 1771616783.15395 279 89359d30b123a7e9e8be0484736baaa0 "pdflatex"
+  "note.ind" 1771610043.50262 0 d41d8cd98f00b204e9800998ecf8427e "makeindex note.idx"
+  "note.out" 1771616783.15517 3924 2027af2d0a6c558829a867f89b5b34f3 "pdflatex"
   "note.tex" 1770915814.22731 2719 d46eab0ded969a6bf6e2052d99f6cdc2 ""
-  "note.toc" 1771013517.21844 486 44b4cf5d6924fabefad763c328032e88 "pdflatex"
+  "note.toc" 1771616783.15539 1959 d1853d111e18fb71a11c69525876b02d "pdflatex"
+  "pictures/1.1.1.png" 1770915814.22768 49416 96374813126e862548368b020ab94146 ""
   "pictures/unitCircle.jpg" 1770590594.16393 51432 eaf63ac401927bcdfae5e7bb8760f71d ""
   (generated)
   "chapters/chapter1/c1.aux"

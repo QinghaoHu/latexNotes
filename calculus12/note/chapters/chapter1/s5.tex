@@ -1,0 +1,78 @@
+\subsection{Discontinuity and Limits}
+\subsubsection{Jump Discontinuity}
+\begin{example}
+    Evaluate the limit of $f(x)$ at $x = 7$
+    \[
+        f(x) =  \left\{\begin{matrix}
+                    \sqrt{x - 3}, x \geq 7\\
+                    x - 4, x < 7
+        \end{matrix}\right.
+    \]
+    If we approach from the left side
+    \[
+        \lim_{x \to 7^-} (x - 4) = 3
+    \]
+    If we approach from the right side
+    \[
+        \lim_{x \to 7^+}(\sqrt{x - 3}) = 2
+    \]
+    \begin{gather*}
+        \because \lim_{x \to 7^-} f(x) \neq \lim_{x \to 7^+} f(x)\\
+        \therefore \lim_{x \to 7} f(x) \text{ does not exist. }
+    \end{gather*}
+    This is called a jump discontinuity. 
+\end{example}
+
+\subsubsection{Infinite Discontinuity}
+\begin{example}
+    Evaluate the limit of $f(x)$ at $x = 2$
+    \begin{equation*}
+        f(x) = \frac{x + 3}{x - 2}
+    \end{equation*}
+    If we approach from the left side
+    \[
+        \lim_{x \to 2^-} (\frac{x + 3}{x - 2}) = \infty
+    \]
+    If we approach from the right side
+    \[
+        \lim_{x \to 2^+}(\frac{x + 3}{x - 2}) = -\infty
+    \]
+    \begin{gather*}
+        \because \lim_{x \to 2^-} f(x) \neq \lim_{x \to 2^+} f(x)\\
+        \therefore \lim_{x \to 2} f(x) \text{ does not exist. }
+    \end{gather*}
+\end{example}
+
+\subsubsection{Removable Discontinuity}
+\begin{example}
+    Evaluate this limit.
+    \begin{equation*}
+        \lim_{x \to 5}\frac{2x^2 - 7x - 15}{x-5}
+    \end{equation*}
+    \begin{gather*}
+        \begin{align}
+            &= \lim_{x \to 5}\frac{(2x + 3)(x - 5)}{(x - 5)}  \\ 
+            &= \lim_{x \to 5} 2x + 3 \\
+            &= 13 
+        \end{align}
+    \end{gather*}
+    However, this function is not defined at $x = 5$\\
+    So there is a Removable discontinuity
+\end{example}
+
+\begin{example}
+    Evaluate the following limit
+    \begin{equation*}
+        \lim_{x \to 4} \frac{1}{(x + 4)^2}
+    \end{equation*}
+    If you approach this limit from both side, you will figure it out that this limit equals to $\infty$
+    This is not a "limit" because simply $\infty \notin \R$ 
+\end{example}
+
+\begin{definition}
+    [Indeterminate form] is an expression in which generate values such as $\tfrac{0}{0}$ or $\frac{\infty}{\infty}$.
+    Certain limits cannot be evaluated by direct substitution since we may end up with one of these indeterminate form.  
+\end{definition}
+\begin{remark}
+    See the teacher's notes for more details!!!
+\end{remark}
