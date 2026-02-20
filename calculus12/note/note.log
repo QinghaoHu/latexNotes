@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.25)  13 FEB 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.25)  20 FEB 2026 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -787,50 +787,97 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2]
 \openout2 = `chapters/chapter1/c1.aux'.
 
- (./chapters/chapter1/c1.tex (./chapters/chapter1/s4.tex
+ (./chapters/chapter1/c1.tex (./chapters/chapter1/s1.tex
+<pictures/1.1.1.png, id=129, 581.17125pt x 222.8325pt>
+File: pictures/1.1.1.png Graphic file (type png)
+<use pictures/1.1.1.png>
+Package pdftex.def Info: pictures/1.1.1.png  used on input line 28.
+(pdftex.def)             Requested size: 345.0pt x 132.28267pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
 
 [3
 
-]))
+ <./pictures/1.1.1.png (PNG copy)>])
 
-[4]
+[4] (./chapters/chapter1/s2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+
+[5])
+
+[6] (./chapters/chapter1/s3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+)
+
+[7] (./chapters/chapter1/s4.tex
+
+[8])
+
+[9] (./chapters/chapter1/s5.tex
+
+[10])
+
+[11] (./chapters/chapter1/s6.tex))
+
+[12]
 \openout2 = `chapters/referenceSheet/reference.aux'.
 
  (./chapters/referenceSheet/reference.tex
 
-[5
+[13
 
 
 
 ]
-<pictures/unitCircle.jpg, id=89, 301.125pt x 296.307pt>
+<pictures/unitCircle.jpg, id=219, 301.125pt x 296.307pt>
 File: pictures/unitCircle.jpg Graphic file (type jpg)
 <use pictures/unitCircle.jpg>
 Package pdftex.def Info: pictures/unitCircle.jpg  used on input line 40.
 (pdftex.def)             Requested size: 276.00105pt x 271.61107pt.
 )
 
-[6 <./pictures/unitCircle.jpg>] (./note.aux (./chapters/chapter1/c1.aux) (./chapters/referenceSheet/reference.aux))
+[14 <./pictures/unitCircle.jpg>] (./note.aux (./chapters/chapter1/c1.aux) (./chapters/referenceSheet/reference.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 7706F77D3EA047DE03603B3B2012C583;808.
+(rerunfilecheck)             Checksum: 2027AF2D0A6C558829A867F89B5B34F3;3924.
  ) 
 Here is how much of TeX's memory you used:
- 23679 strings out of 473190
- 443095 string characters out of 5715800
- 847175 words of memory out of 5000000
- 46468 multiletter control sequences out of 15000+600000
+ 23780 strings out of 473190
+ 444995 string characters out of 5715800
+ 847197 words of memory out of 5000000
+ 46514 multiletter control sequences out of 15000+600000
  567960 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,590b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on note.pdf (6 pages, 242344 bytes).
+ 84i,16n,93p,590b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on note.pdf (14 pages, 331693 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
