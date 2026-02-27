@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.9)  15 FEB 2026 14:02
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.25)  20 FEB 2026 14:46
->>>>>>> refs/remotes/origin/main
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.9)  20 FEB 2026 19:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -778,10 +774,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [2]
 \openout2 = `chapters/chapter1/c1.aux'.
 
-<<<<<<< HEAD
- (./chapters/chapter1/c1.tex (./chapters/chapter1/s3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-=======
  (./chapters/chapter1/c1.tex (./chapters/chapter1/s1.tex
 <pictures/1.1.1.png, id=129, 581.17125pt x 222.8325pt>
 File: pictures/1.1.1.png Graphic file (type png)
@@ -798,22 +790,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
+[3
 
->>>>>>> refs/remotes/origin/main
-
- []
-
-<<<<<<< HEAD
-) [3
-
-] (./chapters/chapter1/s4.tex [4])) [5]
-\openout2 = `chapters/referenceSheet/reference.aux'.
-
- (./chapters/referenceSheet/reference.tex [6
-=======
- <./pictures/1.1.1.png (PNG copy)>])
-
-[4] (./chapters/chapter1/s2.tex
+ <./pictures/1.1.1.png (PNG copy)>]) [4] (./chapters/chapter1/s2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -823,96 +802,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-
-
-[5])
-
-[6] (./chapters/chapter1/s3.tex
+[5]) [6] (./chapters/chapter1/s3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-)
-
-[7] (./chapters/chapter1/s4.tex
-
-[8])
-
-[9] (./chapters/chapter1/s5.tex
-
-[10])
-
-[11] (./chapters/chapter1/s6.tex))
-
-[12]
+) [7] (./chapters/chapter1/s4.tex [8]) [9] (./chapters/chapter1/s5.tex [10]) [11] (./chapters/chapter1/s6.tex [12])) [13]
 \openout2 = `chapters/referenceSheet/reference.aux'.
 
- (./chapters/referenceSheet/reference.tex
-
-[13
->>>>>>> refs/remotes/origin/main
+ (./chapters/referenceSheet/reference.tex [14
 
 
 
 ]
-<<<<<<< HEAD
-<pictures/unitCircle.jpg, id=99, 301.125pt x 296.307pt>
-=======
-<pictures/unitCircle.jpg, id=219, 301.125pt x 296.307pt>
->>>>>>> refs/remotes/origin/main
+<pictures/unitCircle.jpg, id=231, 301.125pt x 296.307pt>
 File: pictures/unitCircle.jpg Graphic file (type jpg)
 <use pictures/unitCircle.jpg>
 Package pdftex.def Info: pictures/unitCircle.jpg  used on input line 40.
 (pdftex.def)             Requested size: 276.00105pt x 271.61107pt.
-) [7 <./pictures/unitCircle.jpg>] (./note.aux (./chapters/chapter1/c1.aux) (./chapters/referenceSheet/reference.aux))
-
-<<<<<<< HEAD
-Package rerunfilecheck Warning: File `note.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `note.out':
-(rerunfilecheck)             Before: 7706F77D3EA047DE03603B3B2012C583;808
-(rerunfilecheck)             After:  4862AFD0926BB06231FB8EF7E93BA3B0;974.
- ) 
-Here is how much of TeX's memory you used:
- 23487 strings out of 476041
- 440310 string characters out of 5793174
- 1864388 words of memory out of 6000000
- 43464 multiletter control sequences out of 15000+600000
- 521410 words of font info for 67 fonts, out of 8000000 for 9000
- 1137 hyphenation exceptions out of 8191
- 84i,12n,90p,516b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on note.pdf (7 pages, 247200 bytes).
-PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-[14 <./pictures/unitCircle.jpg>] (./note.aux (./chapters/chapter1/c1.aux) (./chapters/referenceSheet/reference.aux))
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
+) [15 <./pictures/unitCircle.jpg>] (./note.aux (./chapters/chapter1/c1.aux) (./chapters/referenceSheet/reference.aux))
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 2027AF2D0A6C558829A867F89B5B34F3;3924.
  ) 
 Here is how much of TeX's memory you used:
- 23780 strings out of 473190
- 444995 string characters out of 5715800
- 847197 words of memory out of 5000000
- 46514 multiletter control sequences out of 15000+600000
- 567960 words of font info for 71 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 84i,16n,93p,590b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on note.pdf (14 pages, 331693 bytes).
+ 23572 strings out of 476041
+ 441690 string characters out of 5793174
+ 1867388 words of memory out of 6000000
+ 43493 multiletter control sequences out of 15000+600000
+ 521410 words of font info for 67 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 84i,17n,90p,516b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on note.pdf (15 pages, 338610 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> refs/remotes/origin/main
 
