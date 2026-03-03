@@ -1,11 +1,13 @@
 \contentsline {section}{\numberline {1}Slope}{3}{section.1}%
-\contentsline {section}{\numberline {2}Derivatives}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Introduction to Derivatives}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}The Derivatives of Polynomial Functions}{6}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}What is a power?}{6}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Power Rules}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Derivative Rules}{6}{subsubsection.2.2.3}%
-\contentsline {section}{\numberline {3}Reference Sheet}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Assume Knowledge}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Log Laws}{7}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Trig Laws}{7}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {2}Derivatives}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Introduction to Derivatives}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Differentiation Rules}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Derivatives of Polynomial Functions}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Power Functions}{5}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Power Rule}{5}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Basic Derivative Rules}{5}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}The Product Rule}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Reference Sheet}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Assumed Knowledge}{7}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Log Laws}{7}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Trig Laws}{7}{subsubsection.4.1.2}%

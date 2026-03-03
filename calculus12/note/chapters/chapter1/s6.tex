@@ -1,52 +1,54 @@
 \subsection{Introduction to Derivatives}
-\begin{definition}
-    [Derivative] is a fundamental tool that measures the instantaneous rate of change of a function with respect to its input, 
-    representing the slope of the tangent line to a graph at a given point. \\
-    You can write Derivative in three ways:
-    $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
-    $$m_T = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
-    $$\frac{dy}{dx} = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+
+\begin{definition}[Derivative]
+The derivative measures the instantaneous rate of change of a function with respect to its input. Geometrically, it is the slope of the tangent line to the graph at a point.
+
+Common notations are
+\[
+  f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h},
+\]
+\[
+  m_T = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h},
+\]
+\[
+  \frac{dy}{dx} = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}.
+\]
 \end{definition}
 
-The simple Notation:
+\noindent Useful notation:
 \begin{itemize}
-    \item Average rate of change in y values over an interval of x values: $\frac{\Delta y}{\Delta x}$
-    \item Instantaneous rate of change in the y value at an x value: $\frac{\delta y}{\delta x}$ or $\frac{dy}{dx}$.
+  \item Average rate of change over an interval: $\dfrac{\Delta y}{\Delta x}$.
+  \item Instantaneous rate of change at a point: $\dfrac{dy}{dx}$.
 \end{itemize}
 
-When you solve for the instantaneous rate of change for function $f(x)$ at $x = a$.
-You can write the Derivative in one of two ways. 
-$$\left .\frac{dy}{dx} \right |_{x = a} = \frac{f (a + h) - f(a)}{h}$$
-$$f'(a) = \frac{f (a + h) - f(a)}{h}$$
+For a function $f(x)$ at $x=a$,
+\[
+\left.\frac{dy}{dx}\right|_{x=a} = \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+\]
+and equivalently
+\[
+f'(a) = \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}.
+\]
 
-There is also a different way to solve for $m_T$
-
-Given we have a function $f(x)$, we grad two points $(a, f(a))$ and $(x, f(x))$
-The instantaneous rate of change of the function should be 
-$$\lim_{x \to a}\frac{f(x) - f(a)}{x - a}$$
+Another equivalent form is
+\[
+\lim_{x \to a}\frac{f(x)-f(a)}{x-a}.
+\]
 
 \begin{example}
-    Given the function $f(x) = \frac{1}{x}$, find the slope of the tangent at $x = 2$
-
-    Take the point $(2, \frac{1}{2})$ and $(x, \frac{1}{x})$
-    \begin{gather*}
-        \begin{align}
-            m &= \lim_{x \to 2} \frac{\Delta x}{\Delta y}\\
-            &= \lim_{x \to 2} \frac{\frac{1}{x} - \frac{1}{2}}{x - 2}\\
-            &= \cdots\\
-            &= \lim_{x \to 2} \frac{-x + 2}{2x} * \frac{1}{x - 2}\\
-            &= \lim_{x \to 2} -\frac{1}{2x}\\
-            &= \frac{1}{4}
-        \end{align}
-    \end{gather*}
+Given $f(x)=\dfrac{1}{x}$, find the slope of the tangent at $x=2$.
+\begin{align*}
+m &= \lim_{x\to 2}\frac{\frac{1}{x}-\frac{1}{2}}{x-2} \\
+  &= \lim_{x\to 2}\frac{2-x}{2x(x-2)} \\
+  &= \lim_{x\to 2}\left(-\frac{1}{2x}\right) \\
+  &= -\frac{1}{4}.
+\end{align*}
 \end{example}
 
-The derivative of a function cannot exist if: 
+The derivative may fail to exist at $x=a$ when:
 \begin{itemize}
-    \item There is a discontinuity at the given x value 
-    \item The function is continuous at a given "x" value but \begin{itemize}
-        \item You have a "corner" at the "x" value 
-        \item You have a "cus" at the "x" value 
-        \item You have a vertical tangent at the "x' value
-    \end{itemize}
+  \item the function is discontinuous at $x=a$;
+  \item the function has a corner at $x=a$;
+  \item the function has a cusp at $x=a$;
+  \item the tangent is vertical at $x=a$.
 \end{itemize}

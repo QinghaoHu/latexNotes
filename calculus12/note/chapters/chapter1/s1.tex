@@ -1,65 +1,55 @@
-\subsection{Measuring Rates of Change on a Table or a Graph}
-\begin{definition}
-    [slope/Rate of Change] the ratio of the vertical distance to the horizontal distance between two points. 
-\end{definition}
-In Grade 9, we all studied the slope formula: 
-\[
-    m = \frac{y_2 - y_1}{x_2 - x_1}
-\]
-$m$ represents the slope because linear function is written as:
-\[
-    f(x) = mx + b
-\]
+\subsection{Measuring Rates of Change from a Table or Graph}
 
-\subsubsection{Intervial of the function}
-When you are asked to give the intervial of a function, one must response in one of these forms:
+\begin{definition}[Slope / Rate of Change]
+The slope is the ratio of vertical change to horizontal change between two points.
+\end{definition}
+
+For two points $(x_1,y_1)$ and $(x_2,y_2)$,
 \[
-x \in (-\infty, a) \cap (b, \infty)
+  m=\frac{y_2-y_1}{x_2-x_1}.
+\]
+For a linear function $f(x)=mx+b$, the coefficient $m$ is the slope.
+
+\subsubsection{Intervals of a Function}
+When describing intervals, use interval notation such as
+\[
+  x\in(-\infty,a)\cup(b,\infty).
 \]
 
 \begin{remark}
-    We look the function from $-\infty$ to $\infty$
+Read the graph from left to right, that is, from $-\infty$ to $\infty$.
 \end{remark}
 
 \begin{example}
-    Here is a question by Mr.Hoken
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=1.0\textwidth]{pictures/1.1.1.png}
-    \end{figure}
+Here is a question by Mr. Hoken.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{pictures/1.1.1.png}
+\end{figure}
 
-    \noindent The answer for a) should be $x \in (-\infty, -3)$\\
-    The answer for b) should be $x \in (-\infty, -3) \cup (5, \infty)$\\
+The answer for (a) is $x\in(-\infty,-3)$.
 
+The answer for (b) is $x\in(-\infty,-3)\cup(5,\infty)$.
 \end{example}
 
-\subsubsection{Determine approximation for the slope of the tangent}
-To start off, we need to two points which have equal difference of x to the point that tangent line cross over. \\
+\subsubsection{Approximating the Slope of a Tangent}
+Pick two points around the point of tangency with equal horizontal spacing.
 
-\noindent Let's assume we have points $1, 2, \text{ and } 3$. Point 2 touches the tangent line.\\
-Solve for the slope between point 1 and point 2: 
+Suppose points 1, 2, and 3 are on the curve, and point 2 is the tangency point.
 \[
-    m_1 = \frac{y_2 - y_1}{x_2 - x_1}
+  m_1=\frac{y_2-y_1}{x_2-x_1},
+  \quad
+  m_2=\frac{y_3-y_2}{x_3-x_2}.
 \]
-Solve for the slope between point 2 and point 3:
+An approximation of the tangent slope at point 2 is
 \[
-    m_2 = \frac{y_3 - y_2}{x_3 - x_2}
+  m\approx\frac{m_1+m_2}{2}.
 \]
-The slope at point 2 that touches tangent line should be: 
-\begin{gather*}
-    m = \frac{m_2 + m_1}{2} 
-\end{gather*}
 
-\subsubsection{Trends and increasing/decreasing}
-Here are the summary Mr. Hoken made for this class
+\subsubsection{Trends: Increasing and Decreasing}
 \begin{itemize}
-    \item An increasing trend in y values corresponds to positive slopes of tangents in that intervial
-    \item A decreasing trend in y values corresponds to negative slopes of tangents in that interval
-    \item "Rate of Change" in y values refers to your slope values. We use standard expressions to describe the trend in Slope values
-    \begin{itemize}
-        \item [*] "The rate of change is increasing" means that the slope values are climbing.\\ 
-        ex. (0.5, 3, 4, 5, 6, 20, $\cdots$) or (-10, -9, $\cdots$, 1, 2)
-        \item [*] "The rate of change is decreasing" means that the slope values are dropping.\\
-        ex. (25, 11, 9, 5, $\cdots$, -3, -7, -20)
-    \end{itemize}
+  \item An increasing trend in $y$ corresponds to positive tangent slopes on that interval.
+  \item A decreasing trend in $y$ corresponds to negative tangent slopes on that interval.
+  \item "Rate of change is increasing" means slope values are increasing.
+  \item "Rate of change is decreasing" means slope values are decreasing.
 \end{itemize}

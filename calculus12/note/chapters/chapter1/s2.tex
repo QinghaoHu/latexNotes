@@ -1,60 +1,41 @@
-\subsection{Measuring Rates of Change Using a Defined Relation}
+\subsection{Measuring Rates of Change from a Defined Relation}
+
 \subsubsection{Difference Quotient}
-\begin{definition}
-    [Difference Quotient] a measure of the average rate of change of the function over an interval. 
-    In other words, it is a simplified expression for the slope of a secant. 
-    It can be expressed as
-    \[
-        m = \frac{f(x + h) - f(x)}{h}
-    \]
-    where $h \neq 0$
+\begin{definition}[Difference Quotient]
+The difference quotient gives the average rate of change of a function over an interval:
+\[
+  \frac{f(x+h)-f(x)}{h}, \quad h\ne 0.
+\]
+It is the slope of the secant line through $(x,f(x))$ and $(x+h,f(x+h))$.
 \end{definition}
-Let's proof the difference Quotient
+
 \begin{proof}
-    We have the formula of the slope: 
-    \[
-        m = \frac{y_2 - y_1}{x_2 - x_1}
-    \]
-    Assume we have two points: $(x, f(x))$ and $(x + h, f(x + h))$, sub these two points into the formula of slope.
-    \begin{gather*}
-        m = \frac{f(x + h) - f(x)}{(x + h) - x}\\
-        m = \frac{f(x + h) - f(x)}{h}
-    \end{gather*}
+Using the slope formula,
+\[
+  m=\frac{y_2-y_1}{x_2-x_1},
+\]
+substitute $(x,f(x))$ and $(x+h,f(x+h))$:
+\begin{align*}
+  m &= \frac{f(x+h)-f(x)}{(x+h)-x} \\
+    &= \frac{f(x+h)-f(x)}{h}.
+\end{align*}
 \end{proof}
 
-Let's look at an example. 
 \begin{example}
-    Determine a general expression for the slope given the function $f(x) = -x^2 + 4x + 5$\\
-    \begin{gather*}
-        m = \frac{f(x + h) - f(x)}{h} \\
-        m = \frac{
-            -(x + h)^2 + 4(x + h) + 5 - (-x^2 + 4x + 5)
-        }{
-            h
-        }\\
-        m = \frac{
-            -x^2 - 2xh - h^2 + 4x + 4h + 5 + x^2 -4x - 5
-        }{
-            h
-        }\\
-        m = \frac{
-            -2xh - h^2 + 4h 
-        }{h}\\
-        m = -2x + 4 - h, h \neq 0
-    \end{gather*}
+Find a general expression for the slope when $f(x)=-x^2+4x+5$.
+\begin{align*}
+  m &= \frac{f(x+h)-f(x)}{h} \\
+    &= \frac{-(x+h)^2+4(x+h)+5-(-x^2+4x+5)}{h} \\
+    &= \frac{-2xh-h^2+4h}{h} \\
+    &= -2x-h+4, \quad h\ne 0.
+\end{align*}
 \end{example}
 
-\subsubsection{Approximating the slope of the tangent}
-Recall:
-\begin{itemize}
-    \item The slope of a secant line will give the average rate of change of the 'y' values over a givern interval of 'x'.
-    \item The slope of a tangent line will give the instantaneous rate of change of the 'y' value at a givern value of 'x'.
-\end{itemize}
-
-\noindent For difference quotient 
+\subsubsection{Approximating a Tangent Slope}
+If $h$ is very small, the difference quotient
 \[
-    \frac{f(x + h) - f(x)}{h}
+  \frac{f(x+h)-f(x)}{h}
 \]
-if $h$ is extremely small, we can approximate the slope of the tangent line. \\
+approximates the slope of the tangent line.
 
-In later sections, we will discuss about principle of limits. At that time, you will have a better understanding about today's topic. 
+Later, limits explain why this approximation works.

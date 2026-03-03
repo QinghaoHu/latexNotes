@@ -1,31 +1,29 @@
 \subsection{The Concept of Limit}
-\begin{definition} [Limits]
-    Assume we have function $f(x)$, $x$, and 
-    \[ \lim_{x \to a} f(x) = L \]
-    Using the $\delta-\epsilon$ language:\\
-    \[
-        \forall \epsilon > 0, \exists \delta > 0 \text{ such that } 0 < \left|a - x\right| < \delta \implies 
-        \left|f(x) - L\right| < \epsilon
-    \]
-    Remember, $f(a)$ does not have to be defined. 
 
+\begin{definition}[Limit]
+Let $f$ be a function and let $a$ be a real number. If
+\[
+  \lim_{x\to a}f(x)=L,
+\]
+then in $\varepsilon$-$\delta$ language:
+\[
+  \forall\varepsilon>0,\ \exists\delta>0\ \text{such that}\ 0<|x-a|<\delta \implies |f(x)-L|<\varepsilon.
+\]
+Note that $f(a)$ does not need to be defined.
 
-    For limts, we are solving for the expected value instead of defined value. 
-    When the following conditions are met, the limits exists
-    \begin{itemize}
-        \item \[\lim_{x \to a^{-}} f(x) \text{ must exist }\] 
-        \item \[\lim_{x \to a^{+}} f(x) \text{ must exist }\]
-        \item \[\lim_{x \to a^{-}} f(x) = \lim_{x \to a^{+}} f(x)\]
-    \end{itemize}
+A two-sided limit exists when:
+\begin{itemize}
+  \item $\lim_{x\to a^-}f(x)$ exists,
+  \item $\lim_{x\to a^+}f(x)$ exists,
+  \item $\lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)$.
+\end{itemize}
 \end{definition}
 
-\begin{definition}
-    [Continuity] a function which there are no "breaks" or "gaps" in the function. 
-    
-    These conditions must be met
-    \begin{enumerate}
-        \item \[\lim_{x \to a} f(x) \text{ exist }\]
-        \item \[f(a) \text{ must be defined }\]
-        \item \[\lim_{x \to a} f(x) = f(a)\]
-    \end{enumerate}
+\begin{definition}[Continuity]
+A function is continuous at $x=a$ if:
+\begin{enumerate}
+  \item $\lim_{x\to a}f(x)$ exists,
+  \item $f(a)$ is defined,
+  \item $\lim_{x\to a}f(x)=f(a)$.
+\end{enumerate}
 \end{definition}

@@ -3,20 +3,14 @@
 % --- Packages ---
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath, amssymb, amsthm}
-\usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{xcolor}
-\usepackage[framemethod=tikz]{mdframed}
 \usepackage{indentfirst}
-\usepackage{blindtext}
-\usepackage{multicol}
-\usepackage{paracol}
 \usetikzlibrary{positioning}
 \usetikzlibrary{arrows.meta}
-
 
 % Index
 \usepackage{imakeidx}
@@ -26,33 +20,19 @@
 \usepackage[hidelinks]{hyperref}
 
 % --- Page Setup ---
-
-
 \pagestyle{fancy}
 \fancyhf{}
-% \setlength{\headheight}{14pt}
-
-
-% 左页眉：当前章节名（自动）
 \lhead{\emph{\nouppercase{\leftmark}}}
-
-% 右页眉：首页不显示，其余页显示课程名
 \rhead{%
-  \ifnum\thepage=1
+  \ifnum\value{page}=1
   \else
     Calculus and Vector
   \fi
 }
-
 \cfoot{\thepage}
-
 \setlength{\headheight}{14pt}
 
-% 每个 section 强制新页（Cambridge style）
-\let\oldsection\section
-\renewcommand{\section}{\newpage\oldsection}
-
-% --- Theorem Environments (ONE numbered system) ---
+% --- Theorem Environments ---
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -66,7 +46,7 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
-% --- Cambridge-style semantic (unnumbered) environments ---
+% --- Semantic (unnumbered) environments ---
 \theoremstyle{definition}
 \newtheorem*{axiom}{Axiom}
 \newtheorem*{assumption}{Assumption}
@@ -76,9 +56,8 @@
 \newcommand{\term}[1]{\emph{#1}\index{#1}}
 
 % --- Lists ---
-\renewcommand{\labelitemi}{--}
-\renewcommand{\labelitemii}{$\circ$}
-\renewcommand{\labelenumi}{(\roman{*})}
+\setlist[itemize]{label=--}
+\setlist[itemize,2]{label=$\circ$}
 
 % --- QED symbol ---
 \renewcommand{\qedsymbol}{$\square$}
@@ -124,7 +103,6 @@
 
 \include{chapters/chapter1/c1}
 \include{chapters/chapter2/c2}
-
 \include{chapters/referenceSheet/reference}
 
 \end{document}

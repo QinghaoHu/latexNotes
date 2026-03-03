@@ -1,0 +1,27 @@
+\subsection{The Product Rule}
+
+Not every limit rule turns directly into a derivative rule. A common mistake is
+\[
+\text{if } g(x)=f(x)h(x), \text{ then } g'(x)=f'(x)h'(x),
+\]
+which is false in general.
+
+\begin{proposition}[Product Rule]
+If $g(x)=f(x)h(x)$, then
+\[
+  g'(x)=f'(x)h(x)+f(x)h'(x).
+\]
+\end{proposition}
+
+\begin{proof}
+Using first principles,
+\begin{align*}
+g'(x)
+&= \lim_{\Delta x\to 0}\frac{f(x+\Delta x)h(x+\Delta x)-f(x)h(x)}{\Delta x} \\
+&= \lim_{\Delta x\to 0}\frac{f(x+\Delta x)h(x+\Delta x)-f(x)h(x+\Delta x)}{\Delta x} \\
+&\quad + \lim_{\Delta x\to 0}\frac{f(x)h(x+\Delta x)-f(x)h(x)}{\Delta x} \\
+&= \lim_{\Delta x\to 0}\left(h(x+\Delta x)\frac{f(x+\Delta x)-f(x)}{\Delta x}\right) \\
+&\quad + \lim_{\Delta x\to 0}\left(f(x)\frac{h(x+\Delta x)-h(x)}{\Delta x}\right) \\
+&= h(x)f'(x)+f(x)h'(x).
+\end{align*}
+\end{proof}
