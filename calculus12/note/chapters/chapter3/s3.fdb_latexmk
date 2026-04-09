@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1773706234.56849 "s3.tex" "s3.pdf" "s3" 1773706234.97963 2
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1764115200 40900 887e0dc8cac988a9e9c574af364cf837 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1765321022 7753926 0700a7b479b3b5ec79841501cd232b85 ""
+  "s3.aux" 1773706166.98601 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "s3.tex" 1773706234.46371 1938 afc6f603ee9ed489366de3812cd0132f ""
+  (generated)
+  "s3.aux"
+  "s3.log"
+  "s3.pdf"
+  (rewritten before read)

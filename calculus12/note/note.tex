@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper, leqno]{article}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
@@ -8,16 +8,25 @@
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{xcolor}
-\usepackage{indentfirst}
-\usetikzlibrary{positioning}
-\usetikzlibrary{arrows.meta}
-
+% \usepackage{geometry}
+% \usepackage{indentfirst}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+% \usetikzlibrary{positioning}
+% \usetikzlibrary{arrows.meta}
+% \usepgfplotslibrary{external}
+% \tikzexternalize
+\numberwithin{equation}{subsection}
 % Index
 \usepackage{imakeidx}
 \makeindex[intoc, title=Index]
 
 % Hyperref (put late)
 \usepackage[hidelinks]{hyperref}
+
+% \definecolor{sepiabg}{RGB}{230, 235, 220}
+\definecolor{sepiabg}{RGB}{244,236,220} % 柔和的淡米色
+\pagecolor{sepiabg}
 
 % --- Page Setup ---
 \pagestyle{fancy}
@@ -34,7 +43,7 @@
 
 % --- Theorem Environments ---
 \theoremstyle{plain}
-\newtheorem{theorem}{Theorem}[section]
+\newtheorem{theorem}{Theorem}[subsection]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
@@ -89,7 +98,7 @@
 \author{Qinghao Hu}
 \date{\today}
 
-% \includeonly{chapters/chapter1/c1}
+\includeonly{chapters/chapter4/c4}
 
 \begin{document}
 
@@ -103,6 +112,11 @@
 
 \include{chapters/chapter1/c1}
 \include{chapters/chapter2/c2}
-\include{chapters/referenceSheet/reference}
+
+\include{chapters/chapter3/c3}
+
+\include{chapters/chapter4/c4}
+% \include{chapters/referenceSheet/reference}
+
 
 \end{document}

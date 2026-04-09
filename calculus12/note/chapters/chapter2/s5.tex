@@ -1,0 +1,47 @@
+\subsection{The Derivative of a Quotient}
+\begin{definition}
+    [Quotient in Arithmetric] Let $a,b \in \R, b \neq 0$\\
+    The quotient of a by b is donated by:$$\frac{a}{b}$$
+\end{definition}
+
+\subsubsection{The Derivative of a quotient}
+Given $f(x) = \frac{g(x)}{h(x)}, \forall x \in \R, h(x) \neq 0$, how to solve for $f'(x)$\\
+In fact, we can view $$f(x) = \frac{g(x)}{h(x)}$$ as $$f(x) = g(x) \cdot h(x)^{-1}$$
+Then, we can apply the product rule and chain rule:
+$$f'(x) = g'(x)\cdot h(x)^{-1} - 1\cdot h(x) ^{-2} \cdot h'(x) \cdot g(x)$$
+
+In words, 
+\begin{center}
+    Change your quotient to a product, then apply the produce rule, and any other applicable derivative rule. 
+\end{center}
+
+\subsubsection{The Quotient Rule}
+\begin{remark}
+    Remainder, the Quotient Rule is not part of the Ministry's expectation. 
+\end{remark}
+\begin{definition}
+    [Quotient Rule] Given $$h(x) = \frac{f(x)}{g(x)}, g(x) \neq 0$$
+    $$h'(x) = \frac{f'(x) \cdot g(x) - g'(x) \cdot f(x)}{\left [ g(x)\right ]^2}$$
+\end{definition}
+
+\begin{proof}
+    of \textbf{Quotient Rule}\\
+
+    Given \( h(x)=\frac{f(x)}{g(x)} \), first rewrite it as
+    \begin{align}
+        f(x)=g(x)h(x).
+    \end{align}
+    Differentiating both sides gives
+    \begin{align}
+        f'(x)=g'(x)h(x)+g(x)h'(x). \label{eq2.5.1}
+    \end{align}
+    Now isolate \( h'(x) \) from \eqref{eq2.5.1}:
+    \begin{align}
+        h'(x)
+        &= \frac{f'(x)-g'(x)h(x)}{g(x)} \\
+        &= \frac{f'(x)-g'(x)\frac{f(x)}{g(x)}}{g(x)} \\
+        &= \frac{f'(x)g(x)-f(x)g'(x)}{[g(x)]^2}. \label{eq2.5.2}
+    \end{align}
+
+    % \ref{eq2.5.1}
+\end{proof}

@@ -1,0 +1,49 @@
+\subsection{Increasing and Decreasing Area}
+
+From previous chapters, we have studied how to find out the increasing or decreasing area of a function. 
+
+\subsubsection{Recall}
+\noindent For an Interval $I$:
+$$\forall x, y \in I, \forall z \in \R, (x < z < y, \implies z \in I)$$
+Given a function $f: I \to R$
+$$\forall z \in I, f'(z) > 0 \implies f(x) \text{ is increasing in interval } I \text{ on }\R$$
+$$\forall z \in I, f'(z) < 0 \implies f(x) \text{ is decreasing in interval } I \text{ on }\R$$
+
+\subsubsection{Summary}
+\begin{itemize}
+    \item Intervals where the function increases/decreases are found by first finding where the derivative value is 0 or undefined
+    \item Test for the signs on the derivative function to the left/right of these x values
+    \item Regions of increased by positive slope values: regions of decrease are indicated by negative slope values. 
+\end{itemize}
+
+\begin{example}
+    For the given function below, find the intervals of increase/decrease. 
+    $$h(x) = \frac{
+        x - 2
+    }{
+        x^2 + 3x - 4
+    }$$
+    Solution:\\
+    To start of, let's get the derivative of h(x) first
+    \begin{align*}
+        h'(x) &= \frac{
+            (x^2 + 3x - 4) - (x - 2)(2x + 3)
+        }{(x^2 + 3x - 4)^2} \\
+        &= \frac{x^2 + 3x - 4 - 2x^2 + x + 6}{
+            (x^2 + 3x - 4)^2
+        }\\
+        &= \frac{
+            -x^2 + 4x + 2
+        }{
+            (x^2 + 3x - 4)^2
+        } \\
+        &= -\frac{x^2 - 4x - 2}{(x + 4)^2 (x - 1)^2}
+    \end{align*}
+    Find the critical number of the function. \\
+
+    When $h'(x) = 0, x = 2 \pm \sqrt{6}$\\
+
+    When $h'(x) = \text{undefined}, x = -4 \text{ or } x = 1$\\
+
+    \noindent Then, we can do the line test. Follow the advanced function strategy. 
+\end{example}

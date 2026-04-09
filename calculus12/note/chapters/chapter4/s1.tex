@@ -1,0 +1,132 @@
+\subsection{Sinusdoial Functions}
+\begin{proposition}
+    The derivative for function $f(x) = \sin x$ is $f'(x) = \cos x$
+    \begin{proof}
+        Given function $f(x) = \sin x$, solve for the derivative of the function $f(x)$
+        \begin{align*}
+            f'(x) &= \lim_{h \to 0} \frac{
+                \sin (x + h) - \sin x
+            }{
+                h
+            } \\
+            f'(x) &= \lim_{h \to 0}\frac{
+                \sin x \cos h + \sin h \cos s - \sin x
+            }{h}\\
+            f'(x) &= \lim_{h \to 0}\frac{
+                \sin x (\cos h - 1) + \sin h \cos x
+            }{h}\\
+            f'(x) &= \lim_{h \to 0} \sin x \lim_{h \to 0} \frac{
+                \cos h - 1
+            }{h} + \lim_{h \to 0} \cos x \lim_{h \to 0} \frac{
+                \sin h
+            }{h}\\
+            f'(x) &= \sin x (0) + \cos x (1)\\
+            f'(x) &= \cos x 
+        \end{align*}
+    \end{proof}
+\end{proposition}
+\begin{proposition}
+    The derivative for function $f(x) = \cos x$ is $f'(x) = -\sin x$
+    \begin{proof}
+        \begin{align*}
+            f'(x) &= \lim_{h \to 0}\frac{
+                \cos (x + h) - \cos x
+            }{
+                h
+            }\\
+            f'(x) &= \lim_{h \to 0} \frac{
+                \cos x \cos h - \sin x \sin h - \cos x
+            }{h} \\
+            f'(x) &= \lim_{h \to 0} \frac{
+                \cos x (\cos h - 1) - \sin x \cos h
+            }{
+                h
+            } \\
+            f'(x) &= \lim_{h \to 0} \cos x \lim_{h \to 0} \frac{\cos h - 1}{h} + \lim_{h \to 0} \sin x \lim_{h \to 0}\frac{\sin h}{h} \\
+            f'(x) &= \cos x (0) - \sin x (1) \\
+            f'(x) &= -\sin x
+        \end{align*}
+    \end{proof}
+\end{proposition}
+
+\begin{proposition}
+    The derivative for function $f(x) = \tan x$ is $\csc^2 x$
+    \begin{proof}
+        \begin{align*}
+            f(x) &= \frac{
+                \sin x
+            }{
+                \cos x
+            } \\
+            f'(x) &= \frac{
+                (\sin x)'\cos x - \sin x (\cos x)'
+            }{
+                ((\cos x)')^2
+            } \\
+            f'(x) &= \frac{
+                \cos^2 x + \sin^2 x
+            }{
+                \sin^2 x
+            }\\
+            f'(x) &= \frac{
+                1
+            }{\sin^2 x}\\
+            f'(x) &= \csc^2 x
+        \end{align*}
+    \end{proof}
+\end{proposition}
+
+\begin{proposition}
+    $$\forall x \in \R, f(x) = \csc x \in \R$$
+    $$f'(x) = -\cot x \csc x$$
+    \begin{proof}
+        \begin{align*}
+            f(x) &= \frac{
+                1
+            }{
+                \sin x
+            } \\
+            f'(x) &= \frac{
+                -\cos x
+            }{
+                \sin^2 x
+            } \\
+            f'(x) &= -\frac{
+                \cos x
+            }{\sin x} * \frac{1}{\sin x}\\
+            f'(x) &= -\cot x \csc x
+        \end{align*}
+    \end{proof}
+\end{proposition}
+
+\begin{proposition}
+    $$\forall x \in \R, f(x) = \sec x \in \R$$
+    $$f'(x) = \tan x \sec x$$
+    \begin{proof}
+        \begin{align*}
+            f(x) &= \frac{1}{\cos x} \\
+            f'(x) &= \frac{\sin x}{\cos^2 x}\\
+            f'(x) &= \frac{\sin x}{\cos x} \times \frac{1}{\cos x}\\
+            f'(x) &= \tan x \sec x
+        \end{align*}
+    \end{proof}
+\end{proposition}
+
+\begin{proposition}
+    \begin{align*}
+        \forall x \in \R, f(x) = \cot x \in \R\\
+        f'(x) = -\sec^2 x
+    \end{align*}
+    \begin{proof}
+        \begin{align*}
+            f(x) &= \frac{\cos x}{\sin x}\\
+            f'(x) &= \frac{
+                -\sin^2 x - \cos^2 x
+            }{\cos^2 x}\\
+            f'(x) &= \frac{
+                -1
+            }{\cos^2 x}\\
+            f'(x) &= -\sec^2 x       
+        \end{align*}
+    \end{proof}
+\end{proposition}

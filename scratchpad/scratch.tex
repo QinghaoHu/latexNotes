@@ -1,0 +1,131 @@
+\documentclass[10pt, leqno]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage{gensymb}
+\pgfplotsset{width=10cm,compat=1.9}
+
+% --- Screen-Friendly Geometry (修长无边框模式) ---
+% 保持A4标准高度(297mm)，将纸张宽度裁减至160mm。
+% 左右各留10mm的边距，这样正文宽度刚好是140mm（原版无geometry的最佳阅读宽度）。
+\usepackage[
+    paperheight=297mm, 
+    paperwidth=160mm, 
+    left=10mm,
+    right=10mm,
+    top=15mm, 
+    bottom=15mm
+]{geometry}
+
+% --- Eye-Care Background (护眼米色背景) ---
+\usepackage{pagecolor}
+\definecolor{sepiabg}{RGB}{244,236,220}
+\pagecolor{sepiabg}
+
+% --- Screen-Friendly Hyperlinks ---
+\usepackage[
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    urlcolor=blue!70!black,
+    citecolor=green!50!black
+]{hyperref}
+
+% --- Homework Header Setup ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% 宽度恢复了一些，页眉可以写全名字
+\lhead{\textbf{Qinghao Hu}} 
+\chead{\textbf{MATH 120}} 
+\rhead{\textbf{Assignment 1}} 
+\cfoot{\thepage} 
+\setlength{\headheight}{15pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% --- Homework Environments ---
+
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{problem}{Problem} 
+
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+% --- Cambridge-style semantic (unnumbered) environments ---
+\theoremstyle{definition}
+\newtheorem*{axiom}{Axiom}
+\newtheorem*{assumption}{Assumption}
+\newtheorem*{notation}{Notation}
+
+\newenvironment{solution}
+  {\begin{proof}[\textbf{Solution}]}
+  {\end{proof}}
+
+% --- Custom Commands ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\newcommand{\mypic}[3]{%
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=#3\textwidth]{#1}
+    \caption{#2}
+  \end{figure}
+}
+
+% --- Lists Configuration ---
+\setlist[itemize]{label=--}
+\setlist[itemize,2]{label=$\circ$}
+
+\begin{document}
+
+\begin{align*}
+  v(t) &= 170\sin (120\pi t) \\
+  v'(t) &= 170 \cos (120\pi t) (120\pi)\\
+  &= 20400 \cos(120\pi t)
+\end{align*}
+
+Critical numbers:
+\begin{align*}
+  0 &= \cos (120\pi t)
+\end{align*}
+
+Case 1:
+\begin{align*}
+  120\pi t &= \arccos 0\\
+  120\pi t &= \frac{\pi}{2} \\
+  t &= \frac{\pi}{2 * 120\pi} \\
+  t &= \frac{1}{240}
+\end{align*}
+
+Case 2:
+\begin{align*}
+  120\pi t &= 2\pi - \arccos 0 \\
+  120\pi t &= 2\pi - \frac{\pi}{2}\\
+  t &= \frac{3\pi}{2 * 120\pi} \\
+  t &= \frac{1}{80}
+\end{align*}
+
+\end{document}

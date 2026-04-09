@@ -1,0 +1,23 @@
+\subsection{The Chain Rule}
+\textbf{How to find the rate of change of composite functions?}
+\begin{center}
+    To find the rate of change for the composite function take the rate of change at $x = a$ in the first function (inner) and multiply it with the rate of change 
+    at $x = g(a)$ through the second function (outer).
+\end{center}
+
+\begin{definition}
+    [Chaine Rule] Give function $f(x) = h(g(x))$, $$f'(x) = g'(x) \times h'(x)$$
+    where $x \in \R$
+\end{definition}
+
+\begin{example}
+    Find the derivative of $y = \sqrt{\sin x^2}$\\
+    \begin{gather}
+        \begin{align}
+            \frac{\partial y}{\partial x} &= \frac{1}{2}(\sin x)^{-1/2} \times \cos x^2 \times 2x \\
+            \frac{\partial y}{\partial x} &= \frac{\cos x^2 \cdot x}{\sqrt{\sin x}}
+        \end{align}
+    \end{gather}
+    Give function $y = \sqrt{v}, v = \sin u, u = x^2$
+    $$\frac{dy}{dx} = \frac{dy}{dv} \cdot \frac{dv}{du} \cdot \frac{du}{dx}$$
+\end{example}

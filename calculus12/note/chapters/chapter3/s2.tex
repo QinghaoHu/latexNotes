@@ -1,0 +1,67 @@
+\subsection{The Local Maximum/Minimum of a function}
+\begin{definition}
+    [Critical Number] an 'x' value at which $f'(x) = 0$ or is undefined for any given $f(x)$.
+\end{definition}
+
+\begin{definition}
+    [Critical Point] an actuall point $(a, f(a))$ on the function $f(x)$ where $f'(x) = 0$ or is undefined. 
+\end{definition}
+
+Let's look through an example
+\begin{example}
+    Given the function $$y = \frac{x}{(x-3)^2}$$ Please find all critical number and points for this function!\\
+
+    \noindent Solution:\\
+
+    \noindent Find $\tfrac{dy}{dx}$ first
+    \begin{align}
+        \frac{dy}{dx} &= \frac{
+            (x - 3)^2 - 2x(x - 3)
+        }{(x - 3)^4} \\
+        &= \frac{-x - 3}{(x - 3)^3} \\
+        &= -\frac{x + 3}{(x - 3)^3}
+    \end{align}
+
+    x-intercept of the derivative function $x = -3$\\
+    \indent Vertical Asymptote of this function $x = 3$\\
+
+    Sub $x = -3$ into y
+    \begin{align*}
+        y &= \frac{(-3)}{((-3) - 3)^2}\\
+        y &= -\frac{1}{12}
+    \end{align*}
+
+    $\therefore$ Critical numbers are -3 and 3. Critical point is $(-3, -12)$ and $(3, \text{undef})$.
+\end{example}
+
+\begin{definition}
+    [Local Maximum] will have $f'(a) = 0$ or is undefine, or the derivative of the derivative function to the left/right of x = a will be positive then negative. 
+\end{definition}
+
+\begin{definition}
+    [Local Minimum] will have $f'(a) = 0$ or is undefine, or the derivative of the derivative function to the left/right of x = a will be negative then positive. 
+\end{definition}
+
+\begin{example}
+    Give function $$y = \frac{x}{(x - 3)^2}$$, find all its local maximum and local minimum value.\\
+
+    \noindent Solution:\\
+
+    From previous example, we know the derivative of the function $$\frac{dy}{dx} = -\frac{
+        x + 3
+    }{(x - 3)^3}$$\\
+    \indent Therefore, x-intercepts $x = -3$\\
+    \indent Vertical Asymptote $x = 3$
+
+    \begin{itemize}
+        \item For interval $x \in (-\infty, -3), x \in R$
+        $$\because \left . \frac{dy}{dx} \right |_{x = -4} = -\frac{1}{343}$$
+        $$\therefore \text{ interval } x \in (-\infty, -3), x \in \R \text{ is decreasing.}$$
+        \item For interval $x \in (-3, 3), x \in R$
+        $$\because \left . \frac{dy}{dx} \right |_{x = 0}= -\frac{1}{9}$$
+        $$\therefore \text{ interval } x \in (-3, 3), x \in \R \text{ is increasing.}$$
+        \item For interval $x \in (-\infty, -3), x \in R$
+        $$\because \left . \frac{dy}{dx} \right |_{x = 4} = -7$$
+        $$\therefore \text{ interval } x \in (3, \infty), x \in \R \text{ is decreasing.}$$
+    \end{itemize}
+\end{example}
