@@ -1,0 +1,49 @@
+# LaTeX build outputs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.fmt
+*.fot
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.pdf
+*.run.xml
+*.snm
+*.synctex.gz
+*.synctex.gz(busy)
+*.toc
+*.vrb
+*.xdv
+
+# Latexmk and engine-specific outputs
+*.dvi
+*.ps
+*.loa
+*.lol
+*.maf
+*.mtc
+*.mtc0
+*.pyg
+*.thm
+*.xdy
+
+# Minted / pygments
+_minted*/
+
+# Auto-generated cache / temp directories
+auto/
+_region_*.tex
+
