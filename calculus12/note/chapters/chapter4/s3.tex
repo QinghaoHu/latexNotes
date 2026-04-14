@@ -1,0 +1,28 @@
+\subsection{Derivative of Exponential Function}
+We can derive the derivative of exponential function from the first principle. 
+\begin{proposition}
+    [Derivative of Exponential Function]
+    $$\forall x, b \in \R, \frac{d}{dx} b^x = \ln b \cdot b^x$$
+    \begin{proof}
+        Given $f(x) = b^x$
+        \begin{align*}
+            f'(x) &= \lim_{h \to 0}\frac{f(x + h) - f(x)}{h} \\
+            &= \lim_{h \to 0} \frac{b^{x + h} - b^{x}}{h} \\
+            &= \lim_{h \to 0} \frac{b^x (b^h - 1)}{h} \\
+            &= \lim_{h \to 0} b^x \lim_{h \to 0}\left (\frac{b^h - 1}{h} \right ) \\
+            &= b^x \lim_{h \to 0}\left (\frac{b^h - 1}{h} \right )
+        \end{align*}
+        Then, we need to solve for $$\lim_{h \to 0} \left(\frac{b^h - 1}{h}\right)$$
+
+        \begin{align*}
+            \lim_{h \to 0} \left(\frac{b^h - 1}{h}\right) &=   \lim_{h \to 0} \left(\frac{e^{h\ln b} - 1}{h}\right) \\
+            &=   \lim_{x \to 0} \left(\frac{e^x - 1}{\frac{x}{\ln b}}\right) \\
+            &= \ln b   \lim_{x \to 0} \left(\frac{e^x - 1}{x}\right) \\
+            &= \ln b
+        \end{align*}
+        Therefore:
+        \begin{align*}
+            f'(x) &= b^x \ln b
+        \end{align*}
+    \end{proof}
+\end{proposition}
