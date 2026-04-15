@@ -1,4 +1,3 @@
-# LaTeX build outputs
 *.aux
 *.bbl
 *.bcf
@@ -28,7 +27,6 @@
 *.vrb
 *.xdv
 
-# Latexmk and engine-specific outputs
 *.dvi
 *.ps
 *.loa
@@ -40,10 +38,8 @@
 *.thm
 *.xdy
 
-# Minted / pygments
 _minted*/
 
-# Auto-generated cache / temp directories
 auto/
 _region_*.tex
 
