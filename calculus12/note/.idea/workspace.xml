@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcc31e20-8e51-40fb-a083-c4a0f7822485" name="更改" comment="" />
+    <list default="true" id="dcc31e20-8e51-40fb-a083-c4a0f7822485" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/chapters/chapter1/c1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapters/chapter1/c1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters/chapter4/c4.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapters/chapter4/c4.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters/chapter4/s1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapters/chapter4/s1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters/chapter4/s3.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapters/chapter4/s3.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.synctex(busy)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.tex" beforeDir="false" afterPath="$PROJECT_DIR$/note.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scratchpad/scratch.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../scratchpad/scratch.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scratchpad/scratch.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../scratchpad/scratch.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scratchpad/scratch.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../scratchpad/scratch.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scratchpad/scratch.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../scratchpad/scratch.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../templates/report/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../templates/report/report.tex" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "QinghaoHu"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/QinghaoHu/latexNotes.git",
+    "accountId": "38939606-e30c-4789-a1c8-39abafdfadad"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3BPEd1gVeFcdEi0gYLPojwwwOkZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +47,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/qinghaohu/course/latexNotes/calculus12/note"
   }
 }]]></component>

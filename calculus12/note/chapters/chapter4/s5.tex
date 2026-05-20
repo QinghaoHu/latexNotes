@@ -1,0 +1,41 @@
+\subsection{Derivative of Logarithm Function}
+\begin{definition}
+    [Logarithm Function] 
+    The logarithm of a number is the exponent by which another fixed value, the base, must be raised to produce that number. 
+    It can also be recognised as the inverse of an exponential function. 
+    The function is always represented in this form:
+    \[
+        y = \log_{b}x
+    \]
+    which b is the base, x is the number, y is the exponent. 
+\end{definition}
+
+\begin{proposition}
+    Given function $y = \log_b x$, the derivative of this function $\frac{d}{dx} \left(\log_b x\right) = \frac{1}{x\ln b}$
+    \begin{proof}
+        First, we rewrite the function:
+        \begin{align}
+            y &= \log_{b} x \nonumber\\
+            b^y &= x \label{eq5.1.1}
+        \end{align}
+        Then, we take the derivative of both sides
+        \begin{align*}
+            b^y \ln b \frac{dy}{dx} &= 1 \\
+            \frac{dy}{dx} &= \frac{1}{b^y (\ln b)} 
+        \end{align*}
+        Sub \ref{eq5.1.1} into the equation
+        \begin{align*}
+            \frac{dy}{dx} &= \frac{1}{x\ln b}
+        \end{align*}
+    \end{proof}
+\end{proposition}
+
+\begin{example}
+    Find any critical numbers for the function $f(x) = (x + 2)e^{-2x}$.
+    Classify any critical points. 
+    \begin{align*}
+        f'(x) &= e^{-2x} + (x + 2)e^{-2x}(-2) \\
+        &= e^{-2x}\left(1 - 2x - 4\right) \\
+        &= e^{-2x}\left(-2x - 3\right)
+    \end{align*}
+\end{example}

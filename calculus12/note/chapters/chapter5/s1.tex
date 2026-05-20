@@ -1,0 +1,94 @@
+\subsection{Introduction to Vector}
+In Grade 12 Calculus and Vector, we will informally dicuss "Vector" and its basic operatoins and applications.
+\begin{theorem}
+    [Vector] A vector is a quantitiy that has both magnitude and direction. 
+\end{theorem} 
+\begin{example}
+    A statement \textbf{A car travels $120km/h$ heading northeast} can be represented by a vector. 
+    \begin{equation*}
+        \vec{v} = 120\tfrac{km}{h}\left [ \text{North $45^{\circ}$ of East}\right ]
+    \end{equation*}
+\end{example}
+
+\subsubsection{Standard Convention}
+There are three ways to measure the direction of a vector.
+\begin{itemize}
+    \item Angles measured from Standard Position
+    \begin{itemize}
+        \item starts from a horizontal position (positive arm of x-axis)
+        \item single measured by rotating counterclockwise
+    \end{itemize}
+    \item Angles established using a true bearing
+    \begin{itemize}
+        \item always start from North, then rotate clockwise. 
+        \item express all angles using 3 digits
+    \end{itemize}
+    \item Angles established using a quadrant bearing
+    \begin{itemize}
+        \item start from either a North or South position
+        \item rotate East or West by an amount in between $0^{\circ}$ and $360^{\circ}$
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Common terminology}
+Below are common terminologies in vector. 
+\begin{enumerate}
+    \item Parallel vectors 
+    \begin{itemize}
+        \item vector point in the same or opposite direction 
+        \item no relationship between their sizes or magnitudes
+    \end{itemize}
+    \item Equivalent vectors 
+    \begin{itemize}
+        \item vectors that are identical (size and direction)
+        \item these do not have to be at the same "location"
+    \end{itemize}
+    \item Opposite vectors 
+    \begin{itemize}
+        \item these vectors are equal in magnitude 
+        \item directinos are opposite ($180^{\circ}$ away from the other)
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Addition Vectors}
+\begin{theorem}
+    [Commutative property of Vectors]
+    Given vectors $\vec{u}$ and $\vec{v}$ $$\vec{v} + \vec{u} = \vec{u} + \vec{v}$$
+\end{theorem}
+
+Geometrically, the addition of vectors requires arranging the vectors from tip of one vector to the tail of the other. 
+This method is referred to as the TriangleMethod.
+
+For TriangleMethod, given $\vec{a}$ and $\vec{b}$, define $\vec{c} = \vec{a} + \vec{b}$, following statements are always true:
+\begin{itemize}
+    \item $\vec{c} = \vec{a} + \vec{b}$
+\end{itemize}
+
+The following statements are not always true:
+\begin{itemize}
+    \item $\left|\vec{c}\right| = \left|\vec{a}\right| + \left|\vec{b}\right|$
+    \item $(\left|\vec{c}\right|)^2 = (\left|\vec{a}\right|)^2 + (\left|\vec{b}\right|)^2$
+\end{itemize}
+
+Instead of convert vertors into matrixes, do matrixes addition, and convert the resultant matrix back to vector. 
+There are also other ways to add vectors. \\
+
+Given vectors $\vec{v_1}$, $\vec{v_2}$ and resultant vector $\vec{v_r}$,
+if $\vec{v_1}$ and $\vec{v_2}$ are parallel vector to each other:
+\[
+    \left|\vec{v_r}\right| = \left|\vec{v_1}\right| + \left|\vec{v_2}\right|
+\]
+If the included angle between $\vec{v_1}$ and $\vec{v_2}$ is $90^{\circ}$, we can use Pythagorean theorem:
+\[
+    \left|\vec{v_r}\right| = \sqrt{\left|v_1\right|^2 - \left|v_2\right|^2}
+\]
+Otherwise, we can use COSINE Law:
+\[
+    \left|\vec{v_r}\right| = \sqrt{\left|v_1\right|^2 + \left|v_2\right|^2 - 2\left|v_1\right|\left|v_2\right|\cos \theta}
+\]
+
+\subsubsection{Subtraction of vectors}
+When subtracting vectors arrange them tail-to-tail. The resultant vector should be oriented so that the tail (starting point) goes from the head of the second 
+vector to the head of the first vector, which will be the end point, as indicated by the "difference of vectors" expression. 
+
+\newpage

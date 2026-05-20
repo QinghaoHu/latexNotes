@@ -1,0 +1,272 @@
+\subsection{Application of Vectors: Forces}
+
+In order to establish direction for vector addition and subtraction, one must be familiar with the various angle relationships.
+
+\subsubsection{Angle Relationships}
+
+\begingroup
+\setlength{\columnsep}{1.0cm}
+\setlength{\multicolsep}{0.4em}
+\setlength{\parskip}{0.15em}
+\raggedcolumns
+
+\tikzset{
+  every picture/.append style={
+    scale=0.82,
+    transform shape
+  }
+}
+
+\renewcommand{\miniTitle}[1]{%
+  \vspace{0.45em}%
+  \noindent{\small\bfseries #1}\par\vspace{0.1em}%
+}
+\begin{multicols}{2}
+
+% 1 supplementary
+\miniTitle{1. Supplementary angles}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+  \draw[line] (-2.2,0)--(2.2,0);
+  \draw[ray] (O)--(1.2,1.35);
+  \draw[anglemark] (.65,0) arc (0:48:.65);
+  \draw[anglemark] (-.8,0) arc (180:48:.8);
+  \node[tiny lab] at (.75,.35) {$\alpha$};
+  \node[tiny lab] at (-.45,.55) {$\beta$};
+  \node[lab] at (0,-.55) {$\alpha+\beta=180^\circ$};
+\end{tikzpicture}
+
+% 2 complementary
+\miniTitle{2. Complementary angles}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+  \draw[line] (O)--(2,0);
+  \draw[line] (O)--(0,1.8);
+  \draw[line] (.28,0)--(.28,.28)--(0,.28);
+  \draw[ray] (O)--(1.45,1.05);
+  \draw[anglemark] (.55,0) arc (0:36:.55);
+  \draw[anglemark] (90:.72) arc (90:36:.72);
+  \node[tiny lab] at (.65,.18) {$\alpha$};
+  \node[tiny lab] at (.35,.78) {$\beta$};
+  \node[lab] at (1,-.45) {$\alpha+\beta=90^\circ$};
+\end{tikzpicture}
+
+% 3 vertically opposite
+\miniTitle{3. Vertically opposite angles}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+  \draw[line] (-2,-1.2)--(2,1.2);
+  \draw[line] (-2,1.2)--(2,-1.2);
+
+  \draw[anglemark] (31:.55) arc (31:149:.55);
+  \draw[anglemark] (211:.55) arc (211:329:.55);
+  \draw[anglemark] (149:.85) arc (149:211:.85);
+  \draw[anglemark] (329:.85) arc (329:391:.85);
+
+  \node[tiny lab] at (90:.75) {$\alpha$};
+  \node[tiny lab] at (270:.75) {$\alpha$};
+  \node[tiny lab] at (180:1.05) {$\beta$};
+  \node[tiny lab] at (0:1.05) {$\beta$};
+
+  \node[lab] at (0,-1.65) {opposite angles are equal};
+\end{tikzpicture}
+
+% 4 around a point
+\miniTitle{4. Angles around a point}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+  \foreach \ang in {20,105,190,285}{
+    \draw[ray] (O)--(\ang:2);
+  }
+
+  \draw[anglemark] (20:.55) arc (20:105:.55);
+  \draw[anglemark] (105:.70) arc (105:190:.70);
+  \draw[anglemark] (190:.85) arc (190:285:.85);
+  \draw[anglemark] (285:1.00) arc (285:380:1.00);
+
+  \node[tiny lab] at (58:.75) {$a$};
+  \node[tiny lab] at (148:.88) {$b$};
+  \node[tiny lab] at (238:1.02) {$c$};
+  \node[tiny lab] at (330:1.18) {$d$};
+
+  \node[lab] at (0,-1.55) {$a+b+c+d=360^\circ$};
+\end{tikzpicture}
+
+% 5 parallel corresponding alternate co-interior
+\miniTitle{5. Parallel lines cut by a transversal}
+\begin{tikzpicture}
+  % two parallel lines
+  \draw[line] (-2.3,1)--(2.3,1) node[right,tiny lab] {$\ell_1$};
+  \draw[line] (-2.3,-.8)--(2.3,-.8) node[right,tiny lab] {$\ell_2$};
+
+  % intersections
+  \coordinate (P) at (0,1);
+  \coordinate (Q) at (-.8,-.8);
+
+  % transversal through P and Q
+  \draw[line] (-1.15,-1.58)--(.33,1.74) node[above,tiny lab] {$t$};
+
+  % a: top upper-right angle
+  \draw[anglemark] (P) ++(0:.42) arc (0:66:.42);
+  \node[tiny lab] at ($(P)+(33:.68)$) {$a$};
+
+  % b: top lower-left angle
+  \draw[anglemark] (P) ++(180:.50) arc (180:246:.50);
+  \node[tiny lab] at ($(P)+(213:.76)$) {$b$};
+
+  % c: bottom upper-right angle
+  \draw[anglemark] (Q) ++(0:.42) arc (0:66:.42);
+  \node[tiny lab] at ($(Q)+(33:.68)$) {$c$};
+
+  % d: bottom upper-left angle
+  \draw[anglemark] (Q) ++(66:.55) arc (66:180:.55);
+  \node[tiny lab] at ($(Q)+(123:.82)$) {$d$};
+
+  \node[lab,align=left] at (0,-2.05)
+  {corr.: $a=c$\\
+   alt. int.: $b=c$\\
+   co-int.: $b+d=180^\circ$};
+\end{tikzpicture}
+
+% 6 triangle sum and exterior
+\miniTitle{6. Triangle interior and exterior}
+\begin{tikzpicture}
+  \coordinate (A) at (-1.7,0);
+  \coordinate (B) at (1.6,0);
+  \coordinate (C) at (.25,1.9);
+
+  \draw[line] (A)--(B)--(C)--cycle;
+  \draw[line] (B)--(2.45,0);
+
+  \node[tiny lab] at (-1.25,.22) {$A$};
+  \node[tiny lab] at (1.15,.22) {$B$};
+  \node[tiny lab] at (.22,1.45) {$C$};
+  \node[tiny lab] at (1.95,.22) {$x$};
+
+  \node[lab,align=center] at (.25,-.65)
+  {$A+B+C=180^\circ$\\$x=A+C$};
+\end{tikzpicture}
+
+% 7 SAT/CAT/EAT/OAT
+\miniTitle{7. SAT, CAT, EAT, OAT}
+\begin{tikzpicture}
+  \coordinate (A) at (-1.8,0);
+  \coordinate (B) at (1.8,0);
+  \coordinate (C) at (.15,1.75);
+  \coordinate (D) at (2.5,0);
+
+  \draw[line] (A)--(B)--(C)--cycle;
+  \draw[line] (B)--(D);
+
+  \node[lab,align=left] at (.15,-.85)
+  {SAT: straight angle $=180^\circ$\\
+   CAT: complementary angles $=90^\circ$\\
+   EAT: exterior angle theorem\\
+   OAT: opposite angles are equal};
+\end{tikzpicture}
+
+% 8 PLT F/Z/C
+\miniTitle{8. PLT-F, PLT-Z, PLT-C}
+\begin{tikzpicture}
+  % F shape
+  \begin{scope}[xshift=-1.8cm]
+    \draw[line] (-.8,.7)--(.8,.7);
+    \draw[line] (-.8,-.35)--(.8,-.35);
+    \draw[line] (-.45,-.75)--(.45,1.1);
+    \node[tiny lab] at (.35,.92) {$F$};
+  \end{scope}
+
+  % Z shape
+  \begin{scope}[xshift=0cm]
+    \draw[line] (-.8,.7)--(.8,.7);
+    \draw[line] (-.8,-.35)--(.8,-.35);
+    \draw[line] (.55,.7)--(-.55,-.35);
+    \node[tiny lab] at (0,.15) {$Z$};
+  \end{scope}
+
+  % C shape
+  \begin{scope}[xshift=1.8cm]
+    \draw[line] (-.8,.7)--(.8,.7);
+    \draw[line] (-.8,-.35)--(.8,-.35);
+    \draw[line] (-.55,.7)--(-.55,-.35);
+    \node[tiny lab] at (-.22,.15) {$C$};
+  \end{scope}
+
+  \node[lab,align=center] at (0,-1.25)
+  {F: corresponding equal \quad Z: alternate equal\\C: co-interior sum to $180^\circ$};
+\end{tikzpicture}
+
+% 9 bearings
+\miniTitle{9. Quadrant bearing and true bearing}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+
+  \draw[ray] (O)--(0,1.65) node[above,tiny lab] {N};
+  \draw[ray] (O)--(1.65,0) node[right,tiny lab] {E};
+  \draw[ray] (O)--(0,-1.15) node[below,tiny lab] {S};
+  \draw[ray] (O)--(-1.15,0) node[left,tiny lab] {W};
+  \draw[ray] (O)--(35:1.75) node[right,tiny lab] {$P$};
+
+  \draw[anglemark] (90:.65) arc (90:35:.65);
+  \node[tiny lab] at (62:.88) {$55^\circ$};
+
+  \node[lab,align=center] at (0,-1.75)
+  {quadrant: N$55^\circ$E\\true bearing: $055^\circ$};
+\end{tikzpicture}
+
+% 10 standard position
+\miniTitle{10. Standard position}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+
+  \draw[ray] (-1.7,0)--(1.9,0) node[right,tiny lab] {$x$};
+  \draw[ray] (0,-1.3)--(0,1.6) node[above,tiny lab] {$y$};
+  \draw[ray] (O)--(130:1.6);
+
+  \draw[anglemark] (.7,0) arc (0:130:.7);
+  \node[tiny lab] at (60:.95) {$\theta$};
+
+  \node[lab] at (0,-1.75) {initial side on $+x$ axis};
+\end{tikzpicture}
+
+% 11 related/reference angles
+\miniTitle{11. Related / reference angles}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+
+  \draw[ray] (-1.7,0)--(1.9,0);
+  \draw[ray] (0,-1.35)--(0,1.55);
+  \draw[ray] (O)--(140:1.65);
+
+  \draw[anglemark] (180:.55) arc (180:140:.55);
+  \node[tiny lab] at (160:.78) {$\alpha$};
+
+  \draw[anglemark] (.9,0) arc (0:140:.9);
+  \node[tiny lab] at (75:1.1) {$\theta$};
+
+  \node[lab,align=center] at (0,-1.78)
+  {QII: $\alpha=180^\circ-\theta$\\reference angle is acute};
+\end{tikzpicture}
+
+% 12 co-related and co-terminal
+\miniTitle{12. Co-related and co-terminal angles}
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+
+  \draw[ray] (-1.5,0)--(1.8,0);
+  \draw[ray] (0,-1.25)--(0,1.45);
+  \draw[ray] (O)--(35:1.55);
+
+  \draw[anglemark] (.55,0) arc (0:35:.55);
+  \node[tiny lab] at (18:.78) {$\theta$};
+
+  \draw[anglemark] (1.0,0) arc (0:395:1.0);
+  \node[tiny lab] at (300:1.15) {$\theta+360^\circ$};
+
+  \node[lab,align=center] at (0,-1.72)
+  {co-terminal: same terminal side\\co-related: $\theta,\;90^\circ-\theta,\;180^\circ-\theta$};
+\end{tikzpicture}
+
+\end{multicols}
+
+\endgroup

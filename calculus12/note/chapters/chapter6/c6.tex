@@ -1,0 +1,31 @@
+\section{Cartesian Vectors}
+\subsection{Definition}
+\begin{definition}
+    [Cartesian vector]
+    A Cartesian vector is a way to represent a vector in mathematics, physics, and engineering by breaking it down into its directional components along a Cartesian coordinate grid. 
+\end{definition}
+
+Cartesian vector notation gives us the size and direction for the rectangular components of any vector. 
+
+\begin{example}
+    Here is an example of Cartesian vector\\
+    \begin{center}
+            \begin{tikzpicture}[scale=0.8]
+        % Grid
+        \draw[step=1cm, gray!30, very thin] (-1,-1) grid (5,4);
+
+        % Axes
+        \draw[->, black] (-1,0) -- (5,0) node[right] {$x$};
+        \draw[->, black] (0,-1) -- (0,4) node[above] {$y$};
+
+        % Vector
+        \draw[->, black, thick] (0,0) -- (4,3) node[midway, above left] {$\vec{v}=\langle 4,3\rangle$};
+
+        % Point
+        \fill[black] (4,3) circle (2pt) node[above right] {$(4,3)$};
+    \end{tikzpicture}
+    \end{center}
+
+    In Cartesian vector notation, $\vec{v} = \left[4, 3\right]$
+\end{example}
+

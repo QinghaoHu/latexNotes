@@ -1,0 +1,30 @@
+\subsection{Natural Logarithms \& Chain Rule}
+\begin{definition}
+    [Natural Logarithm]
+    is logarithm with respect to a base of 'e', and is given as $\ln ()$.
+    Normally, people can understand $\ln x$ as $\log_e{x}$.
+\end{definition}
+
+Also, with natural logarithm, another approach to prove the derivative of exponential function is possible.
+\begin{lemma} \label{lemma5.4.3}
+    \[
+        \forall x \in \R, \frac{d}{dx} e^x = e^x
+    \]
+\end{lemma} 
+
+\begin{proposition}
+    Given function $f(x) = b^x$, the derivative of function $f(x), f'(x) = (\ln b) b^x$
+    \begin{proof}
+        Give function $f(x) = b^x$, we rewrite the function with base 'e'
+        \begin{align}
+            f(x) &= e^{
+                \ln b^x
+            } 
+        \end{align}
+        Take the derivative of $f(x)$ and using Chain Rule and \ref{lemma5.4.3} 
+        \begin{align}
+            f'(x) &= e^{x\ln b} \cdot \ln b \\
+            f'(x) &= \left(\ln b\right) b^x
+        \end{align}
+    \end{proof}
+\end{proposition}
