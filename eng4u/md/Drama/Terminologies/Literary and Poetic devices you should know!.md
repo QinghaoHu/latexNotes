@@ -11,14 +11,14 @@
 > the atmosphere created by writer... the mood could be happy, scary, sad, suspenseful, depressing
 
 **Irony**
-Verbal:
-> when someone says the opposite of what they feel or mean (can be sarcasm)
+	Verbal:
+> 	when someone says the opposite of what they feel or mean (can be sarcasm)
 
-Dramatic:
-> reader/audience knows more about a situation than the characters
+	Dramatic:
+> 	reader/audience knows more about a situation than the characters
 
-Situational: 
-> Involves a situation in which actions have an effect that is opposite from what was intended, so that the outcome is contrary to what was expected
+	Situational: 
+> 	Involves a situation in which actions have an effect that is opposite from what was intended, so that the outcome is contrary to what was expected
 
 **Allusion**
 > a reference to something or someone famous from literature, religion, history, or popular culture 

@@ -19,33 +19,33 @@ Consider a person standing on any icy surface throws a heavy object horizontally
 \end{figure}
 
 Equation for the object A:
-\begin{gather}
-    \sum \vec{F_{A}} = m_A * \vec{a_A} \nonumber \\
-    \vec{F_{B/A}} = m_A \vec{a_A} \nonumber \\
-    \vec{F_{B/A}} = m_A\frac{\vec{v_{fA}} - \vec{v_{iA}}}{\Delta t_A} \label{eq: eq1}
-\end{gather}
+\begin{align}
+    \sum \vec{F_{A}} &= m_A \vec{a_A} \nonumber \\
+    \vec{F_{B/A}} &= m_A \vec{a_A} \nonumber \\
+    \vec{F_{B/A}} &= m_A\frac{\vec{v_{fA}} - \vec{v_{iA}}}{\Delta t_A} \label{eq: eq1}
+\end{align}
 
 Equation for the object B:
-\begin{gather}
-    \sum \vec{F_{B}} = m_B * \vec{a_B} \nonumber \\
-    \vec{F_{A/B}} = m_B \vec{a_B} \nonumber \\
-    \vec{F_{A/B}} = m_B\frac{\vec{v_{fB}} - \vec{v_{iB}}}{\Delta t_B} \label{eq: eq2}
-\end{gather}
+\begin{align}
+    \sum \vec{F_{B}} &= m_B \vec{a_B} \nonumber \\
+    \vec{F_{A/B}} &= m_B \vec{a_B} \nonumber \\
+    \vec{F_{A/B}} &= m_B\frac{\vec{v_{fB}} - \vec{v_{iB}}}{\Delta t_B} \label{eq: eq2}
+\end{align}
 
 \begin{lemma}
     From Newton's third law, we know $\vec{F_{A/B}} + \vec{F_{B/A}} = 0$
 \end{lemma}
 
 We add \ref{eq: eq1} and \ref{eq: eq2} together:
-\begin{gather*}
-    m_A\frac{\vec{v_{fA}} - \vec{v_{iA}}}{\Delta t_A} +  m_B\frac{\vec{v_{fB}} - \vec{v_{iB}}}{\Delta t_B} = 0
-\end{gather*}
+\begin{align*}
+    m_A\frac{\vec{v_{fA}} - \vec{v_{iA}}}{\Delta t_A} + m_B\frac{\vec{v_{fB}} - \vec{v_{iB}}}{\Delta t_B} &= 0
+\end{align*}
 
 We know the time for both object should be the same.
-\begin{gather}
-    m_A * \vec{v_{fA}} + m_B * \vec{v_{fB}} = m_A * \vec{v_{iA}} + m_B * \vec{v_{iB}} \nonumber\\
-    \vec{P_{A2}} + \vec{P_{B2}} = \vec{P_{A1}} + \vec{P_{B1}} \label{eq: eq3}
-\end{gather}
+\begin{align}
+    m_A \vec{v_{fA}} + m_B \vec{v_{fB}} &= m_A \vec{v_{iA}} + m_B \vec{v_{iB}} \nonumber\\
+    \vec{P_{A2}} + \vec{P_{B2}} &= \vec{P_{A1}} + \vec{P_{B1}} \label{eq: eq3}
+\end{align}
 
 \ref{eq: eq3} is the law of \textbf{Conservation of Momentum}
 

@@ -1,0 +1,96 @@
+\subsection{Three Dimensional vector}
+\subsubsection{Axis and Unit Vector}
+
+In the past, we discussed about 2 dimensional plane. 
+Vector in 3-Dimensional is very similar, but we have one z-axis. 
+Here are the unit vectors for three-dimensional vector. 
+
+\[
+\begin{tikzpicture}[scale=1.7, >=Stealth]
+  % Origin
+  \coordinate (O) at (0,0);
+
+  % 3D-style axes (2D projection)
+  \coordinate (X) at (1.8,0);
+  \coordinate (Y) at (1.1,0.9);
+  \coordinate (Z) at (0,1.8);
+
+  % Negative directions for axes
+  \coordinate (Xn) at (-0.6,0);
+  \coordinate (Yn) at (-0.45,-0.37);
+  \coordinate (Zn) at (0,-0.6);
+
+  % Axes
+  \draw[aux] (Xn) -- (X);
+  \draw[aux] (Yn) -- (Y);
+  \draw[aux] (Zn) -- (Z);
+
+  % Unit vectors
+  \draw[ray] (O) -- (1,0) node[midway, below, lab] {$\vec{i}$};
+  \draw[ray] (O) -- (0.62,0.5) node[midway, above left, lab] {$\vec{j}$};
+  \draw[ray] (O) -- (0,1) node[midway, left, lab] {$\vec{k}$};
+
+  % Points
+  \fill[ink] (O) circle (0.8pt);
+  \fill[ink] (1,0) circle (0.8pt);
+  \fill[ink] (0.62,0.5) circle (0.8pt);
+  \fill[ink] (0,1) circle (0.8pt);
+
+  % Labels
+  \node[lab, below left] at (O) {$O$};
+  \node[lab, below right] at (X) {$x$};
+  \node[lab, above right] at (Y) {$y$};
+  \node[lab, above left] at (Z) {$z$};
+
+  \node[lab, below] at (1,0) {$[1,0,0]$};
+  \node[lab, above right] at (0.62,0.5) {$[0,1,0]$};
+  \node[lab, left] at (0,1) {$[0,0,1]$};
+\end{tikzpicture}
+\]
+
+\[
+\begin{array}{c|c|c}
+\text{Axis} & \text{Positive Direction} & \text{Negative Direction} \\
+\hline
+\text{$x$-axis}
+& \vec{i}=\left[1,0,0\right]
+& -\vec{i}=\left[-1,0,0\right] \\
+\text{$y$-axis}
+& \vec{j}=\left[0,1,0\right]
+& -\vec{j}=\left[0,-1,0\right] \\
+\text{$z$-axis}
+& \vec{k}=\left[0,0,1\right]
+& -\vec{k}=\left[0,0,-1\right]
+\end{array}
+\]
+
+\subsubsection{Properties of Three-Dimensional vector}
+Scalar Multiplicatoin:\\
+Given $\vec{u} = \left[u_1, u_2, u_3\right]$ and $k \in \R$, then 
+$$k\left[u_1, u_2, u_3\right] = \left[ku_1, ku_2, ku_3\right]$$
+
+\noindent Vector Addition:\\
+Given $\vec{u} = \left[u_1, u_2, u_3\right]$ and $\vec{v} = \left[v_1, v_2, v_3\right]$, then 
+$$\vec{u} + \vec{v} = \left[u_1 + v_1, u_2 + v_2, u_3 + v_3\right]$$
+
+\noindent Vector Subtraction:\\
+Given $\vec{u} = \left[u_1, u_2, u_3\right]$ and $\vec{v} = \left[v_1, v_2, v_3\right]$, then 
+$$\vec{u} - \vec{v} = \left[u_1 - v_1, u_2 - v_2, u_3 - v_3\right]$$
+
+\noindent Vector's Magnitude:\\
+Given $\vec{u} = \left[u_1, u_2, u_3\right]$ , then 
+$$\left|\vec{u}\right| = \sqrt{{u_1}^2 + {u_2}^2 + {u_3}^2}$$
+
+\noindent Dot Product:\\
+Given $\vec{u} = \left[u_1, u_2, u_3\right]$ and $\vec{v} = \left[v_1, v_2, v_3\right]$, then 
+$$\vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + u_3v_3$$
+
+\subsubsection{Colinear and Orthogonal Vectors}
+Given $\vec{a} \cdot \vec{b} = \left|\vec{a}\right|\left|\vec{b}\right|\cos \theta$ then 
+$\cos \theta = \frac{\vec{a} \cdot \vec{b}}{\left|\vec{a}\right|\left|\vec{b}\right|}$
+
+Vectors are considered to be colinear if $\cos \theta = 1$ \\
+
+Vectors are considered to be arthogonal if $\cos \theta = 0$
+
+\newpage

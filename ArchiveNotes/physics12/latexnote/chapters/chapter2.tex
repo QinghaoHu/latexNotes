@@ -37,11 +37,11 @@ Half of a square root function\\
 
 \subsubsection*{Inverse square proportionality}
 Looks like a rational function\\
-\begin{gather*}
-    x \propto \frac{1}{y}\\
-     x \propto \frac{1}{y^2}\\
-      x \propto \frac{1}{y^31}\\
-\end{gather*}
+\begin{align*}
+    x &\propto \frac{1}{y}\\
+    x &\propto \frac{1}{y^2}\\
+    x &\propto \frac{1}{y^3}
+\end{align*}
 
 \newpage
 \section{Fictitious Forces and Apparent Weight}
@@ -55,7 +55,7 @@ This Frame of Reference is accelerating
 \red{Fictitious forces} are also called \red{apparent forces} or \red{perceived forces}
 
 \begin{redblock}
-    \textbf{Explanation:} When the object is viewed from a \red{non-intertial F.O.R, we created fictitious force to explain the motion and behavior}
+    \textbf{Explanation:} When the object is viewed from a \red{non-inertial F.O.R.}, we introduce fictitious forces to explain its motion and behavior.
 \end{redblock}
 
 The \red{fictitious forces} will always act in the direction opposite to the direction of acceleration of 
@@ -322,31 +322,31 @@ To start off, let's draw the FBD for the satellite\\
 \textbf{Down} is negative\\
 
 Let's derive the formula for satellite:
-\begin{gather*}
-    \sum \vec{F} = m*\vec{a_{per}}\\
-    F_g - F_{fict} = 0\\
-    mg - m*\left|F_{FOR}\right| = 0\\
-    mg = ma_c\\
-    a_c = \frac{Gm}{R^2} 
-\end{gather*}
+\begin{align*}
+    \sum \vec{F} &= m\vec{a_{per}}\\
+    F_g - F_{fict} &= 0\\
+    mg - m\left|F_{FOR}\right| &= 0\\
+    mg &= ma_c\\
+    a_c &= \frac{Gm}{R^2} 
+\end{align*}
 
 Sub in $a_c = \frac{V^2}{R}$:
-\begin{gather*}
-    \frac{v^2}{R} = \frac{GM}{R^2}\\
-    v = \sqrt{\frac{GM}{R}}
-\end{gather*}
+\begin{align*}
+    \frac{v^2}{R} &= \frac{GM}{R^2}\\
+    v &= \sqrt{\frac{GM}{R}}
+\end{align*}
 
 \begin{center}
     $v$ = orbital speed\\
-    $M$ = mass of the object that is obited in (kg)
+    $M$ = mass of the object being orbited (kg)
 \end{center}
 
 Sub in $a_c = \frac{4\pi^2 R}{T^2}$
-\begin{gather*}
-    \frac{4\pi^2 R}{T^2} = \frac{GM}{R}\\
-    T^2 = \frac{4\pi^2 R^3}{GM}\\
-    T = \sqrt{\frac{4\pi^2 R^3}{GM}}
-\end{gather*}
+\begin{align*}
+    \frac{4\pi^2 R}{T^2} &= \frac{GM}{R}\\
+    T^2 &= \frac{4\pi^2 R^3}{GM}\\
+    T &= \sqrt{\frac{4\pi^2 R^3}{GM}}
+\end{align*}
 
 \newpage
 \section{Rotating Frame of Reference}
@@ -368,8 +368,8 @@ When a person is standing (on Earth) there are two forces acting on them:\\
         The normal force acting on the person is pushing force, thus a force of \textbf{compresion}. An object 
         that has a compression force must be able to \textbf{withstand this force} or it will collapse. (See \ref{fig:2.1})\\
 
-        In the caes of a person, their muscles and their bones must be able to withstand this force, thus you 
-        \textbf{muskule-skeletal system develops} to withstand this force
+        In the case of a person, their muscles and bones must be able to withstand this force. Thus, the
+        \textbf{musculoskeletal system develops} to withstand it.
     \end{rightcolumn}
 \end{paracol}
 
@@ -401,31 +401,31 @@ The spaceship is \textbf{accelerating} uniformly, in a straight line.\\
 But, there are two problems:
 \begin{enumerate}
     \item Run out of fuel
-    \item As an object speed up, its \textbf{mass increases}. If mass increases, to maintain the acceleration the netforce would also increase
+    \item As an object speeds up, its \textbf{mass increases}. If the mass increases, the net force would also need to increase to maintain the acceleration.
 \end{enumerate}
 
 \subsection*{Solution 2}
-Get a very very large hallow ring and make it spin\\
+Get a very large hollow ring and make it spin\\
 
-For an internal F.O.R, there will be both \textbf{Force of Normal} and \textbf{Force of Gravity} acting on it\\
+For an internal F.O.R., there will be both \textbf{normal force} and \textbf{gravitational force} acting on it\\
 
 From an internal F.O.R:
-\begin{gather*}
-    \sum \vec{F} = m \vec{a_{per}}\\
-    F_{N} - F_{fict} = 0\\
-    F_{N} = F_{fict}\\
-    F_{N} = m*\left| a_{F.O.R}\right| \\
-    F_{N} = ma_{c}
-\end{gather*}
+\begin{align*}
+    \sum \vec{F} &= m \vec{a_{per}}\\
+    F_{N} - F_{fict} &= 0\\
+    F_{N} &= F_{fict}\\
+    F_{N} &= m\left| a_{F.O.R}\right| \\
+    F_{N} &= ma_{c}
+\end{align*}
 
 We can calculate the $v$ of the people:
-\begin{gather*} 
-    F_{N} = ma_{c}\\
-    mg = ma_{c}\\
-    g = a_{c}\\
-    g = \frac{v^2}{R}\\
-    v = \sqrt{gR}
-\end{gather*}
+\begin{align*} 
+    F_{N} &= ma_{c}\\
+    mg &= ma_{c}\\
+    g &= a_{c}\\
+    g &= \frac{v^2}{R}\\
+    v &= \sqrt{gR}
+\end{align*}
 
 So, in the spaceship rotating question, we can always assume:
 \begin{equation*}
@@ -438,10 +438,10 @@ We can also using
 \end{equation*}
 
 To sub in
-\begin{gather*}
-    g = \frac{4 \pi^2 R}{T^2}\\
-    T = \sqrt{\frac{4 \pi^2 R}{g}}
-\end{gather*}
+\begin{align*}
+    g &= \frac{4 \pi^2 R}{T^2}\\
+    T &= \sqrt{\frac{4 \pi^2 R}{g}}
+\end{align*}
 or
 \begin{equation*}
     f = \sqrt{\frac{g}{4 \pi^2 R}}
@@ -471,16 +471,16 @@ The \textbf{perceived} acceleration should be calculated like this:
 \end{center}
 
 Now, let's calculate the $\vec{a_{per}}$
-\begin{gather}
-    \sum \vec{F} = m\vec{a_{per}}\\
-    F_N - F_{fict} = ma_{per}\\
-    mg - m\left|a_{F.O.R}\right| = ma_{per}\\
-    a_{per} = g - a_c
-\end{gather}
+\begin{align}
+    \sum \vec{F} &= m\vec{a_{per}}\\
+    F_N - F_{fict} &= ma_{per}\\
+    mg - m\left|a_{F.O.R}\right| &= ma_{per}\\
+    a_{per} &= g - a_c
+\end{align}
 
 \subsection*{Note}
     You can always assume Earth's surface to be an inertial F.O.R unless:
     \begin{itemize}
         \item You need to be \textbf{extremely accurate}
-        \item The question states \textbf{at the equator}
+        \item The question states the object is \textbf{at the equator}
     \end{itemize}

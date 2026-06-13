@@ -1,0 +1,70 @@
+\subsection{The Dot Product}
+\subsubsection{Definition}
+\begin{definition} [Dot Product]
+The \term{dot product} measures how much two vectors point in the same direction.
+\end{definition}
+
+Given Geometry vector $\vec{a}$ and $\vec{b}$, the dot product between these two vectors is given by 
+$$\vec{a} \cdot \vec{b} = \left|\vec{a}\right|\left|\vec{b}\right|\sin \theta$$
+$\theta$ refers to the angle between $\vec{a}$ and $\vec{b}$.\\
+
+Given Cartesian vector $\vec{a}$ and $\vec{b}$, the dot product between these two vectors is given by 
+$$\vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2$$
+
+\subsubsection{Application of the Dot Product}
+In physics, the dot product is used to find out the projection of a vector on another vector. 
+You can use this to solve for the components of force. 
+
+One of the application of the dot product is the to find the angle between two vectors.
+\begin{example}
+    Givem Cartesian vectors $\vec{v}$ and $\vec{u}$, find the angle between these two vectors. 
+
+    \textit{Using the formula of the dot product}
+    $$\vec{v} \cdot \vec{u}= \left|\vec{u}\right| \left|\vec{v}\right|\cos \theta$$
+    and 
+    $$\vec{v} \cdot \vec{u} = v_1u_1 + v_2u_2$$
+    we put these two formulas together. 
+    \begin{align*}
+        \cos \theta &= \frac{
+            v_1u_1 + v_2u_2
+        }{\left|\vec{u}\right|\left|\vec{v}\right|} \\
+        \theta &= \cos^{-1} \left(\frac{
+            v_1u_1 + v_2u_2
+        }{
+            \left(\sqrt{{v_1}^2 + {v_2}^2}\right) \left(\sqrt{{u_1}^2 + {u_2}^2}\right)
+        } \right )
+    \end{align*}
+\end{example} 
+
+\textbf{How to find the projection vector of a vector on another vector?}
+
+Assume we have two Cartestian vectors, $\vec{u}$ and $\vec{v}$. The projection of $\vec{v}$ on $\vec{u}$ is defined as 
+$proj_{\vec{u}}\vec{v}$.
+
+Let's solve for $proj_{\vec{u}}\vec{v}$. 
+
+In the previous sectoin, we given that 
+$$\left|proj_{\vec{u}}\vec{v}\right| = \left|\vec{v}\right|\cos \theta$$
+
+In order to find the projection vector, we need to multiply the magnitude by a unit vector of $\vec{u}$.
+\begin{align*}
+    proj_{\vec{u}} \vec{v} &= \left|\vec{v}\right| \cos \theta \left(\frac{1}{\left|\vec{u}\right|}\vec{u}\right)\\
+    &= \left|\vec{v}\right| \left(
+        \frac{\vec{u} \cdot \vec{v}}{\left|\vec{u}\right| \left|\vec{v}\right|}
+    \right) \left(\frac{1}{\left|\vec{u}\right|}\vec{u}\right) \\
+    &= \frac{\vec{u} \cdot \vec{v}}{\left|\vec{u}\right|^2} \vec{u} \\
+    &= \frac{\vec{u} \cdot \vec{v}}{\vec{u} \cdot \vec{u}} \vec{u} \\
+    &= \frac{
+        v_1u_1 + v_2u_2
+    }{
+        {u_1}^2 + {u_2}^2
+    } \vec{u}
+\end{align*}
+
+Also, for the magnitude of $proj_{\vec{u}}\vec{v}$, can also be defined by this:
+
+\[
+    \left|proj_{\vec{u}}\vec{v}\right| = \left |\frac{v_1u_1 + v_2u_2}{\left|\vec{u}\right|} \right |
+\]
+
+\newpage
